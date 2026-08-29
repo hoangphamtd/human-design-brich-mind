@@ -151,6 +151,64 @@ các tài liệu Human Design quốc tế để nắm cơ học, nhưng câu ch�
 
 Riêng phần 64 quẻ Kinh Dịch, chúng tôi dẫn về gốc Hán Việt mà người Việt vốn
 quen, và ghi rõ những chỗ Human Design hiểu khác với Dịch truyền thống.
+
+## Mã nguồn mở
+
+**Phần mềm này là mã nguồn mở.** Toàn bộ cách tính bản đồ đều công khai, ai
+cũng kiểm tra được. Chúng tôi nghĩ điều đó quan trọng: bạn không cần tin lời
+chúng tôi về việc bản đồ được tính đúng — bạn tự xem được.
+<a href="{goc}/ma-nguon">Xem mã nguồn và giấy phép</a>
+"""
+
+KHO_MA_NGUON = "https://github.com/hoangphamtd/human-design-brich-mind"
+
+MA_NGUON = """
+# Mã nguồn mở
+
+Phần mềm Human Design này là **mã nguồn mở**. Toàn bộ mã tính toán, mã vẽ biểu
+đồ, và toàn bộ nội dung mô tả đều công khai. Bạn xem được, tải về được, và dùng
+lại được.
+
+## Xem mã nguồn ở đâu
+
+<a href="{kho}">{kho_gon}</a>
+
+Ở đó có đầy đủ: cỗ máy tính bản đồ, phần vẽ BodyGraph, và toàn bộ kho nội dung
+tiếng Việt mô tả 5 loại năng lượng, 7 cách ra quyết định, 12 vai trong đời,
+9 trung tâm, 64 cổng và 36 kênh.
+
+## Giấy phép
+
+Phần mềm này phát hành theo **GNU Affero General Public License phiên bản 3
+(AGPL-3.0)**.
+
+Nói ngắn gọn, giấy phép này cho phép bạn dùng phần mềm cho bất kỳ mục đích gì,
+kể cả kinh doanh; đọc, sửa và cải tiến mã nguồn; chia sẻ lại bản gốc hoặc bản
+bạn đã sửa.
+
+Kèm một điều kiện: nếu bạn sửa rồi đem phục vụ người khác — dù trên web hay
+dưới dạng phần mềm tải về — bạn cũng phải công khai mã nguồn bản của bạn theo
+cùng giấy phép này.
+
+Nguyên văn giấy phép nằm ở file `LICENSE` trong kho mã nguồn.
+
+## Vì sao chúng tôi mở
+
+Phần tính toán thiên văn trong phần mềm này dựa trên thư viện **Swiss
+Ephemeris**, một thư viện phát hành theo giấy phép kép: hoặc AGPL, hoặc bản
+thương mại có phí. Chúng tôi chọn AGPL.
+
+Đó là lựa chọn có chủ ý. Chúng tôi làm phần mềm này để tặng, không để bán. Mở
+mã nguồn là cách nhất quán với điều đó — và nếu có ai muốn dựng một phiên bản
+tốt hơn, chúng tôi thấy đó là chuyện đáng mừng.
+
+## Ghi nhận
+
+Phần tính toán vị trí thiên thể sử dụng thư viện **Swiss Ephemeris**,
+Copyright © 1997–2021 Astrodienst AG, Thuỵ Sĩ, theo nhánh AGPL trong hệ cấp
+phép kép của thư viện này.
+
+`Swiss Ephemeris Inside`
 """
 
 
@@ -172,8 +230,28 @@ def rieng_tu() -> str:
     return RIENG_TU.format(khoi_lien_he=_khoi_lien_he(), **CONG_TY).strip()
 
 
-def ve_he_thong() -> str:
-    return VE_HE_THONG.strip()
+def ve_he_thong(goc: str = "") -> str:
+    return VE_HE_THONG.format(goc=goc).strip()
+
+
+def ma_nguon() -> str:
+    """Trang /ma-nguon — AGPL không chỉ đòi mở mã, mà đòi CUNG CẤP mã cho
+    chính người dùng qua mạng. Nên phải có đường dẫn thấy được từ web."""
+    return MA_NGUON.format(kho=KHO_MA_NGUON,
+                           kho_gon=KHO_MA_NGUON.replace("https://", "")).strip()
+
+
+# Giấy phép Swiss Ephemeris CẤM dùng tên Astrodienst / Dieter Koch /
+# Alois Treindl để quảng bá. Tên họ chỉ được ở phần ghi nhận bản quyền —
+# không viết "dùng công nghệ Astrodienst" ở bài đăng hay landing page.
+# Nhãn "Swiss Ephemeris Inside" thì cả hai nhánh giấy phép đều cho dùng.
+CHAN_TRANG_MA_NGUON = (
+    'Mã nguồn mở theo giấy phép AGPL-3.0 · '
+    '<a href="{goc}/ma-nguon">Xem mã nguồn</a>')
+
+
+def chan_trang(goc: str = "") -> str:
+    return CHAN_TRANG_MA_NGUON.format(goc=goc)
 
 
 def con_thieu() -> list[str]:

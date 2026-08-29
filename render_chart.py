@@ -27,13 +27,19 @@ Dùng:
 Ra: ket-qua-<tên>.html trong thư mục hiện tại.
 """
 from __future__ import annotations
-import argparse, json, html, re, unicodedata
+import argparse, json, html, os, re, unicodedata
 from pathlib import Path
 
 import hd_engine as E
 import bodygraph as BG
 import luan_moc_doi as MD
 import luan_transit_thang as TT
+import noi_dung_phap_ly as PL
+
+# App nằm dưới brichmind.com/human-design nên link ở chân trang phải có tiền
+# tố này. Chạy từ dòng lệnh thì GOC rỗng, link thành /ma-nguon — file HTML
+# lưu ra để đọc offline, không bấm link.
+GOC = os.getenv("GOC", "").rstrip("/")
 
 HERE = Path(__file__).parent
 NOI_SINH = {   # toạ độ một số nơi hay gặp; nơi khác thì truyền --lat --lon
@@ -347,6 +353,7 @@ def render(chart: dict, ten: str, C: dict) -> str:
 </div></section>
 {blocks(chart, C)}
 <footer><div class="wrap"><p class="disc"><strong>Xin đọc kỹ</strong>{e(C['disclaimer'])}</p>
+<p class="disc" style="margin-top:10px">{PL.chan_trang(GOC)}</p>
 <p class="brand">B-RICH MIND</p></div></footer></body></html>"""
 
 

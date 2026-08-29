@@ -209,10 +209,13 @@ def form_html(err: str = "", **v) -> str:
 </script>
 </div></main>
 <footer><div class="wrap"><p class="disc"><strong>Xin đọc kỹ</strong>{CONTENT['disclaimer']}</p>
+<p class="disc" style="margin-top:10px">{PL.chan_trang(GOC)}</p>
 <p style="margin-top:14px;font-size:.85rem">
 <a href="{d('/ve-human-design')}" style="color:var(--muc-nhat)">Về Human Design</a>
 &nbsp;·&nbsp;
-<a href="{d('/rieng-tu')}" style="color:var(--muc-nhat)">Chính sách riêng tư</a></p>
+<a href="{d('/rieng-tu')}" style="color:var(--muc-nhat)">Chính sách riêng tư</a>
+&nbsp;·&nbsp;
+<a href="{d('/ma-nguon')}" style="color:var(--muc-nhat)">Mã nguồn</a></p>
 <p class="brand">B-RICH MIND</p></div></footer>""", "Bản đồ năng lượng — B-RICH MIND")
 
 
@@ -257,7 +260,8 @@ def _trang_van(md: str, tieu_de: str) -> str:
 font-family:JetBrains Mono,monospace;font-size:11px;letter-spacing:.14em;
 text-transform:uppercase">← Về trang dựng bản đồ</a></div></div>
 <main><div class="wrap" style="max-width:680px">{_md(md)}</div></main>
-<footer><div class="wrap"><p class="brand">B-RICH MIND</p></div></footer>''', tieu_de)
+<footer><div class="wrap"><p class="disc">{PL.chan_trang(GOC)}</p>
+<p class="brand">B-RICH MIND</p></div></footer>''', tieu_de)
 
 
 @app.get("/rieng-tu", response_class=HTMLResponse)
@@ -267,7 +271,14 @@ def trang_rieng_tu():
 
 @app.get("/ve-human-design", response_class=HTMLResponse)
 def trang_gioi_thieu():
-    return _trang_van(PL.ve_he_thong(), "Về Human Design — B-RICH MIND")
+    return _trang_van(PL.ve_he_thong(GOC), "Về Human Design — B-RICH MIND")
+
+
+@app.get("/ma-nguon", response_class=HTMLResponse)
+def trang_ma_nguon():
+    """AGPL §13 — phải cung cấp mã nguồn cho chính người dùng qua mạng,
+    không chỉ để mã ở đâu đó trên Internet."""
+    return _trang_van(PL.ma_nguon(), "Mã nguồn — B-RICH MIND")
 
 
 @app.get("/khoe")
