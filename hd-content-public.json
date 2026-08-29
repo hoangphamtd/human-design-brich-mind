@@ -1,0 +1,2956 @@
+{
+  "version": "1.0",
+  "lang": "vi",
+  "brand": "B-RICH MIND",
+  "disclaimer": "Human Design là hệ thống chiêm nghiệm mang tính biểu tượng, không phải khoa học y học hay tâm lý học lâm sàng. Nội dung tại đây nhằm mục đích tham khảo và khám phá bản thân, không phải chẩn đoán, điều trị, hay lời khuyên y tế, tài chính, pháp lý. Bạn là người quyết định cuối cùng cho cuộc đời mình.",
+  "line_names": {
+    "1": {
+      "vi": "Nhà Nghiên Cứu",
+      "en": "Investigator",
+      "core": "Cần nền móng chắc trước khi bước. An toàn đến từ việc biết rõ."
+    },
+    "2": {
+      "vi": "Ẩn Sĩ",
+      "en": "Hermit",
+      "core": "Có tài năng tự nhiên mà chính mình không thấy. Cần được người khác gọi ra."
+    },
+    "3": {
+      "vi": "Người Thử Sai",
+      "en": "Martyr",
+      "core": "Học bằng cách va vào. Mỗi lần trật là một lần biết thêm cái không dùng được."
+    },
+    "4": {
+      "vi": "Người Kết Nối",
+      "en": "Opportunist",
+      "core": "Cơ hội đến qua mạng lưới quan hệ đã có, không đến từ người lạ."
+    },
+    "5": {
+      "vi": "Người Dị Giáo",
+      "en": "Heretic",
+      "core": "Bị người khác phóng chiếu kỳ vọng lên. Giỏi đưa giải pháp thực dụng khi được gọi."
+    },
+    "6": {
+      "vi": "Hình Mẫu",
+      "en": "Role Model",
+      "core": "Đời chia ba chặng: va vấp, quan sát, rồi sống thành hình mẫu."
+    }
+  },
+  "audience": "public",
+  "nd38_filtered": true,
+  "types": {
+    "generator": {
+      "name_vi": "Generator — Người Kiến Tạo",
+      "name_en": "Generator",
+      "pct": "khoảng 37% dân số",
+      "strategy": "Chờ để phản hồi",
+      "signature": "Thoả mãn",
+      "not_self": "Bực bội",
+      "aura": "Mở và bao bọc",
+      "tagline": "Bạn là nguồn năng lượng bền của thế giới — nhưng chỉ khi nguồn đó được đúng việc gọi dậy.",
+      "mechanics": "Trung tâm Xương cùng của bạn được định nghĩa. Đây là động cơ có sức bền lớn nhất trong bản đồ, và nó không tự khởi động — nó phản ứng. Xương cùng chỉ bật lên khi có một thứ gì đó ở ngoài chạm vào: một lời đề nghị, một tình huống, một thứ bạn nhìn thấy và thấy trong bụng có gì đó kéo mình về phía đó. Trường năng lượng của bạn mở và bao trùm, nên người khác thường vô thức tìm đến bạn để dựa vào.",
+      "aligned": "Khi bạn để mọi việc đến với mình rồi mới phản hồi, bạn làm được khối lượng công việc mà người khác nhìn vào thấy khó tin. Bạn làm lâu mà không kiệt, vì năng lượng được rút ra đúng chỗ. Cuối ngày bạn mệt theo kiểu dễ chịu — cái mệt của người vừa dùng hết mình cho việc đáng dùng. Dấu hiệu bạn đang đi đúng là cảm giác thoả mãn: không phải hưng phấn, mà là một sự yên trong lòng rằng hôm nay mình đã ở đúng chỗ.",
+      "misaligned": "Khi bạn tự lao vào khởi xướng mọi thứ mà không chờ tín hiệu từ bên trong, bạn dễ mắc kẹt trong những việc mình đã đâm lao phải theo lao. Bạn vẫn làm được, vì bạn có sức — nhưng làm trong trạng thái cạn dần. Dấu hiệu điển hình là sự bực bội: bực với công việc, bực với người xung quanh, và hay nhất là bực với chính mình vì không hiểu tại sao mình lại ở đây. Nhiều Generator sống cả chục năm trong trạng thái này mà tưởng đó là bản chất cuộc sống người lớn.",
+      "practice": "Trong một tuần tới, mỗi khi có ai đề nghị bạn điều gì, hãy đề nghị họ hỏi lại thành câu có-hoặc-không thay vì câu mở. Rồi để ý âm thanh đầu tiên bật ra từ bụng bạn trước khi đầu kịp phân tích. Ghi lại. Cuối tuần đọc lại xem cái bụng nói gì.",
+      "questions": [
+        "Việc bạn đang làm nhiều nhất hiện nay — bạn đã chọn nó, hay bạn trôi vào nó?",
+        "Lần gần nhất bạn thấy thoả mãn sau một ngày làm việc là khi nào, và bạn đang làm gì?",
+        "Có việc gì bạn đang cố duy trì chỉ vì đã lỡ bắt đầu không?"
+      ]
+    },
+    "manifesting_generator": {
+      "name_vi": "Manifesting Generator — Người Kiến Tạo Khởi Xướng",
+      "name_en": "Manifesting Generator",
+      "pct": "khoảng 33% dân số",
+      "strategy": "Phản hồi, rồi thông báo trước khi hành động",
+      "signature": "Thoả mãn và Bình an",
+      "not_self": "Bực bội và Tức giận",
+      "aura": "Mở và bao bọc",
+      "tagline": "Bạn đi nhanh, đi tắt, và làm nhiều việc cùng lúc — đó không phải lỗi, đó là thiết kế.",
+      "mechanics": "Bạn có Xương cùng được định nghĩa như Generator, nhưng bản đồ của bạn còn có một đường nối liên thông từ động cơ lên tới trung tâm Cổ họng. Nghĩa là sau khi phản hồi, bạn có thể bật ra hành động ngay lập tức mà không cần đợi ai cho phép. Đây là lý do bạn thường làm xong việc trước khi người khác kịp hiểu bạn định làm gì.",
+      "aligned": "Bạn tìm được đường tắt mà người khác không thấy. Bạn nhảy vài bước trong quy trình, và phần lớn thời gian kết quả vẫn ra. Bạn làm nhiều thứ song song, và điều đó là bình thường với bạn — không phải thiếu tập trung. Khi bạn nhớ thông báo trước cho những người bị ảnh hưởng, mọi thứ trơn tru: bạn vừa có sự thoả mãn của người làm đúng việc, vừa có sự bình an của người không bị ai cản đường.",
+      "misaligned": "Khi bạn lao đi mà không nói với ai, bạn để lại phía sau một hàng người bối rối, rồi họ phản ứng, rồi bạn phải quay lại giải thích — mất nhiều thời gian hơn cả việc nói trước một câu. Ở chiều còn lại, khi bạn tự ép mình phải làm mọi thứ tuần tự và chỉn chu như người khác, bạn héo rất nhanh. Bạn sẽ nhận ra mình đang lệch khi thấy vừa bực vừa tức: bực vì việc không đúng, tức vì bị cản.",
+      "practice": "Chọn một việc bạn sắp làm trong tuần này. Trước khi bắt tay, nhắn một câu ngắn cho những người sẽ bị ảnh hưởng: \"Mình định làm X, bắt đầu từ mai nhé.\" Không xin phép, chỉ báo. Rồi để ý xem sức cản giảm đi bao nhiêu.",
+      "questions": [
+        "Bạn có đang tự trách mình vì hay bỏ dở giữa chừng không? Việc bỏ dở đó có thật sự cần làm tiếp?",
+        "Lần gần nhất bạn bị người khác cản, họ cản vì việc sai hay vì họ bị bất ngờ?",
+        "Bạn đang làm mấy việc song song, và có việc nào bạn giữ chỉ vì sĩ diện?"
+      ]
+    },
+    "manifestor": {
+      "name_vi": "Manifestor — Người Khởi Tạo",
+      "name_en": "Manifestor",
+      "pct": "khoảng 9% dân số",
+      "strategy": "Thông báo trước khi hành động",
+      "signature": "Bình an",
+      "not_self": "Tức giận",
+      "aura": "Đóng và đẩy",
+      "tagline": "Bạn là người mở đường. Việc của bạn là khởi động, không phải duy trì.",
+      "mechanics": "Bạn có một động cơ nối liên thông tới trung tâm Cổ họng, nhưng Xương cùng không được định nghĩa. Nghĩa là bạn có khả năng tự khởi động mà không cần ai gọi — nhưng bạn không có nguồn sức bền để đi đường dài như Generator. Trường năng lượng của bạn đóng và có tính đẩy: người khác đến gần thường cảm thấy một sức cản mà chính bạn không nhận ra.",
+      "aligned": "Bạn có ý tưởng, bạn nói ra, rồi bạn làm. Bạn mở ra những thứ chưa từng có, và người khác bước vào sau bạn để duy trì nó. Khi bạn hình thành thói quen thông báo trước — không phải xin phép, chỉ là cho người ta biết — thì sức cản quanh bạn giảm hẳn. Trạng thái bạn đang đi đúng là bình an: không ai chặn bạn, và bạn cũng không phải chiến đấu với ai.",
+      "misaligned": "Khi bạn hành động mà không báo, người xung quanh giật mình rồi phản kháng, và bạn hiểu đó là họ chống lại bạn. Từ đó sinh ra tức giận. Nhiều Manifestor lớn lên trong môi trường bị kìm liên tục, nên học cách nén lại và không dám khởi xướng nữa — đó là kiểu lệch nặng nhất, vì năng lượng khởi tạo không mất đi, nó chỉ chuyển thành cơn giận âm ỉ hướng vào trong.",
+      "practice": "Tuần này, trước ba hành động bất kỳ có ảnh hưởng tới người khác, hãy nói ra trước một câu. Chỉ một câu, không giải thích dài. Rồi ghi lại phản ứng của họ so với lần bạn không báo.",
+      "questions": [
+        "Từ nhỏ, bạn có hay bị hỏi \"sao con không hỏi ai mà đã làm rồi?\" không?",
+        "Bạn có đang ôm việc duy trì thứ mình đã mở ra, thay vì giao lại cho người phù hợp?",
+        "Cơn tức gần nhất của bạn — nó đến từ việc bị cản, hay từ việc bạn không nói trước?"
+      ]
+    },
+    "projector": {
+      "name_vi": "Projector — Người Dẫn Dắt",
+      "name_en": "Projector",
+      "pct": "khoảng 20% dân số",
+      "strategy": "Chờ được mời cho những việc lớn",
+      "signature": "Thành công",
+      "not_self": "Cay đắng",
+      "aura": "Tập trung và thẩm thấu",
+      "tagline": "Bạn nhìn thấy người khác rõ hơn họ tự nhìn mình. Đó là tài sản, nếu bạn đợi đúng lúc để trao.",
+      "mechanics": "Xương cùng của bạn không được định nghĩa, và bạn cũng không có động cơ nối tới Cổ họng. Bạn không được thiết kế để làm việc liên tục theo nhịp của người khác. Đổi lại, trường năng lượng của bạn tập trung và thẩm thấu — bạn đi vào trường của người đối diện và đọc được họ. Đó là lý do bạn thường biết người ta nên làm gì trước khi họ tự biết.",
+      "aligned": "Khi có người thật sự nhìn thấy bạn và mời bạn vào — vào một công việc, một mối quan hệ, một vai trò — thì cái bạn nói ra được người ta nghe, và nó tạo ra thay đổi thật. Bạn không cần làm nhiều giờ để có giá trị. Bạn cần đúng người, đúng chỗ. Trạng thái đi đúng của bạn là sự thành công theo nghĩa được công nhận đúng cái mình vốn có.",
+      "misaligned": "Khi bạn cố chứng minh giá trị bằng cách làm việc như một Generator, bạn cạn nhanh và vẫn không được ghi nhận. Khi bạn góp ý cho người chưa hỏi bạn, lời góp ý đúng vẫn bị gạt đi. Lặp lại đủ nhiều, nó đọng thành cay đắng: cảm giác mình có tài mà không ai cần, mình thấy hết mà không ai nghe. Cay đắng là tín hiệu cần đổi cách, không phải bằng chứng về thế giới.",
+      "practice": "Tuần này, giữ lại một lời khuyên mà bạn rất muốn nói. Đợi cho tới khi người đó hỏi bạn. Nếu họ không hỏi, để yên. So sánh cảm giác đó với những lần bạn nói mà không ai xin.",
+      "questions": [
+        "Lần gần nhất bạn được ai đó thật sự mời vào một việc, bạn làm nó thế nào so với việc bạn tự nhảy vào?",
+        "Bạn đang cố chứng minh mình có ích với ai? Và người đó có bao giờ hỏi bạn không?",
+        "Nếu bạn được phép chỉ làm việc bốn tiếng mỗi ngày, bạn sẽ chọn làm gì?"
+      ]
+    },
+    "reflector": {
+      "name_vi": "Reflector — Người Phản Chiếu",
+      "name_en": "Reflector",
+      "pct": "khoảng 1% dân số",
+      "strategy": "Chờ trọn một chu kỳ mặt trăng khoảng 28 ngày trước quyết định lớn",
+      "signature": "Ngạc nhiên",
+      "not_self": "Thất vọng",
+      "aura": "Lấy mẫu và kháng cự",
+      "tagline": "Bạn không có một bản thể cố định để bảo vệ. Bạn là tấm gương của nơi bạn đứng.",
+      "mechanics": "Cả chín trung tâm trong bản đồ của bạn đều mở. Bạn không có nguồn năng lượng cố định nào của riêng mình. Thay vào đó, bạn hấp thụ và khuếch đại năng lượng của người và nơi xung quanh, rồi phản chiếu lại. Mặt Trăng đi hết một vòng bản đồ của bạn trong khoảng 28 ngày, và trong 28 ngày đó bạn đi qua nhiều phiên bản rất khác nhau của chính mình.",
+      "aligned": "Khi bạn ở đúng nơi và đúng người, bạn trở thành thước đo sống: bạn cảm được tình trạng của cả một tập thể trước khi có bất kỳ dấu hiệu nào lộ ra. Khi bạn cho phép mình chờ đủ một vòng trăng trước quyết định lớn, bạn nhìn cùng một việc từ nhiều góc rất khác nhau và chọn được cái đứng vững qua tất cả các góc đó. Trạng thái đi đúng của bạn là sự ngạc nhiên — mỗi ngày mở ra một điều bạn không đoán trước.",
+      "misaligned": "Khi bạn cố ép mình phải nhất quán, phải giống mọi người, phải trả lời ngay, bạn mất luôn cái tài sản lớn nhất của mình. Ở sai môi trường, bạn khuếch đại đúng cái độc hại của môi trường đó và tưởng đó là mình. Kết quả là thất vọng: thất vọng với bản thân vì hôm nay khác hôm qua, thất vọng với người vì họ không như mình tưởng.",
+      "practice": "Trong 28 ngày tới, mỗi tối ghi một dòng: hôm nay mình ở đâu, với ai, và mình cảm thấy thế nào. Cuối chu kỳ đọc lại. Bạn sẽ thấy rất rõ nơi nào và người nào làm bạn sáng lên, nơi nào làm bạn tắt.",
+      "questions": [
+        "Có nơi nào bạn đến mà tự nhiên thấy dễ thở hơn hẳn không? Bạn có đang ở gần nơi đó không?",
+        "Bạn có đang tự trách mình vì hay thay đổi ý không?",
+        "Quyết định lớn gần nhất của bạn — bạn có cho mình đủ thời gian không, hay bạn bị hối?"
+      ]
+    }
+  },
+  "authorities": {
+    "emotional": {
+      "name_vi": "Nội quyền Cảm xúc",
+      "name_en": "Emotional (Solar Plexus) Authority",
+      "priority": 1,
+      "rule": "Trung tâm Đám rối mặt trời được định nghĩa",
+      "timeframe": "Chờ qua trọn một con sóng cảm xúc — thường vài giờ tới vài ngày tuỳ việc lớn nhỏ",
+      "tagline": "Với bạn, không có sự thật trong khoảnh khắc. Chỉ có sự thật qua thời gian.",
+      "mechanics": "Trung tâm cảm xúc của bạn được định nghĩa, và nó chạy theo sóng: có lúc dâng cao, có lúc hạ thấp, không phụ thuộc vào việc gì đang xảy ra bên ngoài. Cùng một lời đề nghị, nếu đến lúc bạn đang ở đỉnh sóng, bạn thấy nó tuyệt vời; nếu đến lúc bạn đang ở đáy, bạn thấy nó tệ hại. Cả hai đều không phải câu trả lời. Câu trả lời chỉ hiện ra khi bạn nhìn nó từ đủ nhiều điểm trên con sóng.",
+      "aligned": "Bạn tập được thói quen nói \"để tôi nghĩ thêm rồi trả lời\" và giữ được thói quen đó kể cả khi bị hối. Sau vài ngày, cái muốn ban đầu hoặc là còn nguyên — thì đó là thật — hoặc là tan đi, và bạn vừa tránh được một quyết định sai. Người có nội quyền cảm xúc mà biết chờ thì rất ít khi hối hận, vì họ đã hối hận trước rồi, ngay trong lúc chờ.",
+      "misaligned": "Bạn quyết ngay lúc đang phấn khích, rồi hôm sau tỉnh ra thấy mình vừa cam kết một thứ không muốn. Hoặc bạn cắt đứt một quan hệ ngay lúc đang ở đáy, rồi tuần sau thấy tiếc. Vòng lặp phấn khích rồi hối hận lặp đi lặp lại là dấu hiệu rõ nhất rằng bạn đang quyết bằng khoảnh khắc thay vì bằng thời gian.",
+      "practice": "Đặt một quy tắc cứng cho chính mình: mọi cam kết trên một mức tiền hoặc một mức thời gian nhất định đều phải ngủ qua ít nhất ba đêm. Viết ra cảm nhận của bạn ở đêm thứ nhất và đêm thứ ba, rồi so.",
+      "questions": [
+        "Ba quyết định bạn hối hận nhất — bạn đã quyết trong bao lâu?",
+        "Bạn có sợ mình mất cơ hội nếu không trả lời ngay không? Cơ hội nào từng thật sự mất vì bạn chờ ba ngày?",
+        "Ai trong đời bạn hay hối bạn quyết nhanh?"
+      ]
+    },
+    "sacral": {
+      "name_vi": "Nội quyền Xương cùng",
+      "name_en": "Sacral Authority",
+      "priority": 2,
+      "rule": "Xương cùng được định nghĩa và Đám rối mặt trời KHÔNG được định nghĩa",
+      "timeframe": "Tức thời — âm thanh bật ra trong khoảnh khắc đầu tiên",
+      "tagline": "Câu trả lời của bạn nằm ở bụng, và nó bật ra trước khi đầu kịp lên tiếng.",
+      "mechanics": "Xương cùng của bạn được định nghĩa và không bị lớp sóng cảm xúc phủ lên. Nghĩa là bạn có một cơ chế trả lời gần như tức thời, biểu hiện bằng âm thanh trong cổ họng và một cảm giác trong bụng: một bên là tiếng \"ừ-hự\" kèm cảm giác mở ra và có lực; một bên là tiếng \"un-un\" kèm cảm giác đóng lại và xẹp xuống. Đây không phải suy nghĩ. Nó nhanh hơn suy nghĩ.",
+      "aligned": "Bạn học cách nghe âm thanh đầu tiên đó và tin nó, kể cả khi cái đầu chưa giải thích được tại sao. Năng lượng của bạn đi đúng chỗ, và bạn giữ được sức bền suốt ngày dài. Nhiều người có nội quyền này nhận ra rằng khi họ nói không với thứ bụng không muốn, họ không hề mất gì — họ chỉ để trống chỗ cho thứ đúng.",
+      "misaligned": "Bạn để cái đầu phủ quyết cái bụng: bụng nói không nhưng đầu nói việc này hợp lý, nên bạn vẫn nhận. Rồi bạn làm nó trong trạng thái nặng nề, kéo lê, và tự hỏi sao mình lúc nào cũng mệt. Một dấu hiệu khác là bạn hay trả lời bằng những câu vòng vo — \"chắc là được\", \"để xem\" — thay vì để cơ thể trả lời thẳng.",
+      "practice": "Nhờ một người thân hỏi bạn hai mươi câu có-không trong mười phút, hỏi nhanh, không cho bạn kịp nghĩ. Đừng trả lời bằng lời — để âm thanh tự bật ra. Đây là cách nhanh nhất để bạn nhận ra cơ chế này có thật.",
+      "questions": [
+        "Việc bạn đang làm hôm nay — nếu có người hỏi bụng bạn ngay bây giờ, nó sẽ nói ừ hay không?",
+        "Lần gần nhất bạn nhận một việc mà trong bụng đã biết là không, chuyện gì xảy ra sau đó?",
+        "Bạn có được phép nói không trong môi trường bạn đang sống không?"
+      ]
+    },
+    "splenic": {
+      "name_vi": "Nội quyền Lá lách",
+      "name_en": "Splenic Authority",
+      "priority": 3,
+      "rule": "Lá lách được định nghĩa; Đám rối mặt trời và Xương cùng KHÔNG được định nghĩa",
+      "timeframe": "Tức thời và chỉ một lần — nó không nói lại lần thứ hai",
+      "tagline": "Trực giác của bạn nói rất khẽ, đúng một lần, ngay tại chỗ.",
+      "mechanics": "Lá lách là trung tâm nhận biết cổ xưa nhất trong bản đồ, gắn với bản năng sinh tồn và sự an toàn trong khoảnh khắc hiện tại. Nó không lý luận, không nhắc lại, không tranh cãi. Nó đưa ra một tín hiệu duy nhất ngay lúc bạn tiếp xúc với người hay tình huống đó — thường rất khẽ, dễ bị tiếng ồn của cái đầu át đi.",
+      "aligned": "Bạn nhận ra tín hiệu đó và làm theo ngay, kể cả khi không giải thích được. Bạn bước vào một căn phòng và biết mình nên ra. Bạn gặp một người và biết không nên ký. Những người có nội quyền lá lách mà tin được vào nó thường sống rất an toàn theo nghĩa sâu, vì họ tránh được rất nhiều thứ trước khi nó kịp thành vấn đề.",
+      "misaligned": "Bạn nghe thấy tín hiệu, rồi bạn hỏi \"nhưng tại sao?\", và trong lúc đi tìm lý do thì tín hiệu đã tan. Sau đó bạn quyết bằng lý lẽ, và thường là quyết sai. Câu nói quen thuộc của người lệch nội quyền này là: \"tôi đã biết ngay từ đầu mà tôi không nghe.\"",
+      "practice": "Tuần này, chọn ba việc nhỏ không có hậu quả lớn — chọn quán ăn, chọn đường đi, chọn ngồi chỗ nào. Làm theo tín hiệu đầu tiên, không phân tích. Tập trên việc nhỏ để đủ tin khi việc lớn tới.",
+      "questions": [
+        "Đã bao nhiêu lần bạn nói câu \"tôi đã biết ngay từ đầu\"?",
+        "Bạn thường lấy lý do gì để phủ quyết linh cảm của mình?",
+        "Nơi bạn đang sống hoặc làm việc — lá lách của bạn nói gì về nó ngay lúc này?"
+      ]
+    },
+    "ego": {
+      "name_vi": "Nội quyền Tim / Ý chí",
+      "name_en": "Ego (Heart) Authority",
+      "priority": 4,
+      "rule": "Tim được định nghĩa; Đám rối, Xương cùng và Lá lách KHÔNG được định nghĩa",
+      "timeframe": "Tức thời, nhưng phải nghe được câu \"tôi muốn\" thật của mình",
+      "tagline": "Câu hỏi duy nhất bạn cần trả lời là: tôi có thật sự muốn cái này không?",
+      "mechanics": "Trung tâm Tim là nơi của ý chí, của cam kết và của lời hứa. Với bạn, quyết định đúng không đến từ việc nó hợp lý hay tốt cho ai, mà từ việc bạn có thật sự muốn nó cho chính mình hay không. Cơ chế này nghe có vẻ ích kỷ, nhưng nó là cách duy nhất để ý chí của bạn không bị rút cạn — vì bạn chỉ giữ được lời hứa cho những thứ mình thật lòng muốn.",
+      "aligned": "Bạn nói ra được câu \"tôi muốn cái này\" hoặc \"tôi không muốn\" mà không phải xin lỗi vì nó. Bạn cam kết ít hơn nhưng giữ được nhiều hơn. Người quanh bạn dần hiểu rằng khi bạn đã nhận thì bạn làm tới, và uy tín của bạn đến từ đó.",
+      "misaligned": "Bạn nhận lời vì thấy có lỗi khi từ chối, vì muốn được quý, vì thấy mình phải có trách nhiệm. Rồi bạn không đủ ý chí để hoàn thành, và bạn bắt đầu tự trách mình là người không giữ lời. Vấn đề không nằm ở ý chí của bạn — nó nằm ở chỗ bạn hứa cho những việc bạn chưa bao giờ muốn.",
+      "practice": "Trước lời đề nghị tiếp theo, hãy nói to lên một mình hai câu: \"Tôi muốn làm việc này\" và \"Tôi không muốn làm việc này.\" Câu nào nghe ra thật hơn khi chính miệng bạn nói? Đi theo câu đó.",
+      "questions": [
+        "Bạn đang giữ lời hứa nào mà thật ra bạn chưa bao giờ muốn hứa?",
+        "Bạn có được phép nói \"tôi muốn\" mà không thấy có lỗi không?",
+        "Điều gì bạn thật sự muốn cho riêng mình, không phải cho ai khác?"
+      ]
+    },
+    "self_projected": {
+      "name_vi": "Nội quyền Tự Chiếu",
+      "name_en": "Self-Projected Authority",
+      "priority": 5,
+      "rule": "Trung tâm G nối tới Cổ họng, và không có trung tâm nội quyền nào ưu tiên hơn",
+      "timeframe": "Trong lúc nói ra thành lời với người mình tin",
+      "tagline": "Bạn không tìm câu trả lời trong đầu. Bạn nghe nó khi chính mình nói ra.",
+      "mechanics": "Trung tâm G — nơi của bản thể và phương hướng — được nối thẳng tới Cổ họng. Nghĩa là sự thật của bạn đi ra qua giọng nói. Không phải qua nội dung bạn nói, mà qua âm sắc: cùng một câu, khi nó đúng hướng thì giọng bạn mở ra và có sức; khi nó sai hướng thì giọng bạn nhỏ lại, phẳng đi, hoặc trôi tuột.",
+      "aligned": "Bạn tìm được vài người chịu ngồi nghe bạn nói mà không góp ý, không cắt lời, không cho lời khuyên. Bạn nói ra hết mọi phương án, và trong lúc nói bạn tự nghe thấy phương án nào làm giọng mình sáng lên. Người nghe không cần trả lời gì — họ chỉ cần có mặt để bạn được nghe chính mình.",
+      "misaligned": "Bạn ngồi một mình phân tích trong đầu hàng tuần mà không ra được quyết định, vì cơ chế của bạn không nằm trong đầu. Hoặc bạn nói ra nhưng người nghe liên tục chen vào cho lời khuyên, và bạn kết thúc bằng quyết định của họ chứ không phải của mình. Cảm giác lạc hướng, không biết mình là ai và đang đi đâu, là dấu hiệu quen thuộc.",
+      "practice": "Chọn một người bạn tin và nói trước với họ: \"Mình cần nói ra một chuyện trong mười phút, bạn đừng góp ý gì nhé, chỉ nghe thôi.\" Rồi nói. Nếu không có ai, hãy ghi âm chính mình và nghe lại.",
+      "questions": [
+        "Khi bạn nói về công việc hiện tại, giọng bạn nghe thế nào?",
+        "Trong đời bạn có ai chịu nghe mà không góp ý không?",
+        "Bạn đã phân tích trong đầu bao lâu rồi mà chưa quyết được?"
+      ]
+    },
+    "mental_projected": {
+      "name_vi": "Nội quyền Ngoại cảnh (Trí)",
+      "name_en": "Mental / Environmental Authority",
+      "priority": 6,
+      "rule": "Projector không có trung tâm nội quyền nào được định nghĩa",
+      "timeframe": "Qua nhiều cuộc trò chuyện, ở nhiều môi trường khác nhau",
+      "tagline": "Với bạn, môi trường quan trọng hơn lý lẽ. Đúng chỗ thì mọi thứ tự sáng ra.",
+      "mechanics": "Bạn có trung tâm Đầu và Ajna được định nghĩa, nhưng không có trung tâm nội quyền nào bên dưới. Cái đầu của bạn rất sắc — nhưng nó được thiết kế để suy nghĩ cho người khác, không phải để quyết định cho bạn. Cơ chế của bạn nằm ở bên ngoài: ở môi trường bạn đứng và ở những người bạn nói chuyện cùng.",
+      "aligned": "Bạn nói cùng một vấn đề với vài người tin cậy, ở vài nơi khác nhau, và bạn để ý không phải họ nói gì, mà chính bạn nghe thấy mình nói gì ở mỗi nơi. Dần dần một hướng nổi lên rõ hơn các hướng còn lại. Khi bạn ở đúng môi trường vật lý — đúng ánh sáng, đúng không gian, đúng người — thì mọi thứ tự trở nên rõ ràng mà không cần cố.",
+      "misaligned": "Bạn tin rằng nếu nghĩ đủ kỹ thì sẽ ra câu trả lời, nên bạn nghĩ mãi và kiệt sức trong đầu. Hoặc bạn hỏi ý kiến quá nhiều người rồi bị rối, vì bạn đi tìm lời khuyên thay vì đi tìm âm vang của chính mình. Ở sai môi trường, bạn thấy mọi quyết định đều nặng và đều sai.",
+      "practice": "Lấy một quyết định bạn đang treo. Nói về nó với ba người khác nhau, ở ba nơi khác nhau, trong ba ngày. Sau mỗi lần, ghi lại một dòng cảm nhận. Đừng hỏi họ nên làm gì.",
+      "questions": [
+        "Nơi nào bạn đến mà đầu óc tự nhiên nhẹ đi?",
+        "Bạn đang đi tìm lời khuyên, hay đang đi tìm chỗ để nghe chính mình?",
+        "Có ai bạn nói chuyện xong thấy sáng ra, và ai nói xong thấy rối thêm?"
+      ]
+    },
+    "lunar": {
+      "name_vi": "Nội quyền Mặt Trăng",
+      "name_en": "Lunar Authority",
+      "priority": 7,
+      "rule": "Reflector — không trung tâm nào được định nghĩa",
+      "timeframe": "Trọn một chu kỳ mặt trăng, khoảng 28 ngày",
+      "tagline": "Bạn cần đi hết một vòng trăng để nhìn cùng một việc từ mọi phía.",
+      "mechanics": "Không có trung tâm nào trong bản đồ bạn cố định, nên bạn không có một nội quyền bên trong để tựa vào. Cơ chế của bạn là thời gian: trong khoảng 28 ngày, Mặt Trăng lần lượt kích hoạt các phần khác nhau trong bản đồ bạn, và bạn đi qua nhiều trạng thái rất khác nhau. Cùng một quyết định, nhìn từ ngày thứ ba và ngày thứ hai mươi là hai bức tranh khác hẳn.",
+      "aligned": "Bạn cho phép mình chờ đủ vòng trước những việc lớn — đổi việc, chuyển nhà, cam kết dài hạn. Bạn ghi lại cảm nhận mỗi vài ngày. Đến cuối chu kỳ, thứ nào còn đứng vững qua tất cả các trạng thái thì đó là thứ đúng. Bạn cũng chọn kỹ nơi ở và người ở gần, vì với bạn môi trường gần như quyết định tất cả.",
+      "misaligned": "Bạn bị hối và quyết vội, rồi mắc kẹt trong một thứ mà chỉ hai tuần sau bạn đã thấy không hợp. Hoặc bạn tự trách mình vì hôm nay nghĩ khác hôm qua, và cố ép mình phải nhất quán — trong khi sự không nhất quán đó chính là công cụ đo lường của bạn.",
+      "practice": "Với quyết định lớn tiếp theo, nói thẳng với người liên quan: \"Tôi cần bốn tuần.\" Trong bốn tuần đó, mỗi ba ngày ghi một dòng về cảm nhận của bạn với việc đó. Cuối cùng đọc lại toàn bộ.",
+      "questions": [
+        "Ai đang hối bạn quyết, và việc đó có thật sự gấp không?",
+        "Bạn có đang tự trách mình vì hay đổi ý không?",
+        "Nơi bạn đang sống — sau một tháng ở đó, bạn thấy sáng lên hay tối đi?"
+      ]
+    }
+  },
+  "profiles": {
+    "1/3": {
+      "name_vi": "1/3 — Nhà Nghiên Cứu / Người Thử Sai",
+      "tagline": "Bạn đào đến tận đáy, rồi tự mình va vào để kiểm chứng xem cái đáy đó có thật không.",
+      "mechanics": "Hào 1 khiến bạn không yên khi chưa hiểu tới gốc. Bạn đọc, bạn hỏi, bạn tra cứu cho tới khi thấy nền móng chắc. Hào 3 ở tầng vô thức lại đẩy bạn vào thử nghiệm thực tế, và phần lớn thử nghiệm sẽ không ra như dự tính. Hai hào này bổ cho nhau: bạn nghiên cứu để có nền, rồi va vào để biết cái nền đó đứng được tới đâu.",
+      "aligned": "Bạn trở thành người hiểu một lĩnh vực theo cách rất khó lung lay, vì bạn vừa có lý thuyết vừa có vết sẹo. Khi bạn nói, người ta tin, vì bạn nói từ chỗ đã thử rồi. Bạn coi mỗi lần trật là dữ liệu chứ không phải thất bại — đó là chỗ bạn khoẻ nhất.",
+      "misaligned": "Bạn nghiên cứu mãi mà không dám bắt đầu, vì luôn thấy mình chưa biết đủ. Hoặc ngược lại, bạn va vào hết lần này tới lần khác rồi coi đó là bằng chứng mình kém cỏi. Cả hai đều là cùng một sai lầm: tưởng rằng phải đúng ngay từ đầu.",
+      "practice": "Với việc đang treo: đặt hạn cho phần tìm hiểu, rồi thử một phiên bản nhỏ nhất có thể sai được mà không đau.",
+      "questions": [
+        "Bạn đang tìm hiểu thứ gì đủ lâu rồi mà vẫn chưa bắt đầu?",
+        "Lần trật gần nhất dạy bạn điều gì mà lý thuyết không dạy được?"
+      ],
+      "lines": {
+        "personality": 1,
+        "design": 3
+      }
+    },
+    "1/4": {
+      "name_vi": "1/4 — Nhà Nghiên Cứu / Người Kết Nối",
+      "tagline": "Bạn xây nền cho chắc, rồi mang nó đi qua những người đã biết bạn.",
+      "mechanics": "Hào 1 cần sự chắc chắn trước khi bước ra. Hào 4 ở tầng vô thức làm cho mọi cơ hội của bạn đến qua mạng lưới quen: bạn bè, đồng nghiệp cũ, người từng làm việc chung. Bạn không phải kiểu gửi hồ sơ cho người lạ rồi được nhận.",
+      "aligned": "Bạn dành thời gian học cho tới nơi, rồi chia sẻ lại trong vòng người quen. Từ đó cơ hội tự tới. Mối quan hệ của bạn ít mà bền, và mỗi mối đều có sức nặng. Bạn là người mà bạn bè cũ nghĩ tới đầu tiên khi có việc cần người chắc tay.",
+      "misaligned": "Bạn học xong rồi giữ cho riêng mình, không nói với ai, và tự hỏi sao không ai biết tới mình. Hoặc bạn đốt cầu với người cũ rồi phải bắt đầu lại từ con số không ở môi trường mới — với cấu hình này, đó là con đường rất tốn sức.",
+      "practice": "Liệt kê năm người từng làm việc chung mà bạn đã lâu không liên lạc. Nhắn cho hai người, không nhờ vả gì, chỉ hỏi thăm.",
+      "questions": [
+        "Ai trong mạng lưới cũ của bạn đang không biết bạn giỏi cái gì?",
+        "Bạn có đang chờ đủ giỏi mới dám kết nối không?"
+      ],
+      "lines": {
+        "personality": 1,
+        "design": 4
+      }
+    },
+    "2/4": {
+      "name_vi": "2/4 — Ẩn Sĩ / Người Kết Nối",
+      "tagline": "Bạn cần được ở một mình để làm việc, và cần người khác gọi bạn ra.",
+      "mechanics": "Hào 2 mang một tài năng tự nhiên mà bạn thường không nhận ra là tài năng — với bạn nó chỉ là chuyện bình thường. Hào 4 lại đặt bạn trong một mạng lưới quan hệ, và chính những người đó là người nhìn thấy cái bạn không thấy rồi gọi bạn ra. Bạn sống giữa hai lực: muốn được yên và bị gọi liên tục.",
+      "aligned": "Bạn bảo vệ được khoảng thời gian một mình để làm cái mình giỏi, đồng thời giữ được vài mối quan hệ thật. Khi có lời gọi đúng, bạn bước ra, làm, rồi lại rút về. Nhịp ra-vào này là nhịp tự nhiên của bạn, không phải sự thất thường.",
+      "misaligned": "Bạn nhận mọi lời gọi vì ngại từ chối, và không còn giờ nào để một mình — tài năng cạn dần. Hoặc bạn rút hẳn, cắt liên lạc với mọi người, rồi tài năng đó không bao giờ được ai gọi ra.",
+      "practice": "Chặn cứng một buổi mỗi tuần không tiếp ai. Và trả lời một lời mời bạn đang lảng tránh.",
+      "questions": [
+        "Người khác hay khen bạn giỏi cái gì mà bạn thấy chuyện đó bình thường?",
+        "Bạn đang thiếu thời gian một mình hay đang thiếu người gọi mình ra?"
+      ],
+      "lines": {
+        "personality": 2,
+        "design": 4
+      }
+    },
+    "2/5": {
+      "name_vi": "2/5 — Ẩn Sĩ / Người Dị Giáo",
+      "tagline": "Bạn muốn được yên, nhưng người ta cứ nhìn thấy ở bạn một vị cứu tinh.",
+      "mechanics": "Hào 2 cần không gian riêng và có tài năng bẩm sinh. Hào 5 ở tầng vô thức khiến người khác phóng chiếu lên bạn những kỳ vọng lớn — họ nhìn thấy ở bạn thứ họ đang cần, chưa chắc đã là con người thật của bạn. Bạn vừa muốn trốn, vừa liên tục bị kéo ra làm người giải quyết vấn đề.",
+      "aligned": "Bạn chọn lọc kỹ lời gọi nào mình nhận. Khi nhận, bạn đưa ra giải pháp rất thực tế và làm xong thì rút. Bạn học được cách nói rõ ngay từ đầu mình làm được gì và không làm được gì — điều đó giữ bạn không bị kỳ vọng nghiền nát.",
+      "misaligned": "Bạn cố sống cho vừa cái hình ảnh người ta gán cho mình, rồi kiệt sức và bị trách khi không đáp ứng nổi. Hoặc bạn trốn hẳn để khỏi bị nhìn. Với cấu hình này, danh tiếng lên xuống rất nhanh, và đó là cơ chế chứ không phải lỗi của bạn.",
+      "practice": "Trước khi nhận việc tiếp theo, viết ra một dòng: mình làm được đúng cái gì, trong bao lâu. Nói câu đó ra trước.",
+      "questions": [
+        "Người ta đang trông đợi ở bạn điều gì mà bạn chưa bao giờ hứa?",
+        "Bạn có đang gánh một hình ảnh không phải mình không?"
+      ],
+      "lines": {
+        "personality": 2,
+        "design": 5
+      }
+    },
+    "3/5": {
+      "name_vi": "3/5 — Người Thử Sai / Người Dị Giáo",
+      "tagline": "Bạn biết cái gì không dùng được vì bạn đã tự tay thử — và người ta tìm bạn vì điều đó.",
+      "mechanics": "Hào 3 đưa bạn vào hết thử nghiệm này tới thử nghiệm khác, nhiều cái không thành. Hào 5 khiến người khác trông cậy bạn đưa ra giải pháp. Kết hợp lại: bạn là người đã đi qua đủ thứ rồi nên biết đường nào cụt, và đó chính là thứ có giá trị nhất bạn mang lại.",
+      "aligned": "Bạn không giấu những lần trật của mình mà biến chúng thành vốn. Bạn nói thẳng với người ta cái gì không chạy được và tại sao. Bạn thay đổi hướng đi nhiều lần trong đời mà không thấy đó là thất bại.",
+      "misaligned": "Bạn mang mặc cảm rằng đời mình toàn đổ vỡ, rồi giấu quá khứ đi. Hoặc bạn hứa nhiều hơn cái mình chắc chắn làm được, và khi không xong thì niềm tin của người ta sụp rất nhanh — với hào 5, sự sụp đổ niềm tin luôn mạnh hơn bình thường.",
+      "practice": "Kể một lần bạn làm hỏng chuyện cho ai đó đang định làm y hệt. Xem phản ứng của họ.",
+      "questions": [
+        "Bạn đang gọi những lần trật của mình là thất bại hay là kinh nghiệm?",
+        "Bạn có hay hứa quá tay để giữ hình ảnh không?"
+      ],
+      "lines": {
+        "personality": 3,
+        "design": 5
+      }
+    },
+    "3/6": {
+      "name_vi": "3/6 — Người Thử Sai / Hình Mẫu",
+      "tagline": "Nửa đầu đời bạn va rất nhiều. Nửa sau, chính những vết đó làm nên bạn.",
+      "mechanics": "Hào 3 học bằng va chạm. Hào 6 chia đời bạn thành ba chặng: khoảng ba mươi năm đầu sống như hào 3, va vào đủ thứ; rồi một giai đoạn lùi lại quan sát, ít tham gia hơn, gần như đứng trên mái nhà nhìn xuống; rồi bước xuống sống như một hình mẫu của điều mình đã học.",
+      "aligned": "Bạn cho phép chặng đầu là chặng thử, không đòi hỏi mình phải xong xuôi sớm. Đến chặng giữa bạn không sốt ruột khi thấy mình chậm lại. Đến chặng sau, bạn sống thành ví dụ sống chứ không phải người đi giảng.",
+      "misaligned": "Bạn so mình với người cùng tuổi ở chặng đầu rồi kết luận mình kém. Hoặc ở chặng giữa bạn hoảng vì thấy mình mất lửa, rồi lao vào làm bừa cho có. Cả hai đều là việc chống lại nhịp tự nhiên của chính mình.",
+      "practice": "Vẽ một đường thời gian đời bạn, đánh dấu tuổi 30 và 50. Nhìn xem bạn đang ở chặng nào, và bạn đang đòi hỏi mình điều gì của chặng khác.",
+      "questions": [
+        "Bạn đang ở chặng nào, và bạn đang tự ép mình sống theo chặng nào?",
+        "Điều gì bạn đã học được mà chỉ có thể học bằng cách tự va vào?"
+      ],
+      "lines": {
+        "personality": 3,
+        "design": 6
+      }
+    },
+    "4/6": {
+      "name_vi": "4/6 — Người Kết Nối / Hình Mẫu",
+      "tagline": "Vốn lớn nhất của bạn là những người tin bạn, tích lại qua nhiều năm.",
+      "mechanics": "Hào 4 đưa cơ hội tới qua mạng lưới thân quen. Hào 6 đặt bạn vào ba chặng đời, và ở chặng sau bạn trở thành người mà cộng đồng quanh bạn nhìn vào để lấy chuẩn. Hai hào này cộng lại thành một thứ rất bền: uy tín tích lũy trong một nhóm người cụ thể.",
+      "aligned": "Bạn giữ quan hệ tử tế và lâu dài, không đốt cầu. Bạn sống đúng điều mình nói, vì bạn biết người ta đang nhìn. Đến giữa đời, mạng lưới đó tự mang việc và cơ hội tới cho bạn mà bạn không cần chào mời.",
+      "misaligned": "Bạn nóng vội ở chặng đầu, làm tổn thương quan hệ để lấy kết quả ngắn hạn, rồi mất luôn kênh chính của mình. Hoặc bạn cố tỏ ra hoàn hảo quá sớm, và khi vỡ thì vỡ trước mặt tất cả những người quan trọng nhất với bạn.",
+      "practice": "Nhớ lại một quan hệ bạn để nguội mà không có lý do gì lớn. Khôi phục nó tuần này.",
+      "questions": [
+        "Có cây cầu nào bạn đốt mà bây giờ nhìn lại thấy không đáng không?",
+        "Bạn đang sống đúng cái mình nói với người khác chứ?"
+      ],
+      "lines": {
+        "personality": 4,
+        "design": 6
+      }
+    },
+    "4/1": {
+      "name_vi": "4/1 — Người Kết Nối / Nhà Nghiên Cứu",
+      "tagline": "Bạn có một hướng đi cố định. Việc của bạn là đi đúng hướng đó và mang theo người của mình.",
+      "mechanics": "Đây là cấu hình cố định nhất trong mười hai profile. Hào 1 cho bạn một nền móng sâu, hào 4 cho bạn một mạng lưới. Bạn không được thiết kế để đổi hướng liên tục — bạn được thiết kế để đi sâu vào một thứ và truyền nó đi qua những người xung quanh.",
+      "aligned": "Bạn tìm ra thứ mình muốn đào sâu, rồi đào thật sâu, và nói về nó với vòng người quen. Cơ hội đến từ đúng vòng đó. Bạn ổn định, đáng tin, và người ta biết chính xác tìm bạn để làm gì.",
+      "misaligned": "Bạn ép mình phải linh hoạt, phải đổi ngành, phải làm nhiều thứ như người khác — và bạn khổ, vì cấu hình này không chịu được sự trôi nổi. Hoặc bạn đào sâu nhưng cắt hết quan hệ, rồi kiến thức đó không đi tới đâu.",
+      "practice": "Viết ra một câu duy nhất: thứ tôi muốn hiểu sâu nhất trong mười năm tới là gì. Nếu chưa viết được, đó chính là việc cần làm trước.",
+      "questions": [
+        "Bạn có đang ép mình phải đa năng trong khi bản chất bạn muốn đi sâu?",
+        "Ai cần biết về thứ bạn đang đào sâu mà chưa biết?"
+      ],
+      "lines": {
+        "personality": 4,
+        "design": 1
+      }
+    },
+    "5/1": {
+      "name_vi": "5/1 — Người Dị Giáo / Nhà Nghiên Cứu",
+      "tagline": "Người ta tìm bạn khi có vấn đề — và bạn phải chắc chắn mình thật sự giải được.",
+      "mechanics": "Hào 5 khiến người khác phóng chiếu lên bạn hình ảnh người có thể cứu tình thế. Hào 1 ở tầng vô thức buộc bạn phải có nền móng thật để không phụ cái kỳ vọng đó. Bạn thường được gọi vào đúng lúc khủng hoảng, và bạn thường giải được.",
+      "aligned": "Bạn chuẩn bị kỹ trước khi nhận, và bạn nói rõ phạm vi mình làm được. Bạn đưa giải pháp thực tế, xong việc thì rút, không ở lại để bị gán vai anh hùng lâu dài. Danh tiếng bạn tốt vì nó đứng trên năng lực thật.",
+      "misaligned": "Bạn nhận việc vì được tâng lên rồi mới đi tìm cách làm — với hào 5, khi vỡ thì tiếng xấu lan rất nhanh và rất đậm. Hoặc bạn sợ bị kỳ vọng nên trốn hẳn, không nhận gì cả, và cái nền móng bạn có không dùng được vào đâu.",
+      "practice": "Lần tới có người nhờ, hỏi lại ba câu về vấn đề của họ trước khi nhận. Chỉ nhận nếu bạn thật sự đã làm được việc tương tự.",
+      "questions": [
+        "Bạn có đang nhận việc vì được khen chứ không phải vì làm được?",
+        "Người ta đang nghĩ bạn giỏi cái gì mà thật ra bạn chưa vững?"
+      ],
+      "lines": {
+        "personality": 5,
+        "design": 1
+      }
+    },
+    "5/2": {
+      "name_vi": "5/2 — Người Dị Giáo / Ẩn Sĩ",
+      "tagline": "Bạn bị kéo ra ánh sáng liên tục, trong khi phần sâu nhất trong bạn chỉ muốn được yên.",
+      "mechanics": "Hào 5 hút kỳ vọng của người khác về phía bạn. Hào 2 ở tầng vô thức mang tài năng tự nhiên và nhu cầu được ở một mình. Đây là cặp hào kéo hai hướng ngược nhau mạnh nhất trong mười hai profile: bên ngoài người ta gọi, bên trong bạn muốn đóng cửa.",
+      "aligned": "Bạn xây được một nhịp: rút vào làm cái mình giỏi, ra ngoài khi có lời gọi đúng, rồi rút về lại. Bạn từ chối phần lớn lời gọi mà không thấy áy náy. Cái bạn mang ra lần nào cũng có trọng lượng, vì nó được nuôi trong yên tĩnh.",
+      "misaligned": "Bạn để bị kéo ra liên tục, không còn không gian riêng, và tài năng cạn. Rồi bạn không đáp ứng nổi kỳ vọng và chịu tiếng xấu — trong khi kỳ vọng đó chưa bao giờ do bạn tạo ra.",
+      "practice": "Từ chối một lời mời trong tuần này mà không giải thích dài. Chỉ một câu: \"Cảm ơn, lần này mình không tham gia.\"",
+      "questions": [
+        "Bạn còn bao nhiêu giờ một mình mỗi tuần?",
+        "Kỳ vọng nào người ta đặt lên bạn mà bạn chưa từng nhận?"
+      ],
+      "lines": {
+        "personality": 5,
+        "design": 2
+      }
+    },
+    "6/2": {
+      "name_vi": "6/2 — Hình Mẫu / Ẩn Sĩ",
+      "tagline": "Bạn sống thành ví dụ, không phải bằng cách giảng, mà bằng cách được nhìn thấy.",
+      "mechanics": "Hào 6 chia đời bạn ba chặng: va vấp, quan sát, rồi làm hình mẫu. Hào 2 mang tài năng bẩm sinh và nhu cầu ở ẩn. Bạn không đi tìm sự chú ý, nhưng ở chặng sau của đời, sự chú ý tìm tới bạn — vì cách bạn sống chứ không vì cái bạn nói.",
+      "aligned": "Bạn để chặng đầu là chặng thử mà không tự trách. Chặng giữa bạn cho phép mình lùi lại, đọc, quan sát, ít tham gia. Chặng sau bạn xuất hiện với một sự chắc chắn tự nhiên, và người ta học từ bạn mà bạn không phải cố dạy.",
+      "misaligned": "Bạn ép mình phải là hình mẫu ngay từ trẻ, sống theo tiêu chuẩn của người khác và mệt mỏi. Hoặc bạn rút quá sâu ở chặng giữa và không bao giờ bước ra lại, để cái mình đã tích lũy nằm im không ai chạm tới.",
+      "practice": "Hỏi hai người thân: theo họ, mình sống thế nào? Nghe mà không thanh minh.",
+      "questions": [
+        "Bạn đang ở chặng nào của đời mình?",
+        "Bạn có đang cố dạy người khác thứ mà chính mình chưa sống qua không?"
+      ],
+      "lines": {
+        "personality": 6,
+        "design": 2
+      }
+    },
+    "6/3": {
+      "name_vi": "6/3 — Hình Mẫu / Người Thử Sai",
+      "tagline": "Bạn trở thành hình mẫu không phải nhờ làm đúng, mà nhờ dám thử và dám kể lại.",
+      "mechanics": "Hào 6 mang ba chặng đời và một nhu cầu sâu về sự chính trực. Hào 3 ở tầng vô thức lại đẩy bạn vào thử nghiệm liên tục, nhiều cái không thành. Bạn sống trong một mâu thuẫn quen thuộc: muốn làm gương, mà lại là người hay va nhất.",
+      "aligned": "Bạn hiểu rằng chính những lần trật mới là chất liệu làm nên hình mẫu của bạn. Ở chặng sau, bạn kể lại chúng một cách thẳng thắn, và người nghe thấy được vì bạn không tô vẽ. Bạn là kiểu người mà ai cũng biết đã đi qua thật rồi mới nói.",
+      "misaligned": "Bạn giấu những lần trật để giữ hình ảnh, và mất đúng thứ làm bạn có giá trị. Hoặc bạn tự kết luận mình không xứng làm gương vì đời mình quá nhiều đổ vỡ — trong khi số lần đổ vỡ ấy chính là thiết kế.",
+      "practice": "Kể công khai một lần bạn làm sai và bạn đã học được gì. Với một người thôi cũng được.",
+      "questions": [
+        "Bạn đang giấu lần trật nào vì sợ mất hình ảnh?",
+        "Nếu những lần va của bạn là chất liệu chứ không phải vết nhơ, bạn sẽ kể lại chúng thế nào?"
+      ],
+      "lines": {
+        "personality": 6,
+        "design": 3
+      }
+    }
+  },
+  "centers": {
+    "head": {
+      "name_vi": "Trung tâm Đầu",
+      "name_en": "Head Center",
+      "role": "Áp lực tư duy — nơi câu hỏi và cảm hứng sinh ra",
+      "gates": [
+        61,
+        63,
+        64
+      ],
+      "defined": {
+        "tagline": "Bạn có nguồn câu hỏi của riêng mình, và nó không bao giờ ngừng.",
+        "mechanics": "Trung tâm Đầu là một trung tâm áp lực. Khi nó được định nghĩa, áp lực suy nghĩ trong bạn là cố định và đến từ bên trong. Bạn luôn có thứ gì đó để nghĩ tới, dù xung quanh yên tĩnh. Đây là nguồn cảm hứng ổn định — nhưng nó cũng có nghĩa là bạn không tắt được.",
+        "aligned": "Bạn để những câu hỏi tự nảy ra mà không ép mình phải trả lời hết. Bạn học được rằng suy nghĩ của bạn không phải để giải quyết vấn đề đời mình — nó là để truyền cảm hứng, cho bạn và cho người khác. Quyết định thì để cho nội quyền lo, không để cái đầu lo.",
+        "misaligned": "Bạn dùng cái đầu để ra quyết định, và bạn quay vòng mãi trong đó. Hoặc bạn tự ép mình phải giải cho xong mọi câu hỏi vừa hiện ra, rồi kiệt sức trong đầu mà ngoài đời chẳng có gì đổi khác.",
+        "practice": "Ghi lại năm câu hỏi đang chạy trong đầu bạn tuần này. Khoanh tròn câu nào thật sự cần bạn hành động. Phần còn lại để yên.",
+        "questions": [
+          "Bạn đang nghĩ về việc gì mà nghĩ mãi không xong?",
+          "Nếu không cần trả lời câu hỏi đó hôm nay, bạn có nhẹ hơn không?"
+        ]
+      },
+      "open": {
+        "tagline": "Phần lớn thứ bạn đang nghĩ không phải của bạn.",
+        "false_pursuit": "Cố trả lời cho xong những câu hỏi mà thật ra không phải việc của mình.",
+        "mechanics": "Trung tâm Đầu của bạn không cố định, nên nó hấp thụ áp lực suy nghĩ từ người xung quanh rồi khuếch đại lên. Bạn ngồi cạnh ai đang lo, một lát sau bạn cũng lo — về đúng chuyện của họ. Bạn nhạy với ý tưởng và cảm hứng của người khác hơn bạn tưởng.",
+        "aligned": "Bạn nhận ra được đâu là câu hỏi của mình và đâu là câu hỏi bạn vừa nhặt về. Bạn trở thành người đọc được không khí trí tuệ của cả một nhóm. Và bạn cho phép mình không trả lời những gì không phải việc của mình.",
+        "misaligned": "Bạn ôm hết mọi câu hỏi vào đầu và cố giải, kể cả những câu chẳng liên quan tới đời bạn. Ban đêm không ngủ được vì đầu quay. Bạn tưởng mình là người hay nghĩ ngợi, trong khi thật ra bạn đang mang giúp người khác.",
+        "practice": "Tối nay khi đầu không chịu yên, hỏi một câu: chuyện này của ai? Nếu không phải của mình, nói thầm một câu trả lại cho người đó rồi buông.",
+        "questions": [
+          "Bạn thường nghĩ nhiều nhất sau khi nói chuyện với ai?",
+          "Có câu hỏi nào bạn đang mang giúp người khác không?"
+        ]
+      }
+    },
+    "ajna": {
+      "name_vi": "Trung tâm Ajna",
+      "name_en": "Ajna Center",
+      "role": "Nhận thức — cách bạn xử lý và sắp xếp thông tin",
+      "gates": [
+        47,
+        24,
+        4,
+        11,
+        43,
+        17
+      ],
+      "defined": {
+        "tagline": "Bạn có một cách tư duy cố định, và bạn không đổi được nó.",
+        "mechanics": "Ajna là trung tâm nhận thức bằng lý trí. Khi được định nghĩa, cách bạn xử lý thông tin là nhất quán suốt đời: bạn luôn phân tích theo một kiểu, luôn sắp xếp theo một trật tự. Người ngoài thấy bạn chắc chắn, có chính kiến, khó lay.",
+        "aligned": "Bạn tin cách nghĩ của mình và dùng nó để làm rõ mọi thứ cho người khác. Bạn cũng nhận ra được rằng chắc chắn không có nghĩa là đúng — bạn có thể rất chắc về một điều sai. Nên bạn vẫn để nội quyền quyết, còn cái đầu chỉ làm nhiệm vụ sắp xếp.",
+        "misaligned": "Bạn dùng sự chắc chắn của mình để áp người khác, và bạn không nghe được ý khác. Hoặc bạn tự tin vào một kết luận rồi hành động theo nó mà không kiểm tra lại với cơ thể — đây là kiểu sai lầm mà người có Ajna định nghĩa hay mắc nhất.",
+        "practice": "Tuần này, khi bạn thấy mình rất chắc về một điều, hãy hỏi một người có cách nghĩ khác hẳn. Không để tranh cãi, chỉ để nghe.",
+        "questions": [
+          "Bạn từng rất chắc về điều gì rồi hoá ra sai?",
+          "Cách nghĩ của bạn có đang giúp người khác sáng ra, hay đang làm họ im?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn không cần phải chắc chắn về mọi thứ. Đó là tự do, không phải thiếu sót.",
+        "false_pursuit": "Cố tỏ ra chắc chắn, cố có chính kiến về mọi chuyện để khỏi bị coi là hời hợt.",
+        "mechanics": "Ajna mở nghĩa là cách tư duy của bạn không cố định. Hôm nay bạn nghĩ kiểu này, mai kiểu khác, tuỳ vào việc bạn đang ở gần ai. Đây là một trung tâm nhận thức, nên bạn có khả năng hiểu được nhiều lối tư duy khác nhau — nhưng bạn không có lối nào là của riêng mình mãi mãi.",
+        "aligned": "Bạn thoải mái nói \"tôi chưa biết\" mà không thấy xấu hổ. Bạn linh hoạt, học nhanh, và hiểu được cách nghĩ của rất nhiều kiểu người — đó là một tài sản hiếm. Bạn dùng sự cởi mở đó để làm cầu nối giữa những người không hiểu nhau.",
+        "misaligned": "Bạn giả vờ chắc chắn để không bị coi thường, rồi phải bảo vệ một quan điểm mà chính bạn cũng không tin. Hoặc bạn thay đổi ý liên tục rồi tự trách mình là người không có lập trường.",
+        "practice": "Trong một cuộc trò chuyện tuần này, thử nói thật câu \"cái này mình chưa nghĩ ra\" thay vì đưa ra một ý cho có.",
+        "questions": [
+          "Bạn có đang giả vờ chắc chắn về điều gì không?",
+          "Bạn có tự trách mình vì hay đổi ý không?"
+        ]
+      }
+    },
+    "throat": {
+      "name_vi": "Trung tâm Cổ họng",
+      "name_en": "Throat Center",
+      "role": "Biểu đạt và hành động — nơi mọi thứ bên trong đi ra ngoài",
+      "gates": [
+        62,
+        23,
+        56,
+        35,
+        12,
+        45,
+        33,
+        8,
+        31,
+        20,
+        16
+      ],
+      "defined": {
+        "tagline": "Bạn nói ra được, và bạn làm ra được. Vấn đề là nói đúng lúc.",
+        "mechanics": "Cổ họng là nơi biến năng lượng thành lời và thành hành động. Khi được định nghĩa, bạn có một kênh biểu đạt ổn định: bạn nói theo một kiểu nhất quán, và bạn có thể chủ động mở lời mà không cần ai gợi.",
+        "aligned": "Bạn nói khi đúng thời điểm — sau khi nội quyền đã gật, chứ không phải ngay khi ý vừa hiện. Lời bạn có sức nặng vì bạn không nói tràn. Người ta nghe bạn vì bạn không phí lời.",
+        "misaligned": "Bạn nói trước khi cơ thể kịp xác nhận, rồi phải chịu trách nhiệm cho những lời đã lỡ. Hoặc bạn nói nhiều để lấp khoảng trống, và dần dần lời bạn mất trọng lượng.",
+        "practice": "Trong một cuộc họp tuần này, để người khác nói trước. Chỉ lên tiếng khi có người hỏi hoặc khi bạn thật sự thấy cần.",
+        "questions": [
+          "Lần gần nhất bạn hối vì đã nói ra một điều, bạn đã nói nó nhanh thế nào?",
+          "Bạn có đang nói nhiều hơn mức cần thiết ở đâu không?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn không cần giành lời. Khi đúng lúc, người ta sẽ hỏi bạn.",
+        "false_pursuit": "Cố gây chú ý, cố chen vào để được nhìn thấy và được công nhận.",
+        "mechanics": "Cổ họng mở nghĩa là cách bạn biểu đạt thay đổi theo người và theo hoàn cảnh. Cùng một con người, bạn nói với nhóm này rất trôi chảy, với nhóm khác lại nghẹn. Bạn cũng nhạy với việc mình có đang được lắng nghe hay không, nhạy hơn người khác nhiều.",
+        "aligned": "Bạn học được cách chờ đến khi có người hỏi rồi mới nói — và bạn nhận ra khi đó lời bạn được nghe khác hẳn. Bạn cũng linh hoạt trong cách diễn đạt, có thể nói chuyện được với rất nhiều kiểu người, điều mà người có Cổ họng cố định khó làm.",
+        "misaligned": "Bạn cố chen vào cuộc trò chuyện, nói nhiều, nói to, để được chú ý — rồi sau đó thấy trống rỗng và tự trách mình. Hoặc bạn nói ra một điều rồi thấy không ai phản ứng, và hiểu đó là mình không có giá trị.",
+        "practice": "Trong buổi gặp tiếp theo, đặt cho mình một luật: chỉ nói khi có người hỏi trực tiếp. Để ý xem cảm giác của bạn thay đổi thế nào sau đó.",
+        "questions": [
+          "Bạn có hay chen vào để được chú ý không?",
+          "Với ai bạn nói dễ nhất, và với ai bạn hay nghẹn?"
+        ]
+      }
+    },
+    "g": {
+      "name_vi": "Trung tâm G",
+      "name_en": "G / Identity Center",
+      "role": "Bản thể, phương hướng và tình yêu",
+      "gates": [
+        1,
+        13,
+        25,
+        46,
+        2,
+        15,
+        10,
+        7
+      ],
+      "defined": {
+        "tagline": "Bạn có một hướng đi của riêng mình, kể cả khi bạn chưa nhìn ra nó.",
+        "mechanics": "Trung tâm G là nơi của bản thể và phương hướng. Khi được định nghĩa, bạn mang một cảm thức ổn định về mình là ai — nó có thể mơ hồ, nhưng nó cố định. Hướng đi của bạn đến từ bên trong, không phụ thuộc vào nơi bạn đứng.",
+        "aligned": "Bạn tin vào hướng của mình kể cả khi chưa giải thích được. Bạn không cần người khác xác nhận bạn là ai. Khi bạn đi đúng hướng, mọi thứ có cảm giác đúng chỗ, ngay cả trong lúc khó.",
+        "misaligned": "Bạn để người khác định nghĩa bạn là ai và bạn nên đi đâu. Rồi bạn đi một con đường rất hợp lý mà trong lòng thấy nhạt. Cảm giác lạc hướng dai dẳng ở người có G định nghĩa thường là dấu hiệu bạn đang sống theo bản thiết kế của ai khác.",
+        "practice": "Viết ra ba việc bạn đang làm vì người khác mong đợi. Với mỗi việc, tự hỏi: nếu không ai biết, mình có làm không?",
+        "questions": [
+          "Bạn đang đi theo hướng của mình hay hướng của ai?",
+          "Lần gần nhất bạn thấy rõ mình là ai là khi nào?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn không có một bản thể cố định để bảo vệ. Nơi bạn đứng quan trọng hơn bạn nghĩ.",
+        "false_pursuit": "Cố tìm cho ra mình thật sự là ai và đời mình phải đi đâu, rồi bám vào câu trả lời đó.",
+        "mechanics": "Trung tâm G mở nghĩa là bản thể và phương hướng của bạn không cố định — chúng thay đổi theo người và theo nơi. Bạn ở với nhóm này thì thành một phiên bản, sang nhóm khác thành phiên bản khác. Với bạn, môi trường không phải yếu tố phụ, nó gần như quyết định tất cả.",
+        "aligned": "Bạn thôi đi tìm một câu trả lời cố định cho câu hỏi mình là ai, và thay vào đó bạn chú tâm vào việc chọn nơi mình ở và người mình ở cùng. Bạn linh hoạt, hoà được với nhiều kiểu người, và bạn phản chiếu lại cho họ chính bản thể của họ.",
+        "misaligned": "Bạn cố ép mình phải nhất quán, phải có một danh tính rõ ràng, rồi thấy mình giả tạo. Hoặc bạn bám vào một người hay một nơi chỉ vì ở đó bạn thấy mình có hình dạng — kể cả khi nơi đó không tốt cho bạn.",
+        "practice": "Trong hai tuần, mỗi khi đổi chỗ ngồi làm việc hoặc đổi nhóm người, ghi một dòng: ở đây mình thấy mình thế nào. Cuối kỳ đọc lại.",
+        "questions": [
+          "Nơi nào bạn đến mà tự nhiên thấy mình rõ ràng hơn?",
+          "Bạn có đang bám vào ai hoặc nơi nào chỉ vì ở đó bạn thấy mình có hình dạng không?"
+        ]
+      }
+    },
+    "heart": {
+      "name_vi": "Trung tâm Tim / Ý chí",
+      "name_en": "Heart / Ego Center",
+      "role": "Ý chí, lời hứa và giá trị bản thân",
+      "gates": [
+        21,
+        40,
+        26,
+        51
+      ],
+      "defined": {
+        "tagline": "Bạn có ý chí thật, nhưng nó có giới hạn và cần được nghỉ.",
+        "mechanics": "Trung tâm Tim là một động cơ, nguồn của ý chí và của khả năng giữ lời. Khi được định nghĩa, bạn có sức ý chí thật sự — bạn hứa được và làm được. Nhưng động cơ này hoạt động theo nhịp có nghỉ, không chạy liên tục.",
+        "aligned": "Bạn hứa những điều bạn thật lòng muốn, và bạn giữ lời. Bạn biết xen kẽ giai đoạn làm và giai đoạn nghỉ mà không thấy có lỗi. Giá trị của bạn tự chứng minh qua việc bạn làm, không cần nói ra.",
+        "misaligned": "Bạn hứa liên tục để chứng tỏ mình, rồi chạy đến cạn. Hoặc bạn dùng ý chí để ép người khác phải theo mình. Người có Tim định nghĩa mà không cho mình nghỉ thường rơi vào trạng thái làm nhiều mà lòng trống rỗng.",
+        "practice": "Nhìn lại các cam kết bạn đang giữ. Chọn một cái bạn hứa không phải vì muốn, và nói thẳng với người liên quan rằng bạn cần rút.",
+        "questions": [
+          "Bạn đang hứa gì mà thật ra không muốn?",
+          "Lần cuối bạn cho mình nghỉ mà không thấy có lỗi là khi nào?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn không có gì phải chứng minh. Đó là điều khó tin nhất với bạn.",
+        "false_pursuit": "Cố chứng minh giá trị của mình, cố cho người ta thấy mình xứng đáng.",
+        "mechanics": "Tim mở nghĩa là bạn không có nguồn ý chí cố định. Sức ý chí của bạn lên xuống thất thường. Đây là trung tâm bị điều kiện hoá nặng nhất trong đời sống hiện đại, vì cả xã hội được xây trên niềm tin rằng ai cũng phải chứng minh mình đáng giá.",
+        "aligned": "Bạn thôi hứa những thứ vượt sức mình. Bạn nhận ra giá trị của bạn không nằm ở việc bạn làm được bao nhiêu. Ngược lại, bạn rất nhạy trong việc nhìn ra ai thật sự có ý chí và ai chỉ đang nói to — đó là sự khôn ngoan mà người có Tim định nghĩa không có.",
+        "misaligned": "Bạn hứa quá tay để chứng minh mình, rồi không làm nổi, rồi tự kết luận mình là kẻ vô dụng. Vòng lặp này lặp lại nhiều năm và ăn mòn lòng tự trọng của bạn. Bạn cũng dễ bị cuốn vào các cuộc so đo hơn thua mà bạn không bao giờ thắng.",
+        "practice": "Tuần này, từ chối một lời đề nghị mà bạn định nhận chỉ để người ta thấy mình được việc. Không giải thích dài.",
+        "questions": [
+          "Bạn đang cố chứng minh điều gì, và với ai?",
+          "Nếu không phải chứng minh gì với ai, tuần này bạn sẽ bỏ việc gì?"
+        ]
+      }
+    },
+    "spleen": {
+      "name_vi": "Trung tâm Lá lách",
+      "name_en": "Spleen Center",
+      "role": "Bản năng trong khoảnh khắc — cảm giác an toàn hay không an toàn",
+      "gates": [
+        48,
+        57,
+        44,
+        50,
+        32,
+        28,
+        18
+      ],
+      "defined": {
+        "tagline": "Bạn có một hệ cảnh báo bẩm sinh, và nó nói rất khẽ.",
+        "mechanics": "Lá lách là trung tâm nhận biết cổ xưa nhất, gắn với bản năng và cảm giác an toàn ngay trong khoảnh khắc hiện tại. Khi được định nghĩa, bạn mang một cảm thức nền ổn định về việc mình có ổn hay không. Nó không lý luận và không nhắc lại.",
+        "aligned": "Bạn tin vào tín hiệu tức thời của mình và làm theo, kể cả khi chưa giải thích được. Bạn sống khá thoải mái với hiện tại, ít lo xa. Bạn cũng cảm được rất nhanh một người hay một chỗ có ổn với mình hay không.",
+        "misaligned": "Bạn nghe tín hiệu rồi đi tìm lý do, và trong lúc tìm thì tín hiệu tan. Hoặc bạn giữ thói quen cũ chỉ vì quen, dù bản năng đã nói nên đổi từ lâu.",
+        "practice": "Tuần này, chọn ba việc nhỏ không quan trọng và làm theo phản ứng đầu tiên, không phân tích. Tập trên việc nhỏ để tin được khi việc lớn tới.",
+        "questions": [
+          "Bạn đã bao nhiêu lần nói câu \"tôi biết ngay từ đầu mà\"?",
+          "Có thói quen nào bạn giữ chỉ vì quen, không phải vì nó còn hợp?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn hay bám vào những thứ không còn tốt cho mình, chỉ vì sợ buông ra thì không an toàn.",
+        "false_pursuit": "Bám lấy người, việc hay thói quen đã hết hạn, vì buông ra thấy chông chênh.",
+        "mechanics": "Lá lách mở nghĩa là cảm thức an toàn của bạn không cố định — nó vay từ người và nơi xung quanh. Ở cạnh một người có Lá lách định nghĩa, bạn thấy yên; rời ra, bạn thấy chông chênh. Đây là lý do sâu xa khiến nhiều người có cấu hình này rất khó dứt một mối quan hệ hay một công việc đã hết hạn từ lâu.",
+        "aligned": "Bạn nhận ra cảm giác chông chênh khi rời đi là cơ chế của trung tâm mở, không phải bằng chứng rằng bạn đang sai. Từ đó bạn dứt được những thứ cần dứt. Đổi lại, bạn có sự nhạy cảm rất lớn: bạn đọc được tình trạng của người khác trước khi họ tự nhận ra.",
+        "misaligned": "Bạn ở lại quá lâu trong những thứ không còn đúng — một công việc, một mối quan hệ, một nếp sinh hoạt — vì mỗi lần định rời đi thì thấy bất an. Rồi bạn gọi sự bám víu đó là chung thuỷ hay kiên trì.",
+        "practice": "Chọn một thứ bạn biết đã hết hạn từ lâu. Đặt một hạn cụ thể để rời khỏi nó, viết ngày tháng ra giấy. Chưa cần làm ngay, chỉ cần có ngày.",
+        "questions": [
+          "Bạn đang giữ điều gì chỉ vì buông ra thấy sợ?",
+          "Ở cạnh ai bạn thấy yên nhất, và bạn có đang phụ thuộc vào cảm giác đó không?"
+        ]
+      }
+    },
+    "solar_plexus": {
+      "name_vi": "Trung tâm Đám rối mặt trời",
+      "name_en": "Solar Plexus Center",
+      "role": "Cảm xúc — chạy theo sóng, có đỉnh và có đáy",
+      "gates": [
+        36,
+        22,
+        37,
+        6,
+        49,
+        55,
+        30
+      ],
+      "defined": {
+        "tagline": "Cảm xúc của bạn chạy theo sóng riêng, không phải phản ứng với việc bên ngoài.",
+        "mechanics": "Đám rối mặt trời vừa là động cơ vừa là trung tâm nhận biết. Khi được định nghĩa, nó chạy theo sóng: dâng lên, đạt đỉnh, hạ xuống, chạm đáy, rồi lại dâng — theo nhịp riêng, phần lớn không liên quan tới việc gì đang xảy ra. Bạn cũng phát sóng đó ra cho người quanh mình.",
+        "aligned": "Bạn hiểu sóng của mình và không quyết định ở đỉnh cũng không quyết định ở đáy. Bạn cho mình thời gian trước mọi cam kết. Bạn cũng thôi đổ lỗi cho hoàn cảnh mỗi khi tâm trạng xuống, vì bạn biết đó là nhịp.",
+        "misaligned": "Bạn quyết ngay lúc phấn khích rồi hối. Hoặc bạn tránh xung đột bằng mọi giá, dồn nén, cho tới khi vỡ ra một lần lớn. Bạn cũng có thể đổ cho người xung quanh mỗi khi mình xuống đáy.",
+        "practice": "Ba mươi ngày, mỗi tối chấm tâm trạng của bạn từ 1 tới 10 và ghi một dòng lý do. Cuối kỳ nhìn lại — Thầy sẽ thấy phần lớn lý do không giải thích được biểu đồ.",
+        "questions": [
+          "Quyết định nào bạn đã đưa ra lúc đang ở đỉnh cảm xúc?",
+          "Bạn có đang né một cuộc nói chuyện cần phải có không?"
+        ]
+      },
+      "open": {
+        "tagline": "Cảm xúc bạn đang thấy thường không phải của bạn — bạn chỉ đang khuếch đại nó lên.",
+        "false_pursuit": "Né tránh mọi va chạm và căng thẳng, làm mọi cách để không khí đừng nặng.",
+        "mechanics": "Đám rối mở nghĩa là bạn không có sóng cảm xúc của riêng mình. Bạn hấp thụ sóng của người khác rồi khuếch đại lên — thường mạnh hơn cả bản gốc. Ai đó bực trong phòng, bạn là người thấy nặng nhất, và bạn tưởng đó là mình.",
+        "aligned": "Bạn phân biệt được đâu là cảm xúc của mình và đâu là của người khác. Bạn học được rằng khi rời khỏi phòng thì phần lớn cảm giác đó tan đi — và đó là bằng chứng. Bạn cũng trở thành người đọc được trạng thái cảm xúc của cả một nhóm rất chính xác.",
+        "misaligned": "Bạn né mọi sự thật khó nói để giữ không khí êm. Bạn nói dối cho lành, bạn nhượng bộ, bạn làm hoà sớm trước khi vấn đề được nói ra. Lâu dần bạn mất tiếng nói của chính mình và tích lại một cục uất mà bạn không biết từ đâu.",
+        "practice": "Lần tới khi bạn thấy nặng đột ngột, ra khỏi phòng năm phút. Nếu cảm giác tan, nó không phải của bạn.",
+        "questions": [
+          "Bạn có hay né những cuộc nói chuyện khó không?",
+          "Cảm giác nặng gần nhất của bạn — nó bắt đầu sau khi bạn gặp ai?"
+        ]
+      }
+    },
+    "sacral": {
+      "name_vi": "Trung tâm Xương cùng",
+      "name_en": "Sacral Center",
+      "role": "Nguồn sinh lực — sức làm việc và sức sáng tạo",
+      "gates": [
+        5,
+        14,
+        29,
+        59,
+        9,
+        3,
+        42,
+        27,
+        34
+      ],
+      "defined": {
+        "tagline": "Bạn có sức bền lớn, nhưng chỉ khi nó được dùng đúng chỗ.",
+        "mechanics": "Xương cùng là động cơ có sức bền lớn nhất trong bản đồ. Khi được định nghĩa, bạn có một nguồn năng lượng tái tạo mỗi ngày. Nó không tự khởi động — nó bật lên khi có thứ gì đó bên ngoài chạm vào và bạn phản hồi.",
+        "aligned": "Bạn làm việc mình thật sự muốn làm, và bạn làm được rất nhiều mà không cạn. Bạn đi ngủ khi đã dùng hết năng lượng trong ngày, và bạn ngủ ngon. Cái mệt của bạn là cái mệt dễ chịu.",
+        "misaligned": "Bạn làm việc mà bụng không muốn, và bạn kéo lê từng ngày. Hoặc bạn đi ngủ khi năng lượng chưa dùng hết, rồi trằn trọc. Trạng thái bực bội kéo dài là dấu hiệu rõ nhất.",
+        "practice": "Cuối ngày mai, tự hỏi: hôm nay mình đã dùng hết sức chưa? Nếu chưa, làm một việc chân tay nào đó cho hết trước khi đi ngủ.",
+        "questions": [
+          "Việc bạn làm nhiều nhất hiện nay — bụng bạn có muốn không?",
+          "Bạn đang bực bội với điều gì lâu nhất?"
+        ]
+      },
+      "open": {
+        "tagline": "Bạn không được thiết kế để làm việc liên tục. Biết dừng là kỹ năng sống còn của bạn.",
+        "false_pursuit": "Cố làm cho bằng người khác, cố chứng minh mình cũng bền sức, không dám dừng trước.",
+        "mechanics": "Xương cùng mở nghĩa là bạn không có nguồn sinh lực cố định của riêng mình. Bạn vay năng lượng từ người xung quanh và khuếch đại nó lên — nên ở giữa một tập thể đang chạy, bạn thấy mình cũng chạy được, thậm chí chạy hăng hơn cả họ. Nhưng đó là năng lượng vay.",
+        "aligned": "Bạn học được điểm dừng của mình và dừng trước khi cạn, không đợi tới lúc gục. Bạn sắp xếp công việc theo đợt ngắn thay vì tám tiếng liên tục. Bạn cũng biết mình cần ở một mình một lát trước khi ngủ để năng lượng vay tan ra.",
+        "misaligned": "Bạn cố theo nhịp của người khác cho tới lúc gục. Bạn không biết thế nào là đủ, nên bạn làm quá, ăn quá, cố quá — vì bạn không có cái phanh bên trong. Rồi bạn tự trách mình yếu.",
+        "practice": "Tuần này, dừng công việc sớm hơn mười lăm phút so với lúc bạn thấy cạn. Làm đủ năm ngày rồi so cảm giác cuối tuần.",
+        "questions": [
+          "Bạn có biết điểm dừng của mình ở đâu không?",
+          "Bạn đang cố theo nhịp của ai?"
+        ]
+      }
+    },
+    "root": {
+      "name_vi": "Trung tâm Gốc",
+      "name_en": "Root Center",
+      "role": "Áp lực và đà — thứ đẩy bạn bắt đầu và đẩy bạn đi tiếp",
+      "gates": [
+        53,
+        60,
+        52,
+        19,
+        39,
+        41,
+        58,
+        38,
+        54
+      ],
+      "defined": {
+        "tagline": "Bạn có một nguồn áp lực cố định. Nó đẩy bạn đi, và nó không tắt.",
+        "mechanics": "Gốc vừa là động cơ vừa là trung tâm áp lực. Khi được định nghĩa, bạn mang một mức áp lực nền ổn định suốt đời — thứ khiến bạn luôn có việc phải làm, luôn có cảm giác cần đi tiếp. Đây là nhiên liệu, nhưng nó cũng là thứ khiến bạn khó ngồi yên.",
+        "aligned": "Bạn dùng áp lực đó làm nhiên liệu chứ không để nó điều khiển mình. Bạn nhận ra rằng áp lực sẽ luôn ở đó, làm xong việc này thì nó chuyển sang việc khác — nên bạn thôi đuổi theo cái ngày mọi thứ xong xuôi.",
+        "misaligned": "Bạn vội vàng làm cho xong để được thảnh thơi, rồi phát hiện áp lực không giảm. Bạn ép cả người quanh mình chạy theo nhịp đó mà không nhận ra.",
+        "practice": "Viết ra danh sách việc đang đè bạn. Chọn ra ba việc và gạch phần còn lại khỏi tuần này. Xem áp lực có giảm không — câu trả lời sẽ dạy bạn nhiều.",
+        "questions": [
+          "Bạn đang vội vì việc thật sự gấp, hay vì bạn quen vội?",
+          "Nếu làm xong hết mọi thứ, bạn tin là mình sẽ thảnh thơi chứ?"
+        ]
+      },
+      "open": {
+        "tagline": "Sự vội vã bạn đang thấy phần lớn không phải của bạn.",
+        "false_pursuit": "Cố làm cho xong thật nhanh để thoát khỏi áp lực — trong khi áp lực đó là vay của người khác.",
+        "mechanics": "Gốc mở nghĩa là bạn không có áp lực nền cố định. Bạn hấp thụ sự gấp gáp của người xung quanh rồi khuếch đại lên. Một tin nhắn của sếp, một người bạn đang cuống — bạn nhận vào và thấy như chính mình đang cháy.",
+        "aligned": "Bạn dừng lại và hỏi việc này có thật sự gấp không, trước khi lao đi. Bạn nhận ra rằng khi rời khỏi nguồn áp lực, sự vội vã tan mất — và đó là bằng chứng nó không phải của bạn. Bạn làm ít việc hơn nhưng làm ra hồn hơn.",
+        "misaligned": "Bạn sống trong trạng thái lúc nào cũng gấp, làm vội cho xong việc này để sang việc khác, và không bao giờ tới được chỗ thảnh thơi. Bạn nhận thêm việc vì không chịu nổi cảm giác có thứ đang treo.",
+        "practice": "Lần tới nhận một yêu cầu gấp, hỏi lại đúng một câu: \"Việc này cần xong lúc nào?\" Rất nhiều lần câu trả lời sẽ không gấp như bạn tưởng.",
+        "questions": [
+          "Việc bạn đang thấy gấp nhất — ai là người đặt cái hạn đó?",
+          "Bạn có nhận thêm việc chỉ để hết cảm giác có thứ đang treo không?"
+        ]
+      }
+    }
+  },
+  "gates": {
+    "1": {
+      "name_vi": "Biểu đạt cái riêng",
+      "kenh": "1-8 (Cảm hứng) — nối lên Cổ họng",
+      "tagline": "Bạn có một thứ chỉ mình bạn làm được. Nó không đến theo lịch.",
+      "mechanics": "Cổng 1 là nguồn sáng tạo thuần khiết trong bản đồ, quẻ gốc là Càn — trời, sức sáng tạo thuần dương. Đây là cổng của cái độc đáo cá nhân: thứ bạn tạo ra mang dấu vân tay riêng không lẫn được. Cổng 1 nối với cổng 8 ở Cổ họng — cổng 1 tạo ra, cổng 8 mang nó ra thế giới.",
+      "aligned": "Bạn để cái sáng tạo đến theo nhịp của nó, không ép. Bạn cũng không đợi ai cho phép mới làm cái của mình. Khi tới lúc, bạn tạo ra thứ không ai bắt chước được, và người ta nhận ra ngay đó là của bạn.",
+      "misaligned": "Bạn ép mình phải sáng tạo theo lịch, rồi ra một thứ nhạt. Hoặc bạn giữ cái của mình lại vì sợ không đủ hay, và nó nằm im mãi. Cổng 1 lệch hướng cũng dễ rơi vào trạng thái buồn sâu — cảm giác có điều gì trong mình mà không đưa ra được.",
+      "practice": "Dành mỗi ngày ba mươi phút cho việc sáng tạo của bạn, không đặt mục tiêu phải ra kết quả. Làm ba mươi ngày rồi nhìn lại.",
+      "questions": [
+        "Bạn đang giữ lại thứ gì vì sợ nó chưa đủ hay?",
+        "Lần cuối bạn làm một thứ chỉ vì mình muốn làm là khi nào?"
+      ],
+      "gate": 1,
+      "name_en": "Self-Expression",
+      "iching": {
+        "que_so": 1,
+        "ten_han_viet": "Càn",
+        "nghia_goc": "Trời, sức sáng tạo thuần dương",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "2": {
+      "name_vi": "Hướng đi",
+      "kenh": "2-14 (Nhịp đập) — nối xuống Xương cùng",
+      "tagline": "Bạn biết đường phải đi, nhưng bạn cần người khác cung cấp nhiên liệu.",
+      "mechanics": "Cổng 2 là hướng đi của bản thể, quẻ gốc là Khôn — đất, sức thụ nhận. Đây là cổng tiếp nhận: nó biết phải đi đâu nhưng tự nó không có động lực. Nối với cổng 14 ở Xương cùng thành kênh Nhịp đập — cổng 14 mang nhiên liệu, cổng 2 chỉ hướng.",
+      "aligned": "Bạn tin vào cảm thức phương hướng của mình, kể cả khi chưa giải thích được. Bạn cũng chấp nhận rằng mình cần người khác hoặc hoàn cảnh mang tới nguồn lực, và bạn không thấy đó là yếu. Việc của bạn là chỉ đường, không phải kéo xe.",
+      "misaligned": "Bạn ép mình phải tự lo hết, rồi cạn. Hoặc bạn để người khác quyết hướng đi thay mình vì nghĩ họ chắc chắn hơn — và bạn đi một con đường không phải của mình.",
+      "practice": "Viết ra hướng bạn muốn đi trong năm năm tới. Rồi liệt kê ba người có thể mang tới nguồn lực. Nói chuyện với một người.",
+      "questions": [
+        "Bạn có đang tự lo hết mọi thứ không?",
+        "Hướng bạn đang đi là của bạn hay của ai?"
+      ],
+      "gate": 2,
+      "name_en": "Direction of the Self",
+      "iching": {
+        "que_so": 2,
+        "ten_han_viet": "Khôn",
+        "nghia_goc": "Đất, sức thụ nhận, chở che",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "3": {
+      "name_vi": "Sắp xếp cái mới",
+      "kenh": "3-60 (Đột biến) — nối xuống Gốc",
+      "tagline": "Khởi đầu nào cũng lộn xộn. Việc của bạn là chịu được đoạn lộn xộn đó.",
+      "mechanics": "Cổng 3 là năng lượng đưa trật tự vào một khởi đầu hỗn loạn, quẻ gốc là Truân — khó khăn buổi đầu, mầm chưa nhú lên khỏi đất. Hệ thống mô tả cổng này là nguồn của đột biến: cái mới luôn ra đời trong lộn xộn. Nối với cổng 60 ở Gốc.",
+      "aligned": "Bạn chịu được giai đoạn đầu lộn xộn mà không bỏ cuộc, và bạn dần đưa nó vào trật tự. Bạn cũng hiểu rằng cái mới cần thời gian riêng của nó, thúc không nhanh hơn được.",
+      "misaligned": "Bạn bỏ cuộc ngay khi thấy lộn xộn, và không cái mới nào của bạn sống nổi qua tháng đầu. Hoặc bạn thất vọng nặng vì thúc mãi mà không nhúc nhích.",
+      "practice": "Việc mới bạn đang làm — đặt cho nó một khoảng thời gian tối thiểu trước khi được phép đánh giá. Ba tháng là hợp lý.",
+      "questions": [
+        "Bạn đã bỏ dở bao nhiêu khởi đầu ngay ở đoạn lộn xộn?",
+        "Bạn đang thúc điều gì mà nó chưa tới lúc?"
+      ],
+      "gate": 3,
+      "name_en": "Ordering",
+      "iching": {
+        "que_so": 3,
+        "ten_han_viet": "Truân",
+        "nghia_goc": "Khó khăn buổi đầu, mầm chưa nhú",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "4": {
+      "name_vi": "Công thức",
+      "kenh": "4-63 (Logic) — nối lên Đầu",
+      "tagline": "Bạn đưa ra câu trả lời có thể sai — và đó chính là việc của bạn.",
+      "mechanics": "Cổng 4 nhận nghi ngờ từ cổng 63 và đáp lại bằng một công thức, một cách giải thích khả dĩ. Quẻ gốc là Mông — non dại, cần được dạy. Điểm cốt lõi: câu trả lời của cổng 4 là **giả thuyết**, chưa phải sự thật. Nó cần thời gian và thực tế kiểm chứng.",
+      "aligned": "Bạn đưa ra cách giải thích của mình mà không tuyên bố đó là chân lý. Bạn nói \"thử cách này xem\" thay vì \"phải làm thế này\". Bạn trở thành người giải quyết vấn đề rất hữu ích vì bạn luôn có sẵn một hướng để thử.",
+      "misaligned": "Bạn tin công thức của mình là đúng rồi áp lên người khác, hoặc lên chính đời mình, mà chưa kiểm chứng. Bạn cũng dễ rơi vào trạng thái đầu óc mệt nhoài vì lúc nào cũng phải có câu trả lời cho một nghi ngờ nào đó.",
+      "practice": "Lần tới khi bạn đưa ra một giải pháp, thêm vào câu \"đây là giả thuyết của mình, chưa chắc đúng\". Xem người nghe phản ứng khác thế nào.",
+      "questions": [
+        "Bạn đang áp công thức nào lên đời mình mà chưa kiểm chứng?",
+        "Bạn có mệt đầu vì lúc nào cũng phải có câu trả lời không?"
+      ],
+      "gate": 4,
+      "name_en": "Formulization",
+      "iching": {
+        "que_so": 4,
+        "ten_han_viet": "Mông",
+        "nghia_goc": "Non dại, cần được dạy",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "5": {
+      "name_vi": "Nhịp cố định",
+      "kenh": "5-15 (Nhịp điệu) — nối lên Trung tâm G",
+      "tagline": "Bạn cần nhịp riêng của mình. Phá nhịp là phá bạn.",
+      "mechanics": "Cổng 5 là nhịp sinh học cố định, quẻ gốc là Nhu — chờ đợi, nuôi dưỡng đúng lúc. Hệ thống mô tả cổng này gắn với thói quen đều đặn: giờ dậy, giờ ăn, giờ làm. Đây không phải sự cứng nhắc mà là cách năng lượng bạn vận hành. Nối với cổng 15 ở Trung tâm G.",
+      "aligned": "Bạn giữ được nhịp riêng và bảo vệ nó. Bạn cũng biết chờ đúng lúc thay vì cố ép mọi thứ nhanh lên. Người có cổng này khi giữ được nhịp thì rất bền, làm được việc dài hơi mà người khác bỏ cuộc.",
+      "misaligned": "Bạn để lịch của người khác phá nhịp mình liên tục, rồi thấy trong người lệch lạc mà không hiểu vì sao. Hoặc bạn giữ nhịp một cách cứng nhắc tới mức không xoay xở được khi cần.",
+      "practice": "Xác định ba mốc giờ quan trọng nhất trong ngày của bạn. Bảo vệ chúng trong hai tuần, kể cả khi có người rủ.",
+      "questions": [
+        "Nhịp thật của bạn là gì, nếu không ai can thiệp?",
+        "Ai hoặc việc gì đang phá nhịp của bạn nhiều nhất?"
+      ],
+      "gate": 5,
+      "name_en": "Fixed Rhythms",
+      "iching": {
+        "que_so": 5,
+        "ten_han_viet": "Nhu",
+        "nghia_goc": "Chờ đợi, nuôi dưỡng đúng lúc",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "6": {
+      "name_vi": "Ma sát",
+      "kenh": "6-59 (Kết đôi) — nối xuống Xương cùng",
+      "tagline": "Bạn có một lớp màng đóng mở. Không phải ai cũng được vào.",
+      "mechanics": "Cổng 6 là ranh giới thân mật, quẻ gốc là Tụng — tranh tụng, xung đột. Hệ thống mô tả cổng này như một lớp màng lọc chạy theo sóng cảm xúc: khi mở, bạn cho người khác vào rất sâu; khi đóng, bạn dựng tường. Đây cũng là nguồn của xung đột trong quan hệ. Nối với cổng 59 ở Xương cùng thành kênh Kết đôi.",
+      "aligned": "Bạn tôn trọng nhịp đóng mở của mình và nói ra cho người thân hiểu. Bạn dùng xung đột đúng cách: không né, nhưng cũng không nổ trong lúc sóng đang cao. Ranh giới rõ ràng của bạn làm quan hệ lành mạnh hơn.",
+      "misaligned": "Bạn nổ ra xung đột ngay khi cảm xúc dâng, rồi hối. Hoặc bạn đóng chặt mãi không cho ai vào, rồi cô đơn trong chính mối quan hệ của mình.",
+      "practice": "Lần tới thấy muốn nổ, viết ra hết những gì muốn nói rồi để đó hai ngày. Đọc lại trước khi nói.",
+      "questions": [
+        "Bạn có hay nổ ra rồi hối không?",
+        "Người thân bạn có hiểu nhịp đóng mở của bạn không?"
+      ],
+      "gate": 6,
+      "name_en": "Friction",
+      "iching": {
+        "que_so": 6,
+        "ten_han_viet": "Tụng",
+        "nghia_goc": "Tranh tụng, xung đột",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "7": {
+      "name_vi": "Vai người dẫn",
+      "kenh": "7-31 (Người dẫn) — nối lên Cổ họng",
+      "tagline": "Bạn dẫn từ phía sau. Người đứng trước chưa chắc là người dẫn.",
+      "mechanics": "Cổng 7 là vai trò lãnh đạo trong mạch tập thể, quẻ gốc là Sư — quân đội và người dẫn quân. Điểm đặc trưng: cổng 7 dẫn ở phía sau, cố vấn cho người đứng trước, chứ không phải người cầm micro. Nối với cổng 31 ở Cổ họng.",
+      "aligned": "Bạn tìm được người đứng trước phù hợp và bạn hỗ trợ họ. Bạn có tầm nhìn về tương lai chung và bạn dùng nó để định hướng. Bạn thoải mái với việc không phải mình là người được vỗ tay.",
+      "misaligned": "Bạn giành lấy vị trí đứng trước rồi thấy nó không hợp. Hoặc bạn ấm ức vì người đứng trước được ghi công trong khi bạn mới là người vạch đường.",
+      "practice": "Nghĩ về người đứng trước trong nhóm của bạn. Tuần này làm một việc cụ thể để họ làm tốt hơn, không cần ai biết là bạn làm.",
+      "questions": [
+        "Bạn có ấm ức vì không được ghi công không?",
+        "Ai là người đứng trước mà bạn đang muốn hỗ trợ?"
+      ],
+      "gate": 7,
+      "name_en": "The Role of the Self",
+      "iching": {
+        "que_so": 7,
+        "ten_han_viet": "Sư",
+        "nghia_goc": "Quân đội, người dẫn quân",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "8": {
+      "name_vi": "Góp phần",
+      "kenh": "8-1 (Cảm hứng) — nối xuống Trung tâm G",
+      "tagline": "Bạn không cần là người sáng tạo. Bạn là người làm cho cái sáng tạo được nhìn thấy.",
+      "mechanics": "Cổng 8 là đóng góp bằng cách làm gương và bằng cách đưa cái độc đáo của người khác ra ánh sáng. Quẻ gốc là Tỷ — thân gần, liên kết. Nối với cổng 1 ở Trung tâm G thành kênh Cảm hứng: cổng 1 tạo ra, cổng 8 mang nó ra thế giới.",
+      "aligned": "Bạn tìm ra người có cái gì đó thật sự riêng và giúp họ được nhìn thấy. Bạn cũng sống theo đúng điều mình tin, và chính điều đó thuyết phục người khác. Đây là cổng của người làm quản lý nghệ sĩ, người biên tập, người dẫn dắt tài năng.",
+      "misaligned": "Bạn cố tỏ ra độc đáo để được chú ý, trong khi việc của bạn là làm cho cái độc đáo của người khác được thấy. Hoặc bạn nói về giá trị mình tin mà không sống theo nó.",
+      "practice": "Chọn một người quanh bạn có tài mà chưa ai biết. Tuần này làm một việc cụ thể để đưa họ ra ánh sáng.",
+      "questions": [
+        "Bạn có đang cố tỏ ra khác biệt thay vì giúp người khác được thấy không?",
+        "Bạn có sống theo đúng điều mình nói không?"
+      ],
+      "gate": 8,
+      "name_en": "Contribution",
+      "iching": {
+        "que_so": 8,
+        "ten_han_viet": "Tỷ",
+        "nghia_goc": "Thân gần, liên kết",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "9": {
+      "name_vi": "Tập trung",
+      "kenh": "9-52 (Chuyên chú) — nối xuống Gốc",
+      "tagline": "Bạn có sức để cắm đầu vào chi tiết rất lâu. Vấn đề là chọn đúng chi tiết.",
+      "mechanics": "Cổng 9 là sức tập trung vào chi tiết, quẻ gốc là Tiểu Súc — chứa nhỏ, tích từng chút. Hệ thống mô tả cổng này là nhiên liệu để đi vào từng phần nhỏ của một việc lớn. Nối với cổng 52 ở Gốc thành kênh Chuyên chú.",
+      "aligned": "Bạn chọn đúng chi tiết đáng chú tâm rồi làm tới nơi. Bạn là người hoàn thiện được những phần mà người khác thấy chán. Sức tập trung này là lợi thế lớn trong bất kỳ nghề nào cần độ chính xác.",
+      "misaligned": "Bạn dồn hết sức vào một chi tiết không quan trọng và bỏ lỡ bức tranh lớn. Hoặc bạn tập trung liên tục không nghỉ rồi cạn.",
+      "practice": "Trước khi cắm đầu vào việc tiếp theo, viết một câu: việc này đóng góp gì cho mục tiêu lớn hơn.",
+      "questions": [
+        "Bạn có đang dồn sức vào chi tiết không quan trọng không?",
+        "Bức tranh lớn của bạn là gì?"
+      ],
+      "gate": 9,
+      "name_en": "Focus",
+      "iching": {
+        "que_so": 9,
+        "ten_han_viet": "Tiểu Súc",
+        "nghia_goc": "Chứa nhỏ, tích từng chút",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "10": {
+      "name_vi": "Cách sống của mình",
+      "kenh": "10-20 (Tỉnh thức) · 10-34 (Thăm dò) · 10-57 (Hình hài) — nối lên Cổ họng, xuống Sacral và Lá lách",
+      "tagline": "Yêu chính mình không phải là một khẩu hiệu. Nó là điều kiện để bạn làm được mọi thứ khác.",
+      "mechanics": "Cổng 10 là cách bạn hành xử và yêu chính mình, quẻ gốc là Lý — bước đi, cách hành xử. Đây là cổng nối được với ba nơi, nên nó xuất hiện rất nhiều trong các bản đồ. Nguyên tắc nền: bạn chỉ sống đúng khi bạn chấp nhận chính mình như đang là.",
+      "aligned": "Bạn sống theo cách của mình mà không cần xin lỗi vì nó. Bạn cũng không cố sửa mình cho vừa khuôn của ai. Người có cổng này khi ổn thì có một sự tự tại rất dễ nhận ra.",
+      "misaligned": "Bạn liên tục cố sửa mình cho hợp với người khác, và mất dần cảm giác mình là ai. Hoặc bạn dùng cái gọi là sống thật với mình để biện minh cho việc làm tổn thương người khác.",
+      "practice": "Viết ra ba điều về bản thân bạn đang cố sửa. Với mỗi cái, hỏi: sửa cho ai?",
+      "questions": [
+        "Bạn đang cố sửa điều gì ở mình, và sửa cho ai?",
+        "Bạn có phải xin lỗi vì cách sống của mình không?"
+      ],
+      "gate": 10,
+      "name_en": "Behaviour of the Self",
+      "iching": {
+        "que_so": 10,
+        "ten_han_viet": "Lý",
+        "nghia_goc": "Bước đi, cách hành xử",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "11": {
+      "name_vi": "Ý tưởng",
+      "kenh": "11-56 (Tò mò) — nối xuống Cổ họng",
+      "tagline": "Ý tưởng đến với bạn không phải để bạn thực hiện. Chúng đến để bạn kể lại.",
+      "mechanics": "Cổng 11 là kho ý tưởng. Đây là một trong những chỗ hay bị hiểu sai nhất trong bản đồ: ý tưởng của cổng 11 **không phải để bạn đi làm**. Chúng là chất liệu để chia sẻ, để truyền cảm hứng cho người khác. Cổng 11 nối với cổng 56 ở Cổ họng, nơi ý tưởng được kể ra thành chuyện.",
+      "aligned": "Bạn nhận ra ý tưởng đến rồi đi như mây, và bạn thoải mái để chúng đi. Bạn kể chúng cho người khác nghe, và người nào cần thì nhặt lấy. Bạn trở thành nguồn cảm hứng mà không phải gánh trách nhiệm thực hiện.",
+      "misaligned": "Bạn thấy một ý tưởng hay rồi lao vào làm, hết ý này tới ý khác, và không cái nào tới nơi. Bạn tự trách mình là người nhiều ý mà không làm được gì. Thật ra bạn đang dùng sai chức năng của cổng này.",
+      "practice": "Lập một cuốn sổ ý tưởng. Ghi vào đó, rồi kể cho ít nhất một người. Không tự nhận làm cái nào trong ba mươi ngày.",
+      "questions": [
+        "Bạn đang ôm bao nhiêu ý tưởng chưa làm, và bạn thấy thế nào về chúng?",
+        "Có ai quanh bạn đang cần đúng cái ý tưởng bạn đang giữ không?"
+      ],
+      "gate": 11,
+      "name_en": "Ideas",
+      "iching": {
+        "que_so": 11,
+        "ten_han_viet": "Thái",
+        "nghia_goc": "Thông suốt, hanh thông",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Thái là thời hanh thông. HD: cổng 11 là kho ý tưởng. Nối được qua ý 'trời đất giao hoà sinh ra cái mới'."
+      }
+    },
+    "12": {
+      "name_vi": "Dè dặt",
+      "kenh": "12-22 (Cởi mở) — nối xuống Đám rối mặt trời",
+      "tagline": "Có lúc bạn nói ra được điều đẹp đẽ nhất. Có lúc bạn không nói nổi một câu.",
+      "mechanics": "Cổng 12 là biểu đạt mang màu cảm xúc. Quẻ gốc là Bĩ — bế tắc, không thông. Cơ chế của cổng này là thất thường theo tâm trạng: cùng một con người, có lúc nói ra lời làm rung động cả phòng, có lúc tắc nghẹn không thốt được. Cổng 12 nối với cổng 22 ở Đám rối mặt trời.",
+      "aligned": "Bạn chấp nhận rằng khả năng nói của mình lên xuống, và bạn chỉ nói khi tâm trạng cho phép. Khi đúng lúc, bạn nói ra được điều mà không ai khác diễn đạt nổi. Đây là cổng của nghệ sĩ, của người viết, của người nói trước đám đông vào đúng khoảnh khắc.",
+      "misaligned": "Bạn ép mình phải nói khi chưa sẵn sàng, rồi ra một thứ nhạt nhẽo hoặc gượng gạo. Hoặc bạn tự trách mình vì hôm nay không nói được như hôm qua, rồi kết luận mình kém.",
+      "practice": "Trước buổi nói quan trọng tiếp theo, nếu thấy trong người không thông, hãy dời lại nếu dời được. Ghi lại kết quả cả hai kiểu.",
+      "questions": [
+        "Bạn có tự trách mình vì hôm nay nói không hay bằng hôm qua không?",
+        "Lần bạn nói hay nhất — lúc đó tâm trạng bạn thế nào?"
+      ],
+      "gate": 12,
+      "name_en": "Caution",
+      "iching": {
+        "que_so": 12,
+        "ten_han_viet": "Bĩ",
+        "nghia_goc": "Bế tắc, không thông",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "13": {
+      "name_vi": "Người lắng nghe",
+      "kenh": "13-33 (Đứa con hoang) — nối lên Cổ họng",
+      "tagline": "Người ta kể cho bạn nghe những điều họ không kể với ai. Đó là gánh nặng lẫn món quà.",
+      "mechanics": "Cổng 13 là nơi thu nhận câu chuyện của người khác, quẻ gốc là Đồng Nhân — hoà đồng với người. Trường năng lượng của cổng này khiến người lạ cũng tự nhiên mở lòng với bạn. Cổng 13 nối với cổng 33 ở Cổ họng, nơi những gì thu nhận được kể lại thành bài học chung.",
+      "aligned": "Bạn nghe mà không phán xét, và bạn biết giữ bí mật. Bạn cũng biết chọn cái gì nên kể lại và cái gì phải chôn. Người ta tìm bạn khi cần một chỗ để nói ra, và điều đó là một vai trò thật.",
+      "misaligned": "Bạn ôm hết chuyện của thiên hạ vào người và nặng dần mà không biết đổ đi đâu. Hoặc bạn kể lại chuyện của người khác không đúng chỗ, và mất luôn lòng tin — với cổng này, mất lòng tin rất khó lấy lại.",
+      "practice": "Sau lần nghe chuyện nặng tiếp theo, viết ra một trang rồi xé đi. Đừng để nó nằm lại trong người.",
+      "questions": [
+        "Bạn đang mang chuyện của ai mà chưa đặt xuống được?",
+        "Có chuyện nào bạn đã kể lại mà đáng ra không nên không?"
+      ],
+      "gate": 13,
+      "name_en": "The Listener",
+      "iching": {
+        "que_so": 13,
+        "ten_han_viet": "Đồng Nhân",
+        "nghia_goc": "Cùng người, hoà đồng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "14": {
+      "name_vi": "Sức làm ra của cải",
+      "kenh": "14-2 (Nhịp đập) — nối lên Trung tâm G",
+      "tagline": "Bạn có sức để tạo ra nguồn lực. Câu hỏi là dùng nó cho hướng nào.",
+      "mechanics": "Cổng 14 là nguồn sức mạnh vật chất trong bản đồ, quẻ gốc là Đại Hữu — có lớn, của cải nhiều. Hệ thống mô tả cổng này là nhiên liệu để làm ra nguồn lực. Nhưng nó không tự biết đi đâu — nó cần cổng 2 ở Trung tâm G chỉ hướng.",
+      "aligned": "Bạn phản hồi đúng thứ đáng làm rồi dồn sức vào đó, và của cải theo sau. Bạn cũng dùng nguồn lực mình tạo ra để hỗ trợ hướng đi mà bạn tin. Người có cổng này thường có khả năng làm ra tiền theo cách khá tự nhiên.",
+      "misaligned": "Bạn dồn sức vào một việc chỉ vì nó ra tiền, không vì nó đúng hướng, rồi giàu mà rỗng. Hoặc bạn có sức mà không biết hướng, và tiêu nó vào những chuyện lặt vặt.",
+      "practice": "Viết ra bạn đang dồn sức nhiều nhất vào đâu. Rồi hỏi: cái này có đưa mình đi đúng hướng mình muốn không?",
+      "questions": [
+        "Bạn đang dồn sức vào việc gì, và vì lý do gì?",
+        "Nếu tiền không phải vấn đề, bạn sẽ dồn sức vào đâu?"
+      ],
+      "gate": 14,
+      "name_en": "Power Skills",
+      "iching": {
+        "que_so": 14,
+        "ten_han_viet": "Đại Hữu",
+        "nghia_goc": "Có lớn, của cải nhiều",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "15": {
+      "name_vi": "Biên độ",
+      "kenh": "15-5 (Nhịp điệu) — nối xuống Xương cùng",
+      "tagline": "Nhịp sống của bạn không đều, và bạn không cần phải làm cho nó đều.",
+      "mechanics": "Cổng 15 là biên độ cực đoan trong nhịp sống, cùng với tình yêu dành cho nhân loại nói chung. Đây là cổng lệch nhiều so với gốc Kinh Dịch: quẻ Khiêm nghĩa là khiêm nhường, còn hệ thống lại dùng cổng này cho sự dao động lớn. Nối với cổng 5 ở Xương cùng.",
+      "aligned": "Bạn chấp nhận rằng có giai đoạn mình dậy sớm chăm chỉ, có giai đoạn mình lộn xộn — và cả hai đều là mình. Bạn không ép bản thân vào một khuôn giờ giấc cố định. Bạn cũng có sức chứa lớn với những kiểu người rất khác mình.",
+      "misaligned": "Bạn cố sống theo nhịp đều đặn của người khác, rồi thấy mình luôn thất bại trong việc giữ kỷ luật. Hoặc bạn để biên độ đó kéo mình đi quá xa về một phía mà không tự kéo lại.",
+      "practice": "Ghi nhật ký giờ giấc trong ba mươi ngày. Bạn sẽ thấy nhịp thật của mình, không phải nhịp bạn nghĩ mình nên có.",
+      "questions": [
+        "Bạn có tự trách mình vì không giữ được giờ giấc đều không?",
+        "Nhịp thật của bạn là gì, nếu không ai bắt bạn phải theo ai?"
+      ],
+      "gate": 15,
+      "name_en": "Extremes",
+      "iching": {
+        "que_so": 15,
+        "ten_han_viet": "Khiêm",
+        "nghia_goc": "Khiêm nhường",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Khiêm là khiêm nhường. HD: cổng 15 là biên độ cực đoan trong nhịp sống. Hai nghĩa gần như không gặp nhau."
+      }
+    },
+    "16": {
+      "name_vi": "Nhiệt tình",
+      "kenh": "16-48 (Bước sóng) — nối xuống Lá lách",
+      "tagline": "Bạn nhảy vào trước, rồi mới học cách làm. Cần một chút nền, không cần chờ đủ.",
+      "mechanics": "Cổng 16 là sự hăng hái nhảy vào thử. Quẻ gốc là Dự — vui vẻ, hăng hái chuẩn bị. Nối với cổng 48 ở Lá lách thành kênh Bước sóng: cổng 48 là chiều sâu năng lực, cổng 16 là sự nhiệt tình đưa chiều sâu đó ra thành kỹ năng thực.",
+      "aligned": "Bạn để sự nhiệt tình dẫn mình vào một thứ, rồi kiên trì luyện tập cho tới khi thành thạo thật. Nhiệt tình của bạn cũng lây sang người khác — bạn làm cả nhóm muốn thử.",
+      "misaligned": "Bạn hăng hái nhảy vào rồi bỏ khi hết hứng, hết lần này tới lần khác. Hoặc bạn giả vờ hăng hái với thứ mình không thật sự muốn, và người tinh ý nhận ra ngay.",
+      "practice": "Chọn một kỹ năng bạn từng hào hứng rồi bỏ dở. Cam kết luyện lại ba mươi ngày, mỗi ngày mười lăm phút.",
+      "questions": [
+        "Bạn đã bỏ dở bao nhiêu thứ ngay sau khi hết hứng?",
+        "Bạn có đang giả vờ hào hứng với việc gì không?"
+      ],
+      "gate": 16,
+      "name_en": "Skills",
+      "iching": {
+        "que_so": 16,
+        "ten_han_viet": "Dự",
+        "nghia_goc": "Vui vẻ, hăng hái chuẩn bị",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "17": {
+      "name_vi": "Ý kiến",
+      "kenh": "17-62 (Chấp nhận) — nối xuống Cổ họng",
+      "tagline": "Bạn luôn có ý kiến. Ý kiến không phải sự thật, và đó là điều bạn cần nhớ nhất.",
+      "mechanics": "Cổng 17 sinh ra ý kiến dựa trên mạch logic. Đây là cổng có độ lệch lớn nhất so với gốc Kinh Dịch: quẻ Tùy nghĩa là thuận theo, còn Human Design lại dùng cổng này làm nơi đưa ra quan điểm của riêng mình. Cổng 17 nối với cổng 62 ở Cổ họng, nơi ý kiến được diễn đạt thành chi tiết cụ thể.",
+      "aligned": "Bạn chờ được hỏi rồi mới đưa ý kiến, và bạn nói rõ đó là ý kiến chứ không phải kết luận. Ý kiến của bạn có giá trị vì nó dựa trên mẫu hình bạn đã quan sát. Người ta tìm bạn khi cần một góc nhìn có cơ sở.",
+      "misaligned": "Bạn đưa ý kiến cho mọi thứ dù không ai hỏi, và dần dần người ta ngại nói chuyện với bạn. Hoặc bạn nhầm ý kiến của mình là sự thật rồi tranh cãi để bảo vệ nó.",
+      "practice": "Trong ba ngày, đếm số lần bạn đưa ý kiến khi không ai hỏi. Chỉ đếm, không sửa. Con số sẽ nói cho bạn nghe.",
+      "questions": [
+        "Bạn có hay đưa ý kiến khi không được hỏi không?",
+        "Ý kiến nào của bạn đang được bạn coi như sự thật?"
+      ],
+      "gate": 17,
+      "name_en": "Opinions",
+      "iching": {
+        "que_so": 17,
+        "ten_han_viet": "Tùy",
+        "nghia_goc": "Theo, thuận theo",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Tùy là thuận theo. HD: cổng 17 là ý kiến, quan điểm. HD đảo chiều: từ theo người thành đưa ra cái của mình."
+      }
+    },
+    "18": {
+      "name_vi": "Sửa cho đúng",
+      "kenh": "18-58 (Phán xét) — nối xuống Gốc",
+      "tagline": "Bạn nhìn ra chỗ hỏng ngay lập tức. Cách bạn nói về nó quyết định tất cả.",
+      "mechanics": "Cổng 18 là bản năng phát hiện chỗ chưa hoàn thiện, quẻ gốc là Cổ — đồ vật đã hỏng cần sửa. Nỗi sợ gốc là sợ uy quyền: hệ thống mô tả cổng này thường bắt đầu bằng việc thách thức những gì cha mẹ và bề trên đặt ra. Nối với cổng 58 ở Gốc thành kênh Phán xét.",
+      "aligned": "Bạn chỉ ra chỗ hỏng khi có người hỏi, và bạn chỉ vào việc chứ không vào người. Bạn trở thành người làm cho mọi thứ tốt lên thật sự. Bạn cũng phân biệt được đâu là chỗ đáng sửa và đâu là chỗ chỉ khác ý mình.",
+      "misaligned": "Bạn chỉ trích liên tục dù không ai hỏi, và dần dần người ta tránh bạn. Hoặc bạn quay sự phê phán vào chính mình, và tự soi mòn lòng tự trọng của mình từng ngày.",
+      "practice": "Ba ngày liền, mỗi lần định chỉ ra chỗ sai, hỏi thầm: người này có đang hỏi mình không? Nếu không, giữ lại.",
+      "questions": [
+        "Bạn có hay chỉ trích khi không ai hỏi không?",
+        "Bạn đang phê phán chính mình về điều gì?"
+      ],
+      "gate": 18,
+      "name_en": "Correction",
+      "iching": {
+        "que_so": 18,
+        "ten_han_viet": "Cổ",
+        "nghia_goc": "Đồ hỏng cần sửa",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "19": {
+      "name_vi": "Cần được đáp ứng",
+      "kenh": "19-49 (Tổng hợp) — nối lên Đám rối mặt trời",
+      "tagline": "Bạn cảm được nhóm mình đang thiếu gì, trước cả khi ai nói ra.",
+      "mechanics": "Cổng 19 là áp lực nhận biết nhu cầu vật chất và tình cảm của nhóm, quẻ gốc là Lâm — đến gần, tiếp cận. Đây là cổng thuộc mạch bộ tộc: nó nhạy với việc ai đang cần gì, ai đang thiếu chỗ dựa. Nối với cổng 49 ở Đám rối mặt trời.",
+      "aligned": "Bạn nói ra nhu cầu của mình thay vì chờ người khác đoán. Bạn cũng đọc được nhu cầu của nhóm và đáp ứng đúng chỗ. Đây là cổng của người giữ cho một cộng đồng không ai bị bỏ rơi.",
+      "misaligned": "Bạn nhạy với nhu cầu của mọi người nhưng không nói ra nhu cầu của mình, rồi ấm ức vì không ai để ý tới bạn. Hoặc bạn bám lấy người khác vì sợ bị bỏ rơi, và chính sự bám đó đẩy họ đi.",
+      "practice": "Tuần này nói thẳng một nhu cầu của bạn với người thân, bằng câu đơn giản: mình cần điều này.",
+      "questions": [
+        "Bạn có chờ người khác đoán ra nhu cầu của mình không?",
+        "Bạn đang bám vào ai vì sợ bị bỏ rơi?"
+      ],
+      "gate": 19,
+      "name_en": "Wanting",
+      "iching": {
+        "que_so": 19,
+        "ten_han_viet": "Lâm",
+        "nghia_goc": "Đến gần, tiếp cận",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "20": {
+      "name_vi": "Ngay bây giờ",
+      "kenh": "20-34 (Sức hút) · 20-57 (Sóng não) · 20-10 (Tỉnh thức) — nối xuống Sacral, Lá lách, G",
+      "tagline": "Bạn nói ra điều đang xảy ra ngay lúc này, không phải hôm qua hay ngày mai.",
+      "mechanics": "Cổng 20 là biểu đạt của khoảnh khắc hiện tại. Quẻ gốc là Quán — quan sát, chiêm ngưỡng. Đây là cổng nối được với nhiều nơi nhất trong Cổ họng: với Xương cùng thành sức hút, với Lá lách thành trực giác nói thành lời, với Trung tâm G thành sự tỉnh thức trong hành xử.",
+      "aligned": "Bạn nói cái đang thật ở thời điểm này, và điều đó tạo ra sức hút tự nhiên. Người ta chú ý tới bạn không vì bạn cố gây chú ý mà vì bạn đang thật sự có mặt ở đây.",
+      "misaligned": "Bạn nói về hiện tại nhưng đầu đang ở chỗ khác, và người nghe cảm được sự giả. Hoặc bạn buột miệng nói ra mọi thứ vừa hiện lên mà không lọc, gây rắc rối cho chính mình.",
+      "practice": "Trong một cuộc trò chuyện tuần này, tắt điện thoại và chỉ ở đó. Để ý xem cuộc nói chuyện khác đi thế nào.",
+      "questions": [
+        "Khi nói chuyện với người khác, đầu bạn có thật sự ở đó không?",
+        "Bạn có hay buột miệng nói ra thứ chưa kịp lọc không?"
+      ],
+      "gate": 20,
+      "name_en": "The Now",
+      "iching": {
+        "que_so": 20,
+        "ten_han_viet": "Quán",
+        "nghia_goc": "Quan sát, chiêm ngưỡng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "21": {
+      "name_vi": "Người săn",
+      "kenh": "21-45 (Tiền bạc) — nối lên Cổ họng",
+      "tagline": "Bạn cần kiểm soát địa hạt của mình. Vấn đề là bạn thường muốn kiểm soát cả những chỗ không phải của mình.",
+      "mechanics": "Cổng 21 là ý chí kiểm soát tài nguyên và lãnh thổ, quẻ gốc là Phệ Hạp — cắn xuyên, dùng hình phạt. Đây là một động cơ ý chí thật: bạn có sức để giành và giữ. Nối với cổng 45 ở Cổ họng thành kênh Tiền bạc.",
+      "aligned": "Bạn kiểm soát đúng phần việc và tài sản thuộc về mình, và bạn làm tốt. Bạn cũng buông những chỗ không phải của mình. Khi bạn được quyền tự quyết trong địa hạt của mình, bạn làm ra kết quả rất mạnh.",
+      "misaligned": "Bạn kiểm soát người và việc không phải của mình, rồi vấp phải sự chống đối liên tục. Hoặc bạn bị người khác kiểm soát và bạn phản kháng dữ dội — cổng 21 rất khó chịu khi bị chỉ đạo.",
+      "practice": "Vẽ ra ranh giới địa hạt của bạn trên giấy: việc nào là của mình, việc nào không. Buông một việc nằm ngoài ranh giới đó.",
+      "questions": [
+        "Bạn đang cố kiểm soát điều gì không thuộc về mình?",
+        "Ai đang chỉ đạo bạn, và bạn phản ứng thế nào?"
+      ],
+      "gate": 21,
+      "name_en": "The Hunter",
+      "iching": {
+        "que_so": 21,
+        "ten_han_viet": "Phệ Hạp",
+        "nghia_goc": "Cắn xuyên, dùng hình phạt",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "22": {
+      "name_vi": "Cởi mở",
+      "kenh": "22-12 (Cởi mở) — nối lên Cổ họng",
+      "tagline": "Có hôm bạn duyên dáng với cả thế giới. Có hôm bạn không muốn gặp ai. Cả hai đều đúng.",
+      "mechanics": "Cổng 22 là sự cởi mở trong giao tiếp mang màu cảm xúc, quẻ gốc là Bí — trang sức, vẻ đẹp bên ngoài. Hệ thống mô tả cổng này chạy theo sóng: khi sóng lên, bạn có duyên và lắng nghe được người khác; khi sóng xuống, bạn đóng lại hoàn toàn. Nối với cổng 12 ở Cổ họng.",
+      "aligned": "Bạn nhận ra nhịp của mình và sắp xếp việc gặp gỡ theo nhịp đó. Khi đang mở, bạn nghe được câu chuyện của người khác ở tầng sâu và họ cảm được điều đó. Khi đang đóng, bạn cho mình được đóng mà không phải xin lỗi.",
+      "misaligned": "Bạn ép mình phải xã giao khi đang đóng, rồi gượng gạo và mệt. Hoặc bạn tự trách mình là người thất thường, khó chơi — trong khi đó chỉ là cơ chế của cổng đang chạy.",
+      "practice": "Trước cuộc hẹn tiếp theo, tự chấm mình đang mở hay đóng. Nếu đóng và dời được thì dời. Ghi lại kết quả cả hai kiểu.",
+      "questions": [
+        "Bạn có tự trách mình vì hôm nay không dễ chịu như hôm qua không?",
+        "Bạn có đang ép mình xã giao khi trong người không muốn không?"
+      ],
+      "gate": 22,
+      "name_en": "Openness",
+      "iching": {
+        "que_so": 22,
+        "ten_han_viet": "Bí",
+        "nghia_goc": "Trang sức, vẻ đẹp bên ngoài",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "23": {
+      "name_vi": "Nói cho hiểu",
+      "kenh": "23-43 (Cấu trúc) — nối lên Ajna",
+      "tagline": "Cùng một ý, bạn nói lúc đúng thì thành thiên tài, nói lúc sai thì thành kẻ lập dị.",
+      "mechanics": "Cổng 23 biến cái biết thô của cổng 43 thành ngôn ngữ người khác hiểu được. Quẻ gốc là Bác — bóc mòn, tách ra; ở đây là bóc lớp vỏ để lộ cái bên trong. Điểm quyết định của cổng này là **thời điểm**, không phải nội dung.",
+      "aligned": "Bạn giữ im cho tới khi có người hỏi, rồi nói ra rõ ràng và gọn. Cái bạn nói làm người nghe thấy sáng ra một chuyện họ vốn mơ hồ. Bạn trở thành người diễn đạt được điều khó nói.",
+      "misaligned": "Bạn nói ra khi chưa ai sẵn sàng nghe, và bị gạt đi. Rồi bạn cố giải thích thêm, càng giải thích càng bị coi là lạ. Cảm giác không ai hiểu mình là dấu hiệu rất quen của cổng 23 lệch hướng.",
+      "practice": "Điều bạn đang muốn nói với ai đó — hãy giữ lại tới khi họ hỏi. Nếu một tháng không ai hỏi, viết nó ra thay vì nói.",
+      "questions": [
+        "Bạn có hay nói ra rồi thấy không ai đón nhận không?",
+        "Bạn đang chờ ai hỏi mình điều gì?"
+      ],
+      "gate": 23,
+      "name_en": "Assimilation",
+      "iching": {
+        "que_so": 23,
+        "ten_han_viet": "Bác",
+        "nghia_goc": "Bóc mòn, tan rã",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Bác là bóc mòn tan rã. HD: cổng 23 là năng lực diễn đạt cái mới thành lời. Nối qua ý 'bóc lớp vỏ để lộ ra bên trong'."
+      }
+    },
+    "24": {
+      "name_vi": "Quay lại",
+      "kenh": "24-61 (Nhận biết) — nối lên Đầu",
+      "tagline": "Cùng một câu hỏi quay lại mãi, cho tới ngày nó tự mở ra.",
+      "mechanics": "Cổng 24 nhận áp lực từ cổng 61 và biến nó thành một vòng lặp suy ngẫm. Quẻ gốc là Phục — trở lại. Bạn quay về cùng một câu hỏi hết lần này tới lần khác, mỗi lần nhìn từ một góc hơi khác, cho tới khi một ngày nó vỡ ra thành cái hiểu.",
+      "aligned": "Bạn cho phép mình quay lại mà không thấy mình lì lợm hay lẩn quẩn. Bạn biết rằng cái hiểu sẽ đến đúng lúc nó đến. Người có cổng này thường là người đào rất sâu một chủ đề trong nhiều năm, và cuối cùng nói ra được điều mà người lướt qua không thấy.",
+      "misaligned": "Bạn tự trách mình vì cứ nghĩ mãi một chuyện. Hoặc bạn cưỡng lại vòng lặp đó, cố quên đi, và câu hỏi chỉ chìm xuống rồi nổi lên mạnh hơn. Cổng 24 lệch hướng cũng dễ biến thành thói nghiện — cứ quay lại một hành vi cũ dù biết không tốt.",
+      "practice": "Chọn câu hỏi hay quay lại nhất với bạn. Mỗi tuần viết một đoạn ngắn về nó, không cần kết luận. Làm mười tuần.",
+      "questions": [
+        "Chuyện gì bạn nghĩ đi nghĩ lại nhiều năm rồi?",
+        "Có hành vi nào bạn cứ quay lại dù biết nó không tốt cho mình không?"
+      ],
+      "gate": 24,
+      "name_en": "Rationalization",
+      "iching": {
+        "que_so": 24,
+        "ten_han_viet": "Phục",
+        "nghia_goc": "Trở lại, quay về",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "25": {
+      "name_vi": "Tinh thần hồn nhiên",
+      "kenh": "25-51 (Khởi phát) — nối sang Tim",
+      "tagline": "Bạn yêu mọi thứ như nhau, và điều đó làm người thân bạn khó hiểu.",
+      "mechanics": "Cổng 25 là tình yêu vô điều kiện, không phân biệt đối tượng — quẻ gốc là Vô Vọng, không càn bậy, hồn nhiên chân thật. Đây là tình yêu ở tầng phổ quát, hướng về sự sống nói chung chứ không hướng vào một người cụ thể. Nối với cổng 51 ở Tim thành kênh Khởi phát.",
+      "aligned": "Bạn giữ được sự hồn nhiên đó qua các cú sốc của đời. Bạn đối xử với con chó ngoài đường cũng như với người quan trọng, và điều đó tạo ra một trường rất trong. Bạn cũng chấp nhận được rằng người thân đôi khi thấy tổn thương vì bạn không dành riêng cho họ.",
+      "misaligned": "Bạn cứng lại sau vài lần bị tổn thương và mất đi sự hồn nhiên. Hoặc bạn dùng tình yêu phổ quát làm cớ để không cam kết sâu với ai.",
+      "practice": "Tuần này làm một việc tử tế cho một người hoàn toàn không liên quan tới bạn, không cho ai biết.",
+      "questions": [
+        "Bạn có cứng lại sau lần tổn thương nào không?",
+        "Người thân bạn có thấy bạn xa cách không?"
+      ],
+      "gate": 25,
+      "name_en": "Spirit of the Self",
+      "iching": {
+        "que_so": 25,
+        "ten_han_viet": "Vô Vọng",
+        "nghia_goc": "Không càn bậy, hồn nhiên chân thật",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "26": {
+      "name_vi": "Người thuyết phục",
+      "kenh": "26-44 (Buông bỏ) — nối xuống Lá lách",
+      "tagline": "Bạn nhớ mọi thứ và bạn kể lại rất hay. Ranh giới giữa kể hay và nói quá rất mỏng.",
+      "mechanics": "Cổng 26 là ý chí bán hàng và thuyết phục, quẻ gốc là Đại Súc — chứa lớn, tích tụ lớn. Hệ thống mô tả cổng này là nơi ký ức được nén lại rồi bung ra thành câu chuyện có sức thuyết phục. Nối với cổng 44 ở Lá lách.",
+      "aligned": "Bạn kể lại điều mình thật sự tin và bạn làm người ta tin theo. Bạn biết cách trình bày giá trị của một thứ mà không cần bịa. Đây là cổng rất mạnh cho người bán hàng, người làm thương hiệu, người gọi vốn.",
+      "misaligned": "Bạn nói quá lên để bán được, rồi phải nói dối thêm để đỡ cho lời đầu. Hoặc bạn bán một thứ mình không tin, và ý chí bạn cạn rất nhanh vì nó phải chống lại chính mình.",
+      "practice": "Nhìn lại lời chào bán gần nhất của bạn. Gạch bỏ mọi câu bạn không đặt tay lên ngực khẳng định được.",
+      "questions": [
+        "Bạn có đang nói quá về điều gì không?",
+        "Bạn có thật sự tin vào thứ bạn đang bán không?"
+      ],
+      "gate": 26,
+      "name_en": "The Egoist",
+      "iching": {
+        "que_so": 26,
+        "ten_han_viet": "Đại Súc",
+        "nghia_goc": "Chứa lớn, tích tụ lớn",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "27": {
+      "name_vi": "Chăm sóc",
+      "kenh": "27-50 (Gìn giữ) — nối lên Lá lách",
+      "tagline": "Bạn nuôi người khác rất giỏi. Bạn có nuôi chính mình không?",
+      "mechanics": "Cổng 27 là năng lượng chăm sóc và nuôi dưỡng, quẻ gốc là Di — hàm nuôi dưỡng. Đây là cổng thuộc mạch bộ tộc, gắn với việc nuôi người trong nhóm mình. Nối với cổng 50 ở Lá lách thành kênh Gìn giữ.",
+      "aligned": "Bạn chăm sóc người thật sự cần và thật sự thuộc nhóm mình. Bạn cũng chăm chính mình trước khi chăm người khác. Đây là cổng của người mà cả nhà dựa vào, và họ dựa được vì bạn còn sức.",
+      "misaligned": "Bạn chăm hết mọi người, kể cả những người không nhờ và không thuộc nhóm mình, rồi cạn. Hoặc bạn chăm sóc quá mức tới chỗ người kia không tự lớn lên được.",
+      "practice": "Liệt kê những người bạn đang chăm. Đánh dấu ai thật sự cần và ai đang bị bạn chăm quá. Buông một người ở nhóm hai.",
+      "questions": [
+        "Bạn có đang chăm ai mà họ không nhờ không?",
+        "Ai đang chăm sóc bạn?"
+      ],
+      "gate": 27,
+      "name_en": "Caring",
+      "iching": {
+        "que_so": 27,
+        "ten_han_viet": "Di",
+        "nghia_goc": "Nuôi dưỡng, hàm nuôi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "28": {
+      "name_vi": "Người chơi",
+      "kenh": "28-38 (Vật lộn) — nối xuống Gốc",
+      "tagline": "Bạn đi tìm thứ đáng để đánh đổi cả đời. Cuộc tìm đó chính là ý nghĩa.",
+      "mechanics": "Cổng 28 là bản năng đi tìm điều đáng sống, quẻ gốc là Đại Quá — vượt quá mức chịu đựng. Nỗi sợ gốc là sợ đời mình trôi qua mà vô nghĩa. Hệ thống mô tả cổng này là người sẵn sàng đặt cược lớn. Nối với cổng 38 ở Gốc thành kênh Vật lộn.",
+      "aligned": "Bạn chọn được vài thứ thật sự đáng và bạn dồn hết vào đó. Bạn cũng chấp nhận rằng nhiều cuộc đặt cược sẽ thua, và mỗi lần thua bạn biết thêm cái gì không đáng. Bạn sống một đời có chiều sâu vì bạn dám mất.",
+      "misaligned": "Bạn đặt cược vào mọi thứ một cách bừa bãi, kể cả những chỗ không đáng. Hoặc bạn tê liệt vì nỗi sợ vô nghĩa, không dám chọn gì, và cuối cùng đúng là chẳng có gì.",
+      "practice": "Viết ra một câu: nếu chỉ được dồn hết vào một thứ trong ba năm tới, đó là gì.",
+      "questions": [
+        "Bạn có đang đặt cược vào những chỗ không đáng không?",
+        "Điều gì đáng để bạn dồn hết vào?"
+      ],
+      "gate": 28,
+      "name_en": "The Game Player",
+      "iching": {
+        "que_so": 28,
+        "ten_han_viet": "Đại Quá",
+        "nghia_goc": "Quá lớn, vượt mức chịu đựng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "29": {
+      "name_vi": "Nói có",
+      "kenh": "29-46 (Khám phá) — nối lên Trung tâm G",
+      "tagline": "Bạn nói có rất dễ. Đó vừa là sức mạnh vừa là cái bẫy lớn nhất đời bạn.",
+      "mechanics": "Cổng 29 là năng lượng cam kết, quẻ gốc là Khảm — hiểm, nước sâu lặp lại. Hệ thống mô tả cổng này là sức để đi tới cùng một việc dù không biết trước sẽ ra sao. Điều then chốt: cổng 29 phải nói có từ phản hồi của Xương cùng, không phải từ cái đầu. Nối với cổng 46.",
+      "aligned": "Bạn chỉ cam kết khi bụng thật sự gật, và khi đã gật thì bạn đi tới cùng. Chính khả năng đi tới cùng khi chưa biết kết quả là thứ làm nên trải nghiệm sâu của đời bạn.",
+      "misaligned": "Bạn nói có bằng cái đầu, rồi mắc kẹt trong những cam kết dài mà bụng chưa bao giờ muốn. Đây là cổng dễ dẫn tới kiệt sức nhất trong bản đồ, vì bạn có sức để chịu đựng rất lâu trong thứ sai.",
+      "practice": "Trước cam kết tiếp theo, xin hai mươi tư giờ. Trong lúc đó, để ý bụng mình nói gì mỗi khi nghĩ tới việc đó.",
+      "questions": [
+        "Bạn đang mắc kẹt trong cam kết nào mà bụng chưa bao giờ muốn?",
+        "Bạn có hay nói có cho xong chuyện không?"
+      ],
+      "gate": 29,
+      "name_en": "Perseverance",
+      "iching": {
+        "que_so": 29,
+        "ten_han_viet": "Khảm",
+        "nghia_goc": "Hiểm, nước sâu lặp lại",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "30": {
+      "name_vi": "Khao khát",
+      "kenh": "30-41 (Nhận ra) — nối xuống Gốc",
+      "tagline": "Ngọn lửa muốn có được một thứ. Nó cháy dù bạn có được hay không.",
+      "mechanics": "Cổng 30 là khao khát, quẻ gốc là Ly — lửa, bám vào, cháy sáng. Hệ thống mô tả cổng này là ngọn lửa của ham muốn: nó tạo ra sức nóng để bạn theo đuổi, nhưng nó không tắt khi bạn đạt được. Nối với cổng 41 ở Gốc thành kênh Nhận ra.",
+      "aligned": "Bạn nhận ra khao khát là nhiên liệu chứ không phải mệnh lệnh. Bạn chờ qua sóng cảm xúc rồi mới quyết theo đuổi hay không. Bạn cũng chấp nhận rằng có những khao khát cả đời không thành, và đời bạn vẫn trọn vẹn.",
+      "misaligned": "Bạn đuổi theo mọi khao khát vừa bùng lên, rồi mắc kẹt trong những cam kết do lửa dẫn đường. Hoặc bạn tin rằng đạt được thứ đó sẽ hết cháy — và khi đạt rồi vẫn cháy, bạn hụt hẫng sâu.",
+      "practice": "Viết ra khao khát mạnh nhất hiện giờ. Cất đi ba tuần. Đọc lại xem nó còn nguyên không.",
+      "questions": [
+        "Khao khát nào đang dẫn bạn đi mà bạn chưa kịp xét lại?",
+        "Bạn có tin rằng đạt được nó xong bạn sẽ yên không?"
+      ],
+      "gate": 30,
+      "name_en": "Recognition of Feelings",
+      "iching": {
+        "que_so": 30,
+        "ten_han_viet": "Ly",
+        "nghia_goc": "Lửa, bám vào, sáng rực",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "31": {
+      "name_vi": "Dẫn dắt",
+      "kenh": "31-7 (Người dẫn) — nối xuống Trung tâm G",
+      "tagline": "Bạn nói \"tôi dẫn\" — nhưng chỉ có giá trị khi người ta đã chọn bạn.",
+      "mechanics": "Cổng 31 là tiếng nói của người lãnh đạo trong mạch tập thể. Quẻ gốc là Hàm — cảm ứng, rung động lẫn nhau. Điểm cốt lõi: quyền dẫn dắt của cổng 31 đến từ việc **được bầu**, không phải từ việc bạn tự nhận. Nối với cổng 7 ở Trung tâm G.",
+      "aligned": "Bạn lên tiếng khi nhóm đã tin và đã chọn bạn. Khi đó lời bạn nói ra được cả nhóm đi theo, và bạn dẫn họ tới chỗ tốt hơn. Bạn cũng biết rằng vai trò này không vĩnh viễn — hết nhiệm kỳ thì trả lại.",
+      "misaligned": "Bạn tự nhận vai dẫn khi chưa ai chọn, và nhóm không theo. Hoặc bạn dẫn vì thích quyền chứ không vì lợi ích chung, và người ta rời đi dần.",
+      "practice": "Trong nhóm bạn đang dẫn, hỏi ba người: nếu được chọn lại, họ có chọn bạn không. Nghe mà không thanh minh.",
+      "questions": [
+        "Bạn đang dẫn vì được chọn hay vì bạn tự nhận?",
+        "Bạn dẫn nhóm này vì lợi ích chung hay vì bạn muốn vị trí đó?"
+      ],
+      "gate": 31,
+      "name_en": "Leading",
+      "iching": {
+        "que_so": 31,
+        "ten_han_viet": "Hàm",
+        "nghia_goc": "Cảm ứng, rung động lẫn nhau",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "32": {
+      "name_vi": "Bền bỉ",
+      "kenh": "32-54 (Chuyển hoá) — nối xuống Gốc",
+      "tagline": "Bạn nhìn ra cái gì sẽ trụ được và cái gì sẽ tan. Đó là bản năng, không phải phân tích.",
+      "mechanics": "Cổng 32 là bản năng nhận biết điều gì có khả năng tồn tại lâu dài, quẻ gốc là Hằng — bền lâu. Nỗi sợ gốc là sợ thất bại. Hệ thống mô tả nỗi sợ này là thứ giữ cho người có cổng 32 không đầu tư vào những thứ sẽ sụp. Nối với cổng 54 ở Gốc thành kênh Chuyển hoá.",
+      "aligned": "Bạn dùng bản năng đó để chọn việc đáng làm và bỏ việc không đáng. Bạn kiên trì với thứ bạn cảm được là sẽ trụ. Đây là cổng rất giá trị trong đầu tư và trong xây dựng lâu dài.",
+      "misaligned": "Bạn để nỗi sợ thất bại chặn mọi thứ, không dám bắt đầu gì. Hoặc bạn kiên trì với một thứ mà bản năng đã báo là sẽ không trụ, chỉ vì tiếc công đã bỏ ra.",
+      "practice": "Nhìn vào việc bạn đang cố duy trì lâu nhất. Hỏi bản năng chứ không hỏi lý trí: cái này có trụ được không?",
+      "questions": [
+        "Bạn đang tiếc công mà giữ lại thứ gì?",
+        "Nỗi sợ thất bại đang chặn bạn khỏi việc gì?"
+      ],
+      "gate": 32,
+      "name_en": "Continuity",
+      "iching": {
+        "que_so": 32,
+        "ten_han_viet": "Hằng",
+        "nghia_goc": "Bền lâu, thường hằng",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "33": {
+      "name_vi": "Rút lui và kể lại",
+      "kenh": "33-13 (Đứa con hoang) — nối xuống Trung tâm G",
+      "tagline": "Bạn cần rút đi để tiêu hoá, rồi quay lại kể cho người khác nghe.",
+      "mechanics": "Cổng 33 là nhu cầu rút lui sau một chu kỳ trải nghiệm, để tiêu hoá rồi kể lại. Quẻ gốc là Độn — lui ẩn. Đây là cổng của người giữ ký ức tập thể: bạn nhớ chuyện đã qua và kể lại cho thế hệ sau để họ khỏi lặp lại sai lầm. Nối với cổng 13 ở Trung tâm G.",
+      "aligned": "Bạn cho mình khoảng lặng sau mỗi chặng, không thấy có lỗi vì điều đó. Sau khi rút, bạn quay lại với một câu chuyện có ý nghĩa. Bạn cũng biết giữ bí mật của người khác, vì cổng này gắn với việc biết cái gì nên kể và cái gì không.",
+      "misaligned": "Bạn không cho mình rút, chạy liên tục, và không bao giờ tiêu hoá được gì. Hoặc bạn rút đi rồi không quay lại, giữ hết cho riêng mình.",
+      "practice": "Sau việc lớn gần nhất, dành trọn một ngày không gặp ai. Cuối ngày viết ra điều bạn rút được.",
+      "questions": [
+        "Bạn có cho mình khoảng lặng sau mỗi chặng không?",
+        "Có câu chuyện nào bạn đang giữ mà đáng ra nên kể cho ai đó?"
+      ],
+      "gate": 33,
+      "name_en": "Privacy",
+      "iching": {
+        "que_so": 33,
+        "ten_han_viet": "Độn",
+        "nghia_goc": "Lui ẩn, rút đi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "34": {
+      "name_vi": "Sức mạnh",
+      "kenh": "34-10 (Thăm dò) · 34-20 (Sức hút) · 34-57 (Sức mạnh) — nối sang G, Cổ họng, Lá lách",
+      "tagline": "Bạn có sức để làm việc một mình rất lâu. Sức đó không phải để phục vụ ai.",
+      "mechanics": "Cổng 34 là nguồn sức mạnh thuần khiết nhất trong bản đồ, quẻ gốc là Đại Tráng — lớn mạnh, sức thịnh. Hệ thống mô tả cổng này là năng lượng bận rộn, luôn có việc để làm. Điểm đặc trưng: sức của cổng 34 mạnh nhất khi người đó làm việc một mình cho việc của chính mình.",
+      "aligned": "Bạn dùng sức của mình cho việc của mình, và bạn có mặt để hỗ trợ người khác khi họ hỏi. Bạn bận rộn theo cách có hướng. Người có cổng này khi ổn thì tạo ra một trường rất mạnh, người khác đứng gần cũng thấy hăng lên.",
+      "misaligned": "Bạn dồn sức vào việc của người khác và cạn, trong khi việc của mình nằm im. Hoặc bạn bận rộn liên tục mà không đi tới đâu — bận cho có bận.",
+      "practice": "Tuần này dành trọn một buổi làm việc của riêng bạn, không giúp ai, không trả lời ai. Xem cảm giác thế nào.",
+      "questions": [
+        "Bạn đang dùng sức cho việc của mình hay của người khác?",
+        "Bạn bận rộn có hướng, hay bận cho có bận?"
+      ],
+      "gate": 34,
+      "name_en": "Power",
+      "iching": {
+        "que_so": 34,
+        "ten_han_viet": "Đại Tráng",
+        "nghia_goc": "Lớn mạnh, sức thịnh",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "35": {
+      "name_vi": "Đổi thay",
+      "kenh": "35-36 (Vô thường) — nối xuống Đám rối mặt trời",
+      "tagline": "Bạn đã trải qua đủ thứ. Câu hỏi là bạn có rút được gì từ đó không.",
+      "mechanics": "Cổng 35 là động lực đi tìm trải nghiệm mới. Quẻ gốc là Tấn — tiến lên. Cổng này nối với cổng 36 ở Đám rối mặt trời, nên khi thành kênh, nó mang cảm xúc: khao khát, chán, rồi lại khao khát. Câu nói đặc trưng của cổng 35 là \"cái gì mình cũng thử qua rồi\".",
+      "aligned": "Bạn đi qua trải nghiệm và rút được điều gì đó từ mỗi cái, rồi kể lại cho người khác. Bạn trở thành người có vốn sống thật, không phải người đọc sách. Bạn cũng biết chờ cảm xúc lắng xuống trước khi lao vào cái mới.",
+      "misaligned": "Bạn nhảy từ trải nghiệm này sang trải nghiệm khác mà không đọng lại gì, và bên trong luôn có một cảm giác trống. Cảm giác chán chường sau mỗi lần đạt được điều mình muốn là dấu hiệu quen thuộc nhất của cổng 35.",
+      "practice": "Liệt kê năm trải nghiệm lớn bạn đã đi qua. Với mỗi cái, viết một câu về điều bạn học được. Cái nào không viết được là cái bạn chưa tiêu hoá xong.",
+      "questions": [
+        "Bạn có hay chán ngay sau khi đạt được thứ mình muốn không?",
+        "Trải nghiệm nào bạn đã đi qua mà chưa rút ra được gì?"
+      ],
+      "gate": 35,
+      "name_en": "Change",
+      "iching": {
+        "que_so": 35,
+        "ten_han_viet": "Tấn",
+        "nghia_goc": "Tiến lên, tiến bộ",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "36": {
+      "name_vi": "Khủng hoảng",
+      "kenh": "36-35 (Vô thường) — nối lên Cổ họng",
+      "tagline": "Bạn lao vào những thứ mình chưa từng làm, và lần nào cũng lộn xộn. Đó là cách bạn học.",
+      "mechanics": "Cổng 36 là năng lượng lao vào trải nghiệm mới mà chưa có kinh nghiệm, quẻ gốc là Minh Di — ánh sáng bị che, thời tối. Hệ thống mô tả cổng này là nơi sinh ra khủng hoảng cảm xúc: bạn khao khát cái mới, nhảy vào, rồi vỡ mộng, rồi lại khao khát. Nối với cổng 35 ở Cổ họng.",
+      "aligned": "Bạn chờ qua sóng cảm xúc trước khi nhảy vào cái mới, và bạn chọn được thứ đáng thử. Mỗi lần lộn xộn bạn rút được kinh nghiệm thật, và dần dần bạn thành người có vốn sống mà người đọc sách không có. Bạn cũng chấp nhận rằng lần đầu làm gì cũng vụng.",
+      "misaligned": "Bạn lao vào hết cái mới này tới cái mới khác trong lúc đang phấn khích, và tạo ra khủng hoảng liên tục cho mình lẫn người quanh mình. Hoặc bạn sợ khủng hoảng tới mức không dám thử gì mới, rồi sống một đời rất an toàn mà nhạt.",
+      "practice": "Trước cái mới sắp tới, cho mình ba ngày. Nếu qua ba ngày vẫn muốn, hãy làm. Nếu không, bạn vừa tránh được một cuộc lộn xộn.",
+      "questions": [
+        "Bạn có hay lao vào cái mới lúc đang phấn khích không?",
+        "Cuộc khủng hoảng gần nhất dạy bạn điều gì?"
+      ],
+      "gate": 36,
+      "name_en": "Crisis",
+      "iching": {
+        "que_so": 36,
+        "ten_han_viet": "Minh Di",
+        "nghia_goc": "Ánh sáng bị che, thời tối",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "37": {
+      "name_vi": "Lời hứa",
+      "kenh": "37-40 (Cộng đồng) — nối lên Tim",
+      "tagline": "Bạn giữ gia đình lại với nhau bằng những lời hứa. Hãy chắc là chúng sòng phẳng.",
+      "mechanics": "Cổng 37 là nơi của thoả thuận và lời hứa trong nhóm thân, quẻ gốc là Gia Nhân — người trong nhà. Đây là cổng thuộc mạch bộ tộc, gắn với sự ấm áp và cả sự ràng buộc. Nối với cổng 40 ở Tim thành kênh Cộng đồng: cổng 37 hứa, cổng 40 có sức để giữ lời hứa.",
+      "aligned": "Bạn làm thoả thuận rõ ràng: tôi làm phần này, anh làm phần kia. Chính sự rõ ràng đó giữ quan hệ bền lâu. Bạn tạo ra không khí ấm cúng cho nhóm mình và người ta muốn ở lại.",
+      "misaligned": "Bạn hứa mà không nói rõ đổi lại là gì, rồi ấm ức khi không được đáp lại. Hoặc bạn giữ một thoả thuận đã hết công bằng từ lâu chỉ vì đó là gia đình. Cổng 37 lệch hướng sinh ra rất nhiều oán ngầm trong nhà.",
+      "practice": "Chọn một thoả thuận đang lệch trong nhà bạn. Nói thẳng ra: mình làm phần này, mình mong đổi lại điều này.",
+      "questions": [
+        "Thoả thuận nào trong nhà bạn đang không còn công bằng?",
+        "Bạn có đang ấm ức vì cho đi mà không được đáp lại không?"
+      ],
+      "gate": 37,
+      "name_en": "Friendship",
+      "iching": {
+        "que_so": 37,
+        "ten_han_viet": "Gia Nhân",
+        "nghia_goc": "Người trong nhà",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "38": {
+      "name_vi": "Chiến đấu",
+      "kenh": "38-28 (Vật lộn) — nối lên Lá lách",
+      "tagline": "Bạn có sức để chống lại. Việc quan trọng nhất là chọn đúng thứ đáng chống.",
+      "mechanics": "Cổng 38 là áp lực chiến đấu, quẻ gốc là Khuê — chống đối, xa cách. Hệ thống mô tả cổng này là năng lượng đối kháng cần thiết để giữ được điều mình tin giữa sức ép. Nối với cổng 28 ở Lá lách thành kênh Vật lộn.",
+      "aligned": "Bạn chọn kỹ trận nào đáng đánh và dồn hết vào đó. Bạn giữ được điều mình tin dù bị ép. Sức đối kháng của bạn bảo vệ được những giá trị mà người khác đã bỏ cuộc.",
+      "misaligned": "Bạn chống lại mọi thứ, kể cả những chuyện không đáng, rồi kiệt và cô lập. Hoặc bạn nén sức đối kháng đó lại, rồi nó quay vào trong thành sự chống đối chính mình.",
+      "practice": "Liệt kê những thứ bạn đang chống lại. Chọn ra một cái đáng nhất, buông hai cái không đáng.",
+      "questions": [
+        "Bạn đang đánh bao nhiêu trận cùng lúc?",
+        "Trận nào thật sự đáng để bạn dồn hết vào?"
+      ],
+      "gate": 38,
+      "name_en": "The Fighter",
+      "iching": {
+        "que_so": 38,
+        "ten_han_viet": "Khuê",
+        "nghia_goc": "Chống đối, xa cách",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "39": {
+      "name_vi": "Khiêu khích",
+      "kenh": "39-55 (Cảm xúc) — nối lên Đám rối mặt trời",
+      "tagline": "Bạn chọc vào chỗ người ta né. Chọc đúng chỗ thì mở ra, chọc bừa thì gây thù.",
+      "mechanics": "Cổng 39 là áp lực khiêu khích, quẻ gốc là Kiển — trở ngại, đi khó. Hệ thống mô tả cổng này là năng lượng làm người khác lộ ra tinh thần thật của họ: bạn gây trở ngại, và phản ứng của họ cho thấy họ là ai. Nối với cổng 55 ở Đám rối mặt trời.",
+      "aligned": "Bạn khiêu khích có chủ đích, đúng người và đúng lúc, để đẩy họ vượt qua chỗ đang kẹt. Bạn cũng nhận ra khi nào nên im. Đây là cổng rất mạnh cho người dạy học và người huấn luyện.",
+      "misaligned": "Bạn chọc bừa vì trong người có áp lực, và gây tổn thương không cần thiết. Hoặc bạn nén lại hết rồi bật ra một lần lớn.",
+      "practice": "Lần tới muốn chọc ai, dừng lại hỏi: mình làm việc này để giúp họ, hay để xả cái đang tích trong mình?",
+      "questions": [
+        "Bạn có hay chọc người khác lúc trong người khó chịu không?",
+        "Lần bạn khiêu khích ai đó mà nó thật sự giúp họ — bạn đã làm khác thế nào?"
+      ],
+      "gate": 39,
+      "name_en": "Provocation",
+      "iching": {
+        "que_so": 39,
+        "ten_han_viet": "Kiển",
+        "nghia_goc": "Trở ngại, đi khó",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "40": {
+      "name_vi": "Làm rồi rút",
+      "kenh": "40-37 (Cộng đồng) — nối xuống Đám rối mặt trời",
+      "tagline": "Bạn làm hết mình cho gia đình, rồi bạn cần một mình. Cả hai đều thật.",
+      "mechanics": "Cổng 40 là ý chí làm việc để nuôi nhóm mình, kèm nhu cầu rút lui sau đó. Quẻ gốc là Giải — cởi bỏ, giải toả. Nối với cổng 37 ở Đám rối mặt trời thành kênh Cộng đồng: cổng 37 là lời hứa, cổng 40 là sức để giữ lời hứa đó.",
+      "aligned": "Bạn làm phần của mình rồi rút về nghỉ mà không thấy có lỗi. Bạn cũng đòi hỏi sự công bằng trong thoả thuận: tôi làm phần này, đổi lại tôi nhận cái này. Sự sòng phẳng đó giữ mối quan hệ bền.",
+      "misaligned": "Bạn làm mãi không nghỉ vì sợ bị coi là ích kỷ, rồi cạn và sinh oán. Hoặc bạn hứa với gia đình những thứ vượt sức mình, rồi không giữ được lời.",
+      "practice": "Sau đợt làm việc nặng tiếp theo, tự cho mình một ngày trọn vẹn không làm gì cho ai. Nói trước với người nhà.",
+      "questions": [
+        "Bạn có thấy có lỗi khi nghỉ ngơi không?",
+        "Thoả thuận giữa bạn và gia đình có sòng phẳng không?"
+      ],
+      "gate": 40,
+      "name_en": "Aloneness",
+      "iching": {
+        "que_so": 40,
+        "ten_han_viet": "Giải",
+        "nghia_goc": "Cởi bỏ, giải toả",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "41": {
+      "name_vi": "Co lại",
+      "kenh": "41-30 (Nhận ra) — nối lên Đám rối mặt trời",
+      "tagline": "Mọi thứ bắt đầu ở đây. Áp lực của một khao khát chưa có hình dạng.",
+      "mechanics": "Cổng 41 là điểm khởi đầu của toàn bộ bánh xe — đây là cổng đặt tại 2 độ Bảo Bình, nơi vòng tròn bắt đầu. Quẻ gốc là Tổn — giảm bớt, co lại. Hệ thống mô tả cổng này là áp lực nén trước khi bung: một khao khát dâng lên mà chưa biết là khao khát cái gì. Nối với cổng 30.",
+      "aligned": "Bạn chịu được cảm giác thèm muốn một thứ chưa rõ hình dạng, và bạn chờ cho tới khi nó rõ ra. Bạn cũng biết rằng nguồn lực mình có là hữu hạn, nên bạn chọn kỹ chỗ đổ vào. Trí tưởng tượng của bạn rất mạnh.",
+      "misaligned": "Bạn vơ đại một thứ để lấp cái khao khát mơ hồ đó — mua sắm, ăn uống, một mối quan hệ mới — rồi nó không lấp được. Hoặc bạn sống trong tưởng tượng thay vì bước ra thực tế.",
+      "practice": "Khi thấy thèm một thứ mà không rõ là thèm gì, viết ra ba dòng mô tả cảm giác đó. Đừng đi mua gì trong hai mươi tư giờ.",
+      "questions": [
+        "Bạn có hay mua hoặc ăn để lấp một cảm giác mơ hồ không?",
+        "Khao khát chưa rõ hình dạng nào đang có trong bạn?"
+      ],
+      "gate": 41,
+      "name_en": "Contraction",
+      "iching": {
+        "que_so": 41,
+        "ten_han_viet": "Tổn",
+        "nghia_goc": "Giảm bớt, tổn đi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "42": {
+      "name_vi": "Làm cho xong",
+      "kenh": "42-53 (Trưởng thành) — nối xuống Gốc",
+      "tagline": "Bạn có sức để đi hết một chu kỳ. Đừng nhảy ra giữa chừng.",
+      "mechanics": "Cổng 42 là năng lượng hoàn tất một chu kỳ, quẻ gốc là Ích — tăng thêm, lợi ích. Hệ thống mô tả cổng này là phần cuối của mạch trưởng thành: cổng 53 khởi đầu, cổng 42 kết thúc. Nối với cổng 53 ở Gốc.",
+      "aligned": "Bạn chỉ bắt đầu thứ mình định đi hết, và bạn đi hết. Việc hoàn tất một chu kỳ trọn vẹn cho bạn một sự trưởng thành mà việc bỏ dở không bao giờ cho được.",
+      "misaligned": "Bạn bỏ ngang giữa chừng rồi bắt cái mới, hết lần này tới lần khác, và không bao giờ có được cảm giác hoàn tất. Hoặc bạn cố kéo dài một chu kỳ đã đến lúc kết thúc.",
+      "practice": "Chọn một việc bạn đang bỏ dở. Hoặc làm cho xong trong ba mươi ngày, hoặc chính thức khai tử nó. Không để lửng.",
+      "questions": [
+        "Bạn đang để lửng bao nhiêu việc?",
+        "Có chu kỳ nào đã tới lúc kết thúc mà bạn vẫn cố kéo không?"
+      ],
+      "gate": 42,
+      "name_en": "Growth",
+      "iching": {
+        "que_so": 42,
+        "ten_han_viet": "Ích",
+        "nghia_goc": "Tăng thêm, lợi ích",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "43": {
+      "name_vi": "Biết trong lòng",
+      "kenh": "43-23 (Cấu trúc) — nối xuống Cổ họng",
+      "tagline": "Bạn biết một điều mà chưa nói ra được thành lời. Đó là chỗ cô đơn nhất.",
+      "mechanics": "Cổng 43 là cái biết đến từ bên trong, đột ngột, không qua lý luận. Quẻ gốc là Quải — quyết đoán, dứt khoát. Vấn đề là cái biết này ở dạng thô, chưa thành ngôn ngữ. Cổng 43 nối với cổng 23 ở Cổ họng — chỉ khi có cầu nối đó thì cái biết mới thành lời người khác hiểu được.",
+      "aligned": "Bạn chờ đúng lúc có người hỏi rồi mới nói ra. Bạn chấp nhận rằng cái mình biết thường khác với cách nghĩ chung, và bạn không cần được đồng ý ngay. Khi đúng thời điểm, cái bạn nói làm người ta đổi cách nhìn.",
+      "misaligned": "Bạn buột miệng nói ra khi chưa ai hỏi, người nghe không hiểu, rồi bạn bị coi là kỳ quặc. Lặp lại nhiều lần, bạn im hẳn và mang cảm giác cô đơn dai dẳng — biết một điều mà không chia sẻ được với ai.",
+      "practice": "Điều bạn biết mà chưa nói được — thử viết nó ra bằng ba cách diễn đạt khác nhau. Chọn cách nào người ngoài ngành hiểu được.",
+      "questions": [
+        "Bạn đang biết điều gì mà chưa diễn đạt được?",
+        "Bạn có hay bị coi là nói chuyện khó hiểu không?"
+      ],
+      "gate": 43,
+      "name_en": "Insight",
+      "iching": {
+        "que_so": 43,
+        "ten_han_viet": "Quải",
+        "nghia_goc": "Quyết đoán, dứt khoát",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "44": {
+      "name_vi": "Cảnh giác",
+      "kenh": "44-26 (Buông bỏ) — nối lên Tim",
+      "tagline": "Bạn ngửi thấy vấn đề ở một người trước khi có bất kỳ dấu hiệu nào.",
+      "mechanics": "Cổng 44 là bản năng nhận biết mẫu hình từ quá khứ, quẻ gốc là Cấu — gặp gỡ bất ngờ. Đây là cổng lệch rõ so với Kinh Dịch. Hệ thống mô tả cổng này gắn với khứu giác ở tầng bản năng: bạn gặp một người và cảm ngay được họ có đáng tin không. Nỗi sợ gốc là sợ quá khứ lặp lại.",
+      "aligned": "Bạn tin cảm nhận của mình về người, và bạn dùng nó để chọn cộng sự. Đây là cổng rất giá trị trong tuyển người và trong làm ăn. Bạn cũng biết phân biệt giữa cảnh giác đúng chỗ và định kiến.",
+      "misaligned": "Bạn để nỗi sợ quá khứ lặp lại chi phối, rồi gán cho người mới bộ mặt của người cũ. Hoặc bạn bỏ qua cảm nhận ban đầu vì thấy nó vô lý, rồi sau này hối.",
+      "practice": "Lần tới gặp người mới, ghi lại ấn tượng đầu tiên trong ba mươi giây đầu. Sáu tháng sau đọc lại và đối chiếu.",
+      "questions": [
+        "Bạn có đang nhìn ai đó qua bộ mặt của một người trong quá khứ không?",
+        "Lần bạn bỏ qua cảm nhận ban đầu về một người — kết cục thế nào?"
+      ],
+      "gate": 44,
+      "name_en": "Alertness",
+      "iching": {
+        "que_so": 44,
+        "ten_han_viet": "Cấu",
+        "nghia_goc": "Gặp gỡ bất ngờ",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Cấu là gặp gỡ bất ngờ. HD: cổng 44 là bản năng nhận biết mẫu hình quá khứ. Khác hướng rõ rệt."
+      }
+    },
+    "45": {
+      "name_vi": "Người đứng đầu",
+      "kenh": "45-21 (Tiền bạc) — nối xuống Tim",
+      "tagline": "Tiếng nói của người trông coi tài nguyên chung.",
+      "mechanics": "Cổng 45 là tiếng nói của người đứng đầu một nhóm, một gia đình, một bộ tộc — người nói \"tôi có\" và \"chúng ta có\". Quẻ gốc là Tụy — tụ họp. Đây là cổng thuộc mạch bộ tộc, gắn với tài nguyên vật chất. Nối với cổng 21 ở Tim thành kênh Tiền bạc.",
+      "aligned": "Bạn đứng ra trông coi và phân chia tài nguyên cho nhóm mình, và nhóm chấp nhận điều đó. Bạn không cần giành quyền — người ta giao cho bạn vì bạn làm được. Đây là cổng của người chủ doanh nghiệp, người quản gia, người giữ quỹ.",
+      "misaligned": "Bạn cố lãnh đạo một nhóm chưa chọn bạn, và bị coi là độc đoán. Hoặc bạn nắm tài nguyên nhưng không chia, rồi mất nhóm.",
+      "practice": "Nhìn vào nhóm bạn đang dẫn. Hỏi thẳng một người: có phải mọi người đang tự nguyện theo, hay đang phải theo?",
+      "questions": [
+        "Nhóm bạn đang dẫn có thật sự chọn bạn không?",
+        "Bạn có đang giữ thứ gì đáng ra phải chia không?"
+      ],
+      "gate": 45,
+      "name_en": "Gatherer",
+      "iching": {
+        "que_so": 45,
+        "ten_han_viet": "Tụy",
+        "nghia_goc": "Tụ họp",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "46": {
+      "name_vi": "Đúng nơi đúng lúc",
+      "kenh": "46-29 (Khám phá) — nối xuống Xương cùng",
+      "tagline": "Có những lúc mọi thứ tự xếp vào chỗ. Đó không phải may mắn.",
+      "mechanics": "Cổng 46 là tình yêu dành cho cơ thể và sự có mặt đúng chỗ đúng lúc. Quẻ gốc là Thăng — đi lên. Hệ thống mô tả cổng này gắn với việc bạn ở trong thân xác này và trân trọng nó. Nối với cổng 29 ở Xương cùng thành kênh Khám phá.",
+      "aligned": "Bạn chăm sóc cơ thể mình và bạn có mặt thật ở nơi mình đang đứng. Người có cổng này thường hay rơi vào những tình huống tình cờ mà hoá ra đúng — đó là cơ chế của cổng, không phải may. Bạn cũng dễ được người khác nhận ra và cất nhắc.",
+      "misaligned": "Bạn bỏ bê thân thể, coi nó như cái máy phải chạy. Hoặc bạn cố ép mình vào những chỗ mình không thuộc về, rồi mọi thứ đều trầy trật.",
+      "practice": "Tuần này dành ba mươi phút mỗi ngày làm gì đó cho thân thể — đi bộ, kéo giãn, tắm lâu. Không phải để đạt gì cả.",
+      "questions": [
+        "Bạn đối xử với cơ thể mình thế nào trong sáu tháng qua?",
+        "Có chỗ nào bạn đang cố ở lại mà thấy trầy trật liên tục không?"
+      ],
+      "gate": 46,
+      "name_en": "Determination",
+      "iching": {
+        "que_so": 46,
+        "ten_han_viet": "Thăng",
+        "nghia_goc": "Đi lên, thăng tiến",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "47": {
+      "name_vi": "Vỡ lẽ",
+      "kenh": "47-64 (Trừu tượng) — nối lên Đầu",
+      "tagline": "Bạn phải đi qua chỗ bí trước khi hiểu ra. Không có đường tắt.",
+      "mechanics": "Cổng 47 là nơi mớ hình ảnh từ cổng 64 được xử lý thành ý nghĩa. Quẻ gốc là Khốn — bị vây, bí bách. Cơ chế của cổng này đúng như tên quẻ: bạn rơi vào trạng thái bế tắc, không thấy đường ra, rồi đột nhiên vỡ lẽ. Giai đoạn bí là một phần bắt buộc của quá trình, không phải sự cố.",
+      "aligned": "Bạn chịu được giai đoạn bí mà không hoảng. Bạn hiểu rằng mình đang trong quá trình chứ không phải đang thất bại. Và khi hiểu ra, bạn kể lại được cho người khác nghe theo cách họ dùng được — vì bạn đã đi qua cả đoạn tối.",
+      "misaligned": "Bạn coi giai đoạn bí là bằng chứng đời mình đang hỏng. Bạn ép mình phải tìm ra ý nghĩa ngay, hoặc bạn vơ đại một lời giải thích nào đó cho đỡ khó chịu — rồi sống theo một cách hiểu sai suốt nhiều năm.",
+      "practice": "Nhớ lại một giai đoạn bí trong đời mà cuối cùng bạn đã vỡ ra. Nó kéo dài bao lâu? Con số đó là thước đo cho lần bí hiện tại.",
+      "questions": [
+        "Bạn đang bí ở chỗ nào, và bí bao lâu rồi?",
+        "Bạn có đang vơ một lời giải thích cho xong không?"
+      ],
+      "gate": 47,
+      "name_en": "Realization",
+      "iching": {
+        "que_so": 47,
+        "ten_han_viet": "Khốn",
+        "nghia_goc": "Khốn cùng, bị vây",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Khốn là bị vây khốn. HD: cổng 47 là quá trình vỡ ra hiểu biết. HD lấy phần 'bí bách trước khi thông'."
+      }
+    },
+    "48": {
+      "name_vi": "Chiều sâu",
+      "kenh": "48-16 (Bước sóng) — nối lên Cổ họng",
+      "tagline": "Bạn có một cái giếng rất sâu bên trong, và bạn luôn thấy nó chưa đủ sâu.",
+      "mechanics": "Cổng 48 là chiều sâu năng lực, quẻ gốc là Tỉnh — cái giếng, nguồn sâu không cạn. Đây là một trong bảy cổng của Lá lách, và như mọi cổng Lá lách, nó mang một nỗi sợ nguyên thuỷ: sợ mình không đủ năng lực. Nỗi sợ này là nhiên liệu, không phải khuyết tật. Nối với cổng 16 ở Cổ họng — cổng 48 là chiều sâu, cổng 16 đưa nó thành kỹ năng thực.",
+      "aligned": "Bạn dùng nỗi sợ không đủ giỏi làm động lực học tiếp, chứ không để nó chặn bạn lại. Bạn trở thành người có nghề thật sâu trong một lĩnh vực. Bạn cũng chấp nhận rằng cảm giác chưa đủ sẽ không bao giờ hết — đó là cơ chế, không phải sự thật về bạn.",
+      "misaligned": "Bạn để nỗi sợ chặn mình lại, không dám nhận việc, không dám ra mắt, chờ tới khi đủ giỏi — và ngày đó không tới. Hoặc bạn học mãi mà không bao giờ đem ra dùng.",
+      "practice": "Nhận một việc mà bạn thấy mình mới đủ tám mươi phần trăm năng lực. Làm và học phần còn lại trong lúc làm.",
+      "questions": [
+        "Bạn đang chờ đủ giỏi để làm gì?",
+        "Nếu cảm giác chưa đủ không bao giờ hết, bạn sẽ bắt đầu khi nào?"
+      ],
+      "gate": 48,
+      "name_en": "Depth",
+      "iching": {
+        "que_so": 48,
+        "ten_han_viet": "Tỉnh",
+        "nghia_goc": "Giếng, nguồn sâu không cạn",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "49": {
+      "name_vi": "Nguyên tắc",
+      "kenh": "49-19 (Tổng hợp) — nối xuống Gốc",
+      "tagline": "Bạn biết rõ ranh giới của mình. Vượt qua nó là hết.",
+      "mechanics": "Cổng 49 là nơi của nguyên tắc và của sự dứt bỏ, quẻ gốc là Cách — thay đổi, cách mạng. Hệ thống mô tả cổng này gắn với việc chấp nhận hay từ chối một người vào nhóm mình, và với khả năng lật đổ khi nguyên tắc bị vi phạm. Nối với cổng 19 ở Gốc.",
+      "aligned": "Bạn nói rõ nguyên tắc của mình từ đầu, thay vì để người ta vi phạm rồi mới cắt. Bạn cũng xem lại nguyên tắc của mình theo thời gian, giữ cái còn đúng và bỏ cái đã cũ. Khi cần dứt, bạn dứt gọn.",
+      "misaligned": "Bạn cắt đứt đột ngột mà người kia không hiểu tại sao, vì bạn chưa bao giờ nói ra nguyên tắc đó. Hoặc bạn giữ những nguyên tắc đã lỗi thời và loại bỏ người vì lý do không còn đáng.",
+      "practice": "Viết ra ba nguyên tắc mà ai vượt qua là bạn dứt. Nói ra một cái với người quan trọng nhất với bạn.",
+      "questions": [
+        "Bạn từng cắt ai đó đột ngột mà họ không hiểu lý do chưa?",
+        "Nguyên tắc nào của bạn đã cũ mà bạn vẫn giữ?"
+      ],
+      "gate": 49,
+      "name_en": "Principles",
+      "iching": {
+        "que_so": 49,
+        "ten_han_viet": "Cách",
+        "nghia_goc": "Thay đổi, cách mạng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "50": {
+      "name_vi": "Giá trị và luật lệ",
+      "kenh": "50-27 (Gìn giữ) — nối xuống Xương cùng",
+      "tagline": "Bạn giữ luật cho nhóm mình, kể cả khi không ai giao việc đó cho bạn.",
+      "mechanics": "Cổng 50 là nơi giữ giá trị và luật lệ của bộ tộc, quẻ gốc là Đỉnh — cái vạc dùng trong tế tự, biểu tượng của luật và trật tự. Hệ thống mô tả cổng này gắn với bản năng bảo vệ nhóm. Nỗi sợ gốc là sợ trách nhiệm — cảm giác gánh nặng của người phải giữ trật tự. Nối với cổng 27 ở Xương cùng.",
+      "aligned": "Bạn giữ những nguyên tắc thật sự cần giữ, và bạn buông những luật đã lỗi thời. Bạn là người mà nhóm dựa vào khi cần biết đâu là ranh giới. Bạn cũng nhận trách nhiệm đúng phần mình, không ôm hết.",
+      "misaligned": "Bạn ôm hết trách nhiệm của cả nhóm rồi kiệt. Hoặc bạn áp luật lệ cũ lên hoàn cảnh mới và trở thành người cản đường. Cổng 50 lệch hướng cũng hay sinh cảm giác tội lỗi triền miên.",
+      "practice": "Liệt kê những trách nhiệm bạn đang gánh. Đánh dấu cái nào thật sự là của bạn. Giao trả một cái không phải.",
+      "questions": [
+        "Bạn đang gánh trách nhiệm nào không phải của mình?",
+        "Có luật lệ nào bạn đang giữ mà nó đã hết thời rồi không?"
+      ],
+      "gate": 50,
+      "name_en": "Values",
+      "iching": {
+        "que_so": 50,
+        "ten_han_viet": "Đỉnh",
+        "nghia_goc": "Vạc, luật lệ và tế tự",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "51": {
+      "name_vi": "Cú sốc",
+      "kenh": "51-25 (Khởi phát) — nối sang Trung tâm G",
+      "tagline": "Bạn đẩy người khác vào chỗ khó, và đôi khi đó là điều tốt nhất bạn làm cho họ.",
+      "mechanics": "Cổng 51 là năng lượng cạnh tranh và gây sốc, quẻ gốc là Chấn — sấm, chấn động. Hệ thống mô tả cổng này là nơi con người bị đẩy ra khỏi vùng quen thuộc, và chính cú đẩy đó mở ra một tầng nhận thức mới. Nối với cổng 25 thành kênh Khởi phát.",
+      "aligned": "Bạn dám đi trước, dám làm điều người khác chưa dám, và bạn kéo người khác theo. Bạn cũng hồi phục nhanh sau cú sốc — thứ làm người khác gục thì làm bạn tỉnh ra.",
+      "misaligned": "Bạn gây sốc cho người khác chỉ để chứng tỏ mình, không vì mục đích gì. Hoặc bạn lao vào cạnh tranh với tất cả mọi người, kể cả những cuộc không đáng.",
+      "practice": "Nhớ lại cú sốc lớn gần nhất trong đời bạn. Viết ra điều nó đã mở ra cho bạn mà không có nó thì không có.",
+      "questions": [
+        "Bạn có đang cạnh tranh với những người không đáng để cạnh tranh không?",
+        "Cú sốc nào đã làm bạn thành người như hôm nay?"
+      ],
+      "gate": 51,
+      "name_en": "Shock",
+      "iching": {
+        "que_so": 51,
+        "ten_han_viet": "Chấn",
+        "nghia_goc": "Sấm, chấn động",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "52": {
+      "name_vi": "Ngồi yên",
+      "kenh": "52-9 (Chuyên chú) — nối lên Xương cùng",
+      "tagline": "Bạn có sức ngồi yên rất lâu. Đó là năng lực, không phải sự chậm chạp.",
+      "mechanics": "Cổng 52 là áp lực dừng lại và tập trung, quẻ gốc là Cấn — núi, dừng lại. Hệ thống mô tả cổng này là năng lượng nén lại thành sự bất động, để từ đó nhìn thấy toàn cảnh. Nối với cổng 9 ở Xương cùng thành kênh Chuyên chú.",
+      "aligned": "Bạn cho phép mình ngồi yên khi cần, và trong lúc yên đó bạn nhìn ra thứ người đang chạy không thấy. Bạn tập trung được rất sâu. Người có cổng này thường làm tốt những việc đòi hỏi kiên nhẫn dài.",
+      "misaligned": "Bạn ép mình phải luôn động đậy cho giống người khác, rồi bồn chồn và không tập trung nổi. Hoặc bạn ngồi yên quá lâu thành trì trệ, biến sự tĩnh thành cái cớ để không bắt đầu.",
+      "practice": "Tuần này dành ba lần, mỗi lần hai mươi phút ngồi yên không làm gì và không điện thoại. Ghi lại điều bạn nhận ra.",
+      "questions": [
+        "Bạn có ép mình phải luôn bận rộn không?",
+        "Sự tĩnh của bạn đang là năng lực hay đang là cái cớ?"
+      ],
+      "gate": 52,
+      "name_en": "Stillness",
+      "iching": {
+        "que_so": 52,
+        "ten_han_viet": "Cấn",
+        "nghia_goc": "Núi, dừng lại",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "53": {
+      "name_vi": "Khởi đầu",
+      "kenh": "53-42 (Trưởng thành) — nối lên Xương cùng",
+      "tagline": "Bạn có áp lực phải bắt đầu cái mới. Không phải cái nào cũng dành cho bạn làm tiếp.",
+      "mechanics": "Cổng 53 là áp lực bắt đầu một chu kỳ mới, quẻ gốc là Tiệm — tiến dần từng bước. Hệ thống mô tả cổng này là phần mở đầu của mạch trưởng thành: cổng 53 khởi động, cổng 42 ở Xương cùng mới là phần đi hết chu kỳ. Bản thân cổng 53 không mang theo sức để hoàn thành.",
+      "aligned": "Bạn khởi động cái mới khi có phản hồi đúng, và bạn chấp nhận rằng không phải cái nào bạn mở ra cũng do bạn làm tới cùng. Nhiều thứ bạn bắt đầu sẽ được người khác tiếp tục — đó không phải thất bại mà là đúng chức năng.",
+      "misaligned": "Bạn bắt đầu quá nhiều thứ vì áp lực bên trong thúc, rồi ôm hết và không xong cái nào. Bạn tự trách mình là kiểu người đầu voi đuôi chuột, trong khi việc mở đầu chính là phần bạn làm tốt nhất.",
+      "practice": "Liệt kê những thứ bạn đã bắt đầu trong sáu tháng qua. Với mỗi cái, hỏi: mình làm tiếp, giao cho ai, hay khai tử?",
+      "questions": [
+        "Bạn đang mở dở bao nhiêu thứ?",
+        "Bạn có tự trách mình vì không làm tới cùng không?"
+      ],
+      "gate": 53,
+      "name_en": "Beginnings",
+      "iching": {
+        "que_so": 53,
+        "ten_han_viet": "Tiệm",
+        "nghia_goc": "Tiến dần từng bước",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "54": {
+      "name_vi": "Vươn lên",
+      "kenh": "54-32 (Chuyển hoá) — nối lên Lá lách",
+      "tagline": "Bạn muốn đi lên. Nhưng cửa mở là do người trên nhìn thấy bạn, không do bạn gõ mạnh.",
+      "mechanics": "Cổng 54 là áp lực thăng tiến, quẻ gốc là Quy Muội — gả em gái, vào bằng cửa phụ. Chính hình ảnh cửa phụ này là cốt lõi: hệ thống mô tả cổng 54 là người đi lên nhờ được người ở trên nhận ra và kéo lên, chứ không phải nhờ tự chen. Nối với cổng 32 ở Lá lách.",
+      "aligned": "Bạn làm thật tốt phần việc của mình và để người ở trên nhìn thấy. Bạn xây quan hệ với người có thể mở cửa cho bạn, một cách tự nhiên chứ không nịnh. Khi cửa mở, bạn đã sẵn sàng.",
+      "misaligned": "Bạn chen lên bằng mọi giá và bị đẩy ngược lại. Hoặc bạn làm giỏi nhưng không cho ai thấy, rồi ấm ức vì người kém hơn được cất nhắc. Cổng 54 lệch hướng cũng dễ sinh tham vọng ăn mòn — muốn lên mà quên mất lên để làm gì.",
+      "practice": "Chọn một người ở vị trí bạn muốn tới. Tuần này tìm cách để họ thấy được một việc bạn làm tốt, không cần nói gì thêm.",
+      "questions": [
+        "Ai là người có thể mở cửa cho bạn, và họ có biết bạn làm được gì không?",
+        "Bạn muốn lên vị trí đó để làm gì?"
+      ],
+      "gate": 54,
+      "name_en": "Ambition",
+      "iching": {
+        "que_so": 54,
+        "ten_han_viet": "Quy Muội",
+        "nghia_goc": "Gả em gái, vào bằng cửa phụ",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "55": {
+      "name_vi": "Tinh thần",
+      "kenh": "55-39 (Cảm xúc) — nối xuống Gốc",
+      "tagline": "Có ngày bạn thấy đời đầy ắp, có ngày thấy trống rỗng. Không có nguyên nhân bên ngoài.",
+      "mechanics": "Cổng 55 là nơi tinh thần đầy hay vơi, quẻ gốc là Phong — thịnh vượng, sung mãn. Đây là một trong những cổng thất thường nhất trong bản đồ: trạng thái dao động giữa dồi dào và trống rỗng, và hệ thống nói rõ nó **không phụ thuộc vào hoàn cảnh bên ngoài**. Nối với cổng 39 ở Gốc.",
+      "aligned": "Bạn thôi đi tìm nguyên nhân bên ngoài cho tâm trạng của mình. Bạn không đổ cho vợ chồng, cho công việc, cho thời tiết. Bạn chỉ ghi nhận sóng đang ở đâu và không quyết định lớn ở đáy. Từ đó rất nhiều xung đột trong nhà tự biến mất.",
+      "misaligned": "Mỗi lần xuống đáy bạn đi tìm thủ phạm, và người gần nhất lãnh đủ. Hoặc bạn cố ép mình phải vui lên, rồi càng ép càng nặng. Cổng 55 lệch hướng cũng dễ đưa người ta tới chỗ tìm cái gì đó bên ngoài để lấp — mua sắm, ăn, chất kích thích.",
+      "practice": "Ba mươi ngày chấm tinh thần mình từ 1 tới 10, không ghi lý do. Cuối kỳ nhìn biểu đồ. Nó sẽ dạy bạn nhiều hơn mọi lời giải thích.",
+      "questions": [
+        "Lần gần nhất bạn xuống tinh thần, bạn đổ cho ai?",
+        "Bạn có đang lấp khoảng trống bằng thứ gì bên ngoài không?"
+      ],
+      "gate": 55,
+      "name_en": "Spirit",
+      "iching": {
+        "que_so": 55,
+        "ten_han_viet": "Phong",
+        "nghia_goc": "Thịnh vượng, sung mãn",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "56": {
+      "name_vi": "Kể chuyện",
+      "kenh": "56-11 (Tò mò) — nối lên Ajna",
+      "tagline": "Bạn kể lại trải nghiệm theo cách làm người nghe muốn đi tìm trải nghiệm của họ.",
+      "mechanics": "Cổng 56 lấy ý tưởng từ cổng 11 và kể chúng thành chuyện. Quẻ gốc là Lữ — người đi xa, kẻ lữ hành. Đây là cổng của người dẫn chuyện: bạn không truyền dữ kiện, bạn truyền sự kích thích, khiến người nghe muốn tự đi trải nghiệm.",
+      "aligned": "Bạn kể khi có người muốn nghe, và bạn kể sinh động. Bạn giữ người ta ở lại bằng chính cách bạn dựng câu chuyện. Đây là cổng rất mạnh cho việc dạy học, dẫn chương trình, hay bán hàng.",
+      "misaligned": "Bạn kể liên tục để giữ sự chú ý, kể cả khi không ai muốn nghe, rồi bị coi là nói nhiều. Hoặc bạn thêm thắt cho chuyện hay hơn tới mức mất độ tin cậy.",
+      "practice": "Lần kể chuyện tiếp theo, để ý ánh mắt người nghe. Khi họ bắt đầu nhìn đi chỗ khác thì dừng, dù chuyện chưa hết.",
+      "questions": [
+        "Bạn có hay kể khi người ta không thật sự muốn nghe không?",
+        "Bạn có thêm thắt cho chuyện hay hơn không?"
+      ],
+      "gate": 56,
+      "name_en": "Stimulation",
+      "iching": {
+        "que_so": 56,
+        "ten_han_viet": "Lữ",
+        "nghia_goc": "Lữ khách, đi xa",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "57": {
+      "name_vi": "Trực giác",
+      "kenh": "57-10 (Hình hài) · 57-20 (Sóng não) · 57-34 (Sức mạnh) — nối sang G, Cổ họng, Xương cùng",
+      "tagline": "Bạn nghe thấy điều người khác không nghe. Nó nói đúng một lần.",
+      "mechanics": "Cổng 57 là trực giác nhạy nhất trong bản đồ, quẻ gốc là Tốn — gió, thấm vào nhẹ nhàng. Hệ thống mô tả cổng này gắn với thính giác ở tầng bản năng: bạn cảm được qua âm thanh và qua trường của người khác. Nỗi sợ nguyên thuỷ của nó là sợ ngày mai, sợ điều chưa tới.",
+      "aligned": "Bạn tin tín hiệu đầu tiên và làm theo ngay, không đợi lý lẽ. Bạn cũng biết rằng cổng này chỉ nói về khoảnh khắc hiện tại, không phải về tương lai — nên bạn không dùng nó để lo xa.",
+      "misaligned": "Bạn nghe tín hiệu rồi đi tìm lý do, và tín hiệu tan. Hoặc bạn để nỗi sợ ngày mai chiếm chỗ, sống trong trạng thái phòng thủ liên tục với những chuyện chưa xảy ra.",
+      "practice": "Ba ngày liền, chọn quán ăn hoặc đường đi theo phản ứng đầu tiên. Không sửa lại. Ghi kết quả.",
+      "questions": [
+        "Bạn đang lo về điều gì chưa xảy ra?",
+        "Lần gần nhất bạn phủ quyết linh cảm của mình, chuyện gì đã xảy ra?"
+      ],
+      "gate": 57,
+      "name_en": "Intuitive Insight",
+      "iching": {
+        "que_so": 57,
+        "ten_han_viet": "Tốn",
+        "nghia_goc": "Gió, thấm vào nhẹ nhàng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    "58": {
+      "name_vi": "Sức sống",
+      "kenh": "58-18 (Phán xét) — nối lên Lá lách",
+      "tagline": "Bạn có một niềm vui sống rất lớn, và nó biểu hiện thành nhu cầu làm mọi thứ tốt lên.",
+      "mechanics": "Cổng 58 là áp lực của niềm vui sống, quẻ gốc là Đoài — đầm nước, vui vẻ. Hệ thống mô tả cổng này là nguồn năng lượng thúc đẩy sự hoàn thiện: bạn thấy vui khi mọi thứ tốt lên. Nối với cổng 18 ở Lá lách thành kênh Phán xét.",
+      "aligned": "Bạn hướng nhu cầu cải thiện vào những việc thật sự cần và có người nhờ. Niềm vui của bạn lây sang người khác. Bạn là người làm cho mọi thứ quanh mình tốt lên một cách tự nhiên.",
+      "misaligned": "Bạn muốn sửa mọi thứ và mọi người, kể cả khi không ai nhờ, rồi bị coi là khó tính. Hoặc bạn nén áp lực đó lại và mất luôn niềm vui, sống trong trạng thái nhạt nhẽo.",
+      "practice": "Chọn một việc bạn thật sự thích cải thiện và làm nó tuần này. Đồng thời buông một chỗ bạn đang muốn sửa mà không ai nhờ.",
+      "questions": [
+        "Bạn đang muốn sửa ai hoặc cái gì mà không ai nhờ?",
+        "Lần gần nhất bạn thấy vui thuần tuý là khi nào?"
+      ],
+      "gate": 58,
+      "name_en": "Vitality",
+      "iching": {
+        "que_so": 58,
+        "ten_han_viet": "Đoài",
+        "nghia_goc": "Đầm, vui vẻ",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "59": {
+      "name_vi": "Phá rào",
+      "kenh": "59-6 (Kết đôi) — nối lên Đám rối mặt trời",
+      "tagline": "Bạn có khả năng đi thẳng qua hàng rào của người khác. Dùng nó cẩn thận.",
+      "mechanics": "Cổng 59 là năng lượng phá vỡ rào cản để đi tới thân mật, quẻ gốc là Hoán — tan ra, phân tán. Hệ thống nối cổng này với khả năng sinh sản và với sự thân mật ở tầng sâu nhất. Nối với cổng 6 ở Đám rối mặt trời thành kênh Kết đôi.",
+      "aligned": "Bạn đi qua rào cản của người khác khi họ sẵn sàng cho phép, và bạn tạo ra sự gần gũi thật. Bạn cũng nhận ra rằng khả năng này rất mạnh, nên bạn dùng nó có chọn lọc.",
+      "misaligned": "Bạn xuyên qua ranh giới của người khác khi họ chưa cho phép, và họ thấy bị xâm phạm. Hoặc bạn dùng sự thân mật để lấp một khoảng trống nào đó, rồi vào ra nhiều mối quan hệ mà không cái nào sâu.",
+      "practice": "Trước khi hỏi ai một câu riêng tư, hỏi trước một câu: mình hỏi chuyện này được không?",
+      "questions": [
+        "Bạn có hay đi quá nhanh vào chuyện riêng của người khác không?",
+        "Bạn tìm sự gần gũi để kết nối hay để lấp trống?"
+      ],
+      "gate": 59,
+      "name_en": "Sexuality",
+      "iching": {
+        "que_so": 59,
+        "ten_han_viet": "Hoán",
+        "nghia_goc": "Tan ra, phân tán",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Hoán là tan ra phân tán. HD: cổng 59 là phá vỡ rào cản để thân mật. Nối qua ý 'làm tan ranh giới'."
+      }
+    },
+    "60": {
+      "name_vi": "Giới hạn",
+      "kenh": "60-3 (Đột biến) — nối lên Xương cùng",
+      "tagline": "Cái mới chỉ ra đời được khi va vào một giới hạn. Không có giới hạn thì không có đột biến.",
+      "mechanics": "Cổng 60 là áp lực của giới hạn, quẻ gốc là Tiết — đốt tre, sự chừng mực có ngăn. Hệ thống mô tả cổng này là nơi cái mới bị nén lại cho tới khi bật ra thành đột biến. Nối với cổng 3 ở Xương cùng — cổng 60 nén, cổng 3 sắp xếp cái vừa bật ra.",
+      "aligned": "Bạn chấp nhận giới hạn của mình như một điều kiện chứ không phải bản án. Bạn làm hết mức trong khuôn khổ đang có, và chính sự nén đó tạo ra bước nhảy. Người có cổng này thường sáng tạo mạnh nhất khi bị hạn chế nguồn lực.",
+      "misaligned": "Bạn than về giới hạn và chờ nó biến mất rồi mới làm. Hoặc bạn rơi vào trạng thái buồn nặng vì thấy đời mình bị bó — hệ thống mô tả cổng 60 là một trong những nơi sinh ra u uất kiểu đó.",
+      "practice": "Viết ra giới hạn lớn nhất bạn đang gặp. Rồi viết: trong khuôn khổ này, mình vẫn làm được gì mà chưa làm?",
+      "questions": [
+        "Bạn đang chờ giới hạn nào biến mất rồi mới bắt đầu?",
+        "Lần bị bó buộc nhất trong đời — bạn đã nghĩ ra được gì trong lúc đó?"
+      ],
+      "gate": 60,
+      "name_en": "Limitation",
+      "iching": {
+        "que_so": 60,
+        "ten_han_viet": "Tiết",
+        "nghia_goc": "Đốt tre, giới hạn có chừng mực",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "61": {
+      "name_vi": "Bí ẩn bên trong",
+      "kenh": "61-24 (Nhận biết) — nối lên Ajna",
+      "tagline": "Áp lực muốn biết thứ không ai biết được.",
+      "mechanics": "Cổng 61 nằm ở trung tâm Đầu, là áp lực đi tìm câu trả lời cho những câu hỏi lớn nhất: tại sao mình tồn tại, đằng sau mọi thứ là gì. Đây không phải tò mò thông thường mà là một sức ép thật sự đè lên bạn. Cổng này nối với cổng 24 ở Ajna — khi cả hai cùng có, áp lực đó được chuyển thành quá trình suy ngẫm lặp đi lặp lại cho tới khi vỡ ra.",
+      "aligned": "Bạn để câu hỏi lớn ở đó mà không ép nó phải có đáp án hôm nay. Bạn hiểu rằng cảm hứng kiểu này đến rồi đi theo nhịp của nó. Những lúc bạn thật sự chạm được vào một tầng hiểu biết mới, nó đến bất ngờ, thường là lúc bạn không cố.",
+      "misaligned": "Bạn biến áp lực đó thành nỗi ám ảnh, thức đêm đi tìm ý nghĩa cho mọi thứ, và không ngủ được. Hoặc bạn dùng nó để phán xét — cho rằng mình đã chạm tới sự thật mà người khác chưa. Cổng 61 lệch hướng dễ sinh ra kiểu tự cho mình đã ngộ.",
+      "practice": "Viết câu hỏi lớn nhất đang đè bạn ra một tờ giấy, gấp lại, cất đi. Hẹn ba tháng sau mở lại.",
+      "questions": [
+        "Câu hỏi nào bạn đã đi tìm lời giải nhiều năm rồi?",
+        "Bạn có đang tin mình hiểu ra điều mà người quanh mình chưa hiểu không?"
+      ],
+      "gate": 61,
+      "name_en": "Inner Truth",
+      "iching": {
+        "que_so": 61,
+        "ten_han_viet": "Trung Phu",
+        "nghia_goc": "Lòng thành bên trong",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "62": {
+      "name_vi": "Chi tiết",
+      "kenh": "62-17 (Chấp nhận) — nối lên Ajna",
+      "tagline": "Bạn đặt tên cho mọi thứ, và nhờ đó người khác nắm được chúng.",
+      "mechanics": "Cổng 62 biến ý kiến trừu tượng thành chi tiết cụ thể: tên gọi, con số, thứ tự, danh sách. Quẻ gốc là Tiểu Quá — chú ý cái nhỏ. Đây là cổng của người làm việc với dữ kiện, người biết sắp xếp mớ hỗn độn thành thứ có thể trình bày được.",
+      "aligned": "Bạn dùng khả năng chi tiết để làm rõ, để người khác nắm được vấn đề. Bạn là người viết được quy trình, lập được bảng, đặt được tên đúng cho thứ mà mọi người mơ hồ cảm thấy.",
+      "misaligned": "Bạn sa vào chi tiết tới mức mất bức tranh lớn, hoặc bạn bắt bẻ chữ nghĩa của người khác. Bạn cũng có thể dùng sự tỉ mỉ để trì hoãn — chuẩn bị mãi mà không bắt đầu.",
+      "practice": "Lấy một việc bạn đang sa lầy vào chi tiết. Viết ra trong ba câu: mục tiêu là gì, ai cần, bao giờ xong.",
+      "questions": [
+        "Bạn có đang chuẩn bị quá kỹ để trì hoãn việc bắt đầu không?",
+        "Người quanh bạn có thấy bạn hay bắt bẻ không?"
+      ],
+      "gate": 62,
+      "name_en": "Detail",
+      "iching": {
+        "que_so": 62,
+        "ten_han_viet": "Tiểu Quá",
+        "nghia_goc": "Vượt nhỏ, chú ý chi tiết",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    "63": {
+      "name_vi": "Nghi ngờ",
+      "kenh": "63-4 (Logic) — nối lên Ajna",
+      "tagline": "Bạn luôn thấy chỗ có thể sai. Đó là năng lực, nếu bạn hướng nó ra ngoài.",
+      "mechanics": "Cổng 63 là áp lực nghi ngờ — nhìn vào một hệ thống, một kế hoạch, một lời hứa, và tự động thấy chỗ nào chưa vững. Đây là khởi điểm của toàn bộ mạch logic trong bản đồ. Cổng 63 nối với cổng 4, nơi nghi ngờ được biến thành công thức để kiểm chứng.",
+      "aligned": "Bạn hướng sự nghi ngờ vào những thứ bên ngoài cần được kiểm tra: một bản kế hoạch, một con số, một quy trình. Bạn trở thành người mà nhóm nào cũng cần — người phát hiện lỗ hổng trước khi nó thành tai nạn. Bạn cũng học được rằng nghi ngờ chỉ là câu hỏi, không phải kết luận.",
+      "misaligned": "Bạn quay sự nghi ngờ vào chính mình và vào những người thân, rồi soi mòn cả hai. Bạn nghi ngờ chính mình có làm nổi không, nghi người kia có thật lòng không — và cái nghi đó không bao giờ có đáp án vì bạn hỏi sai đối tượng.",
+      "practice": "Tuần này, mỗi lần thấy nghi ngờ nổi lên, viết ra một dòng: mình đang nghi cái gì, và có kiểm chứng được không. Cái nào không kiểm chứng được thì gạch bỏ.",
+      "questions": [
+        "Bạn đang nghi ngờ ai hoặc điều gì mà không có cách nào kiểm chứng?",
+        "Người quanh bạn có thấy bạn hay xét nét không?"
+      ],
+      "gate": 63,
+      "name_en": "Doubt",
+      "iching": {
+        "que_so": 63,
+        "ten_han_viet": "Ký Tế",
+        "nghia_goc": "Đã qua sông, đã hoàn tất",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Ký Tế là đã hoàn tất. HD: cổng 63 là nghi ngờ, kiểm tra logic. HD lấy phần 'xong rồi vẫn phải soi lại'."
+      }
+    },
+    "64": {
+      "name_vi": "Rối",
+      "kenh": "64-47 (Trừu tượng) — nối lên Ajna",
+      "tagline": "Đầu bạn đầy những mảnh hình ảnh chưa ghép lại được. Đó là bình thường.",
+      "mechanics": "Cổng 64 là áp lực của những hình ảnh quá khứ chạy trong đầu mà chưa xử lý xong — như một cuộn phim rối tua đi tua lại. Đây là khởi điểm của mạch trừu tượng. Cổng 64 nối với cổng 47, nơi mớ hình ảnh đó dần dần ghép được thành ý nghĩa.",
+      "aligned": "Bạn để những mảnh hình ảnh đó chạy mà không ép mình phải hiểu ngay. Bạn biết rằng sự sáng tỏ sẽ đến, nhưng theo nhịp riêng của nó, thường là bất chợt và thường là khi bạn đang làm việc khác. Bạn tin vào quá trình đó.",
+      "misaligned": "Bạn cố ép mình phải hiểu cho ra ngay lúc này, rồi càng ép càng rối. Bạn tưởng sự rối là dấu hiệu mình có vấn đề, trong khi nó chỉ là cơ chế của cổng này đang chạy.",
+      "practice": "Lần tới khi đầu rối, đứng dậy làm một việc chân tay trong ba mươi phút. Đừng cố nghĩ cho ra.",
+      "questions": [
+        "Ký ức hay hình ảnh nào cứ quay lại trong đầu bạn?",
+        "Bạn có đang tự trách mình vì không nghĩ cho ra không?"
+      ],
+      "gate": 64,
+      "name_en": "Confusion",
+      "iching": {
+        "que_so": 64,
+        "ten_han_viet": "Vị Tế",
+        "nghia_goc": "Chưa qua sông, chưa hoàn tất",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    }
+  },
+  "channels": {
+    "1-8": {
+      "name_vi": "Cảm hứng",
+      "gates": [
+        1,
+        8
+      ],
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn tạo ra thứ độc đáo, và bạn đưa được nó ra thế giới.",
+      "mechanics": "Cổng 1 ở Trung tâm G tạo ra cái riêng, cổng 8 ở Cổ họng mang nó ra ngoài. Đây là kênh của người có một dấu ấn không lẫn được và có khả năng làm cho người khác nhìn thấy dấu ấn đó. Vì thuộc mạch cá thể, nó vận hành theo nhịp riêng chứ không theo lịch.",
+      "aligned": "Bạn làm cái của mình khi cảm hứng tới, và bạn trình bày nó ra đúng lúc có người sẵn sàng nhìn. Cái bạn tạo ra làm người khác muốn tạo ra cái của họ — đó là cách kênh này lan ra.",
+      "misaligned": "Bạn ép sáng tạo theo lịch rồi ra thứ nhạt. Hoặc bạn giữ cái của mình trong ngăn kéo vì sợ chưa đủ hay, và cả kênh nằm im.",
+      "practice": "Đưa một thứ bạn đã làm ra cho đúng một người xem tuần này. Không giải thích, chỉ đưa.",
+      "questions": [
+        "Bạn đang giữ tác phẩm nào trong ngăn kéo?",
+        "Ai là người xứng đáng được xem nó đầu tiên?"
+      ]
+    },
+    "2-14": {
+      "name_vi": "Nhịp đập",
+      "gates": [
+        2,
+        14
+      ],
+      "centers": [
+        "g",
+        "sacral"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn biết hướng, và bạn có nhiên liệu để đi. Hiếm ai có cả hai.",
+      "mechanics": "Cổng 2 ở Trung tâm G biết phải đi đâu, cổng 14 ở Xương cùng mang sức để đi. Đây là kênh của người vừa có phương hướng vừa có nguồn lực vật chất — hệ thống mô tả nó là mạch của sự dẫn dắt bằng chính con đường mình đang đi.",
+      "aligned": "Bạn phản hồi đúng thứ hợp hướng rồi dồn sức vào. Nguồn lực theo sau chứ không phải mục tiêu. Người khác nhìn hướng bạn đi mà tự chỉnh hướng của họ.",
+      "misaligned": "Bạn dùng sức cho việc ra tiền nhưng sai hướng, rồi giàu mà rỗng. Hoặc bạn để người khác quyết hướng còn bạn chỉ đi làm.",
+      "practice": "Viết ra hướng bạn muốn đi trong năm năm. Rồi soi việc bạn đang dồn sức nhiều nhất — nó có nằm trên hướng đó không?",
+      "questions": [
+        "Bạn đang dồn sức vào đâu, và nó dẫn bạn tới đâu?",
+        "Hướng đó là của bạn hay của ai?"
+      ]
+    },
+    "3-60": {
+      "name_vi": "Đột biến",
+      "gates": [
+        3,
+        60
+      ],
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "mach": "cá thể",
+      "tagline": "Cái mới ra đời khi bị nén, không phải khi thoải mái.",
+      "mechanics": "Cổng 60 ở Gốc là áp lực của giới hạn, cổng 3 ở Xương cùng là sức đưa trật tự vào cái vừa bật ra. Đây là kênh sinh ra đột biến: bị bó, nén lại, rồi bung thành cái chưa từng có. Nhịp của nó không đều — có giai đoạn tắc dài rồi bật đột ngột.",
+      "aligned": "Bạn chịu được giai đoạn tắc mà không kết luận đời mình hỏng. Bạn làm hết mức trong khuôn khổ đang có. Khi cái mới bật ra, bạn sắp xếp được nó thành thứ dùng được.",
+      "misaligned": "Bạn than về giới hạn và chờ nó biến mất. Hoặc bạn u uất trong giai đoạn tắc vì tưởng nó là vĩnh viễn — hệ thống mô tả đây là một trong những kênh dễ sinh buồn nặng nhất.",
+      "practice": "Giới hạn lớn nhất của bạn hiện giờ — viết ra ba việc bạn vẫn làm được bên trong nó.",
+      "questions": [
+        "Bạn đang tắc ở đâu, và tắc bao lâu rồi?",
+        "Bạn có đang chờ điều gì biến mất mới bắt đầu không?"
+      ]
+    },
+    "10-20": {
+      "name_vi": "Tỉnh thức",
+      "gates": [
+        10,
+        20
+      ],
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn nói ra cách sống của mình, ngay tại lúc này.",
+      "mechanics": "Cổng 10 ở Trung tâm G là cách hành xử và tình yêu với chính mình, cổng 20 ở Cổ họng nói ra cái đang thật ở khoảnh khắc hiện tại. Kênh này biến việc sống đúng với mình thành lời.",
+      "aligned": "Bạn sống theo cách của mình và nói ra được nó một cách tự nhiên. Người nghe cảm được sự thật đó. Bạn không thuyết giảng — bạn chỉ đang là.",
+      "misaligned": "Bạn nói về sống thật với chính mình trong khi đang sống theo khuôn của ai đó. Người tinh ý nhận ra sự vênh ngay lập tức.",
+      "practice": "Nói với một người thân một điều thật về cách bạn muốn sống, không kèm lời xin lỗi nào.",
+      "questions": [
+        "Cách bạn sống và cách bạn nói có khớp không?",
+        "Bạn đang sống theo khuôn của ai?"
+      ]
+    },
+    "10-34": {
+      "name_vi": "Thăm dò",
+      "gates": [
+        10,
+        34
+      ],
+      "centers": [
+        "g",
+        "sacral"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn có sức để đi tìm chính mình. Đó là việc của cả đời.",
+      "mechanics": "Cổng 34 ở Xương cùng là sức mạnh thuần, cổng 10 ở Trung tâm G là cách sống của mình. Kênh này dồn toàn bộ sức lực vào việc trở thành chính mình. Hệ thống mô tả đây là kênh của người tự tin theo cách rất riêng, và cũng dễ bị coi là ích kỷ.",
+      "aligned": "Bạn dùng sức cho việc của mình và bạn trở nên rất thuyết phục vì bạn thật. Người ta không đi theo lời bạn nói mà đi theo cách bạn sống.",
+      "misaligned": "Bạn dồn sức vào việc của người khác rồi đánh mất mình. Hoặc bạn bận rộn không ngừng mà không đi tới đâu — bận cho có bận.",
+      "practice": "Dành một buổi trọn vẹn tuần này làm việc của riêng bạn. Không giúp ai, không trả lời ai.",
+      "questions": [
+        "Sức của bạn đang chảy về đâu?",
+        "Nếu không phải làm gì cho ai, bạn sẽ làm gì?"
+      ]
+    },
+    "10-57": {
+      "name_vi": "Hình hài",
+      "gates": [
+        10,
+        57
+      ],
+      "centers": [
+        "g",
+        "spleen"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bản năng dẫn bạn sống đúng cách của mình, ngay trong khoảnh khắc.",
+      "mechanics": "Cổng 57 ở Lá lách là trực giác nhạy nhất trong bản đồ, cổng 10 ở Trung tâm G là cách hành xử. Kênh này để trực giác dẫn đường cho cách sống. Hệ thống mô tả nó gắn với sự sinh tồn ở tầng bản năng — biết ngay điều gì tốt cho mình.",
+      "aligned": "Bạn nghe tín hiệu tức thời và điều chỉnh cách sống theo nó. Bạn ít khi rơi vào hoàn cảnh sai, vì bạn cảm được sớm và tránh trước.",
+      "misaligned": "Bạn phủ quyết bản năng bằng lý lẽ, rồi ở lại trong những hoàn cảnh mà cơ thể đã báo động từ lâu. Hoặc bạn để nỗi sợ ngày mai chiếm chỗ của trực giác.",
+      "practice": "Ba ngày liền, làm theo phản ứng đầu tiên trong ba việc nhỏ. Ghi lại kết quả.",
+      "questions": [
+        "Bản năng bạn đang báo điều gì mà bạn chưa nghe?",
+        "Nơi bạn đang ở — cơ thể bạn nói gì?"
+      ]
+    },
+    "12-22": {
+      "name_vi": "Cởi mở",
+      "gates": [
+        12,
+        22
+      ],
+      "centers": [
+        "throat",
+        "solar_plexus"
+      ],
+      "mach": "cá thể",
+      "tagline": "Có lúc bạn nói ra điều đẹp nhất. Có lúc bạn không nói nổi. Đó là nhịp, không phải lỗi.",
+      "mechanics": "Cổng 22 ở Đám rối mặt trời là sự cởi mở theo sóng cảm xúc, cổng 12 ở Cổ họng là khả năng diễn đạt mang màu tâm trạng. Kênh này chạy hoàn toàn theo sóng: khi lên, bạn nói ra được thứ chạm tới người khác; khi xuống, bạn đóng lại và không có gì để nói.",
+      "aligned": "Bạn sắp xếp việc nói và việc gặp gỡ theo nhịp của mình. Khi đúng lúc, cái bạn nói ra có sức lay động mà người nói đều đều cả năm không có được. Đây là kênh của nghệ sĩ và người đứng trước đám đông.",
+      "misaligned": "Bạn ép mình nói khi đang đóng, rồi ra thứ gượng. Hoặc bạn tự trách mình là người thất thường, khó gần.",
+      "practice": "Trước buổi nói quan trọng, tự chấm mình đang mở hay đóng. Nếu đóng mà dời được thì dời.",
+      "questions": [
+        "Bạn có tự trách mình vì hôm nay không nói hay bằng hôm qua không?",
+        "Lần bạn nói hay nhất, tâm trạng lúc đó thế nào?"
+      ]
+    },
+    "20-34": {
+      "name_vi": "Sức hút",
+      "gates": [
+        20,
+        34
+      ],
+      "centers": [
+        "throat",
+        "sacral"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn nói là bạn làm ngay. Sức hút của bạn đến từ chỗ đó.",
+      "mechanics": "Cổng 34 ở Xương cùng là sức mạnh thuần, cổng 20 ở Cổ họng là biểu đạt của khoảnh khắc hiện tại. Đây là kênh duy nhất nối thẳng Xương cùng lên Cổ họng — nó biến người có nó thành Manifesting Generator. Sức và lời đi cùng nhau, gần như không có độ trễ.",
+      "aligned": "Bạn phản hồi rồi bật ra hành động ngay. Bạn làm được nhiều thứ cùng lúc và làm nhanh. Người khác đứng gần bạn cũng thấy hăng lên — đó là sức hút thật, không phải kỹ thuật.",
+      "misaligned": "Bạn nói và làm trước khi cơ thể kịp xác nhận, rồi phải quay lại dọn. Hoặc bạn bận rộn liên tục mà không hướng, và sức hút biến thành sự ồn ào.",
+      "practice": "Trước ba hành động tuần này, báo trước một câu cho người bị ảnh hưởng. Xem sức cản giảm bao nhiêu.",
+      "questions": [
+        "Bạn có hay làm xong rồi mới nói không?",
+        "Bạn bận có hướng hay bận cho có?"
+      ]
+    },
+    "20-57": {
+      "name_vi": "Sóng não",
+      "gates": [
+        20,
+        57
+      ],
+      "centers": [
+        "throat",
+        "spleen"
+      ],
+      "mach": "cá thể",
+      "tagline": "Trực giác của bạn bật ra thành lời, đúng một lần, ngay lúc đó.",
+      "mechanics": "Cổng 57 ở Lá lách là trực giác, cổng 20 ở Cổ họng nói ra khoảnh khắc hiện tại. Kênh này biến cái biết bản năng thành lời gần như tức thời. Hệ thống mô tả đây là kênh của sự sáng suốt trong khoảnh khắc — không lý luận, không nhắc lại.",
+      "aligned": "Bạn nói ra cái mình vừa cảm được, đúng lúc có người hỏi. Điều bạn nói thường chính xác một cách kỳ lạ, và người nghe nhớ rất lâu.",
+      "misaligned": "Bạn nói ra khi chưa ai hỏi, và bị coi là phán bừa. Hoặc bạn nghi ngờ chính trực giác của mình rồi im, và cái biết đó tan mất.",
+      "practice": "Tuần này giữ lại một nhận định cho tới khi có người hỏi. So sánh cách họ đón nhận.",
+      "questions": [
+        "Bạn có hay nói ra trước khi ai hỏi không?",
+        "Lần gần nhất bạn nghi ngờ trực giác mình — kết cục thế nào?"
+      ]
+    },
+    "23-43": {
+      "name_vi": "Cấu trúc",
+      "gates": [
+        23,
+        43
+      ],
+      "centers": [
+        "throat",
+        "ajna"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn biết một điều lạ và bạn nói được nó ra. Nhưng chỉ khi đúng lúc.",
+      "mechanics": "Cổng 43 ở Ajna là cái biết đột ngột từ bên trong, cổng 23 ở Cổ họng biến nó thành ngôn ngữ. Đây là kênh của thiên tài và của kẻ lập dị — cùng một nội dung, khác nhau ở thời điểm nói. Hệ thống mô tả nó là kênh mang cái mới vào ngôn ngữ chung.",
+      "aligned": "Bạn chờ có người hỏi rồi nói, và cái bạn nói làm họ đổi cách nhìn. Bạn diễn đạt được điều mà người khác chỉ mơ hồ cảm thấy.",
+      "misaligned": "Bạn nói khi chưa ai sẵn sàng nghe, rồi bị gạt. Lặp nhiều lần, bạn im hẳn và mang cảm giác cô đơn dai dẳng — biết một điều mà không ai chia sẻ được.",
+      "practice": "Điều bạn muốn nói với ai đó — giữ lại tới khi họ hỏi. Nếu một tháng không ai hỏi, viết ra thay vì nói.",
+      "questions": [
+        "Bạn đang chờ ai hỏi mình điều gì?",
+        "Bạn có hay bị coi là nói chuyện khó hiểu không?"
+      ]
+    },
+    "24-61": {
+      "name_vi": "Nhận biết",
+      "gates": [
+        24,
+        61
+      ],
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "mach": "cá thể",
+      "tagline": "Cùng một câu hỏi lớn quay lại mãi, cho tới ngày nó tự mở.",
+      "mechanics": "Cổng 61 ở Đầu là áp lực muốn biết cái không biết được, cổng 24 ở Ajna quay lại câu hỏi đó hết lần này tới lần khác. Kênh này chạy vòng lặp: nghĩ, buông, nghĩ lại, cho tới lúc vỡ ra. Hệ thống mô tả nó là kênh của người đào rất sâu một chủ đề trong nhiều năm.",
+      "aligned": "Bạn cho phép vòng lặp chạy mà không ép nó phải xong. Cái hiểu đến khi nó đến, thường bất chợt. Bạn thành người nói ra được điều mà người lướt qua không thấy.",
+      "misaligned": "Bạn tự trách vì cứ nghĩ mãi một chuyện, hoặc cố quên đi. Kênh này cũng dễ chuyển thành vòng lặp hành vi — quay lại một thói quen dù biết không tốt.",
+      "practice": "Câu hỏi hay quay lại nhất với bạn — mỗi tuần viết một đoạn ngắn về nó, mười tuần liền, không cần kết luận.",
+      "questions": [
+        "Chuyện gì bạn nghĩ đi nghĩ lại nhiều năm rồi?",
+        "Có hành vi nào bạn cứ quay lại dù biết không tốt không?"
+      ]
+    },
+    "25-51": {
+      "name_vi": "Khởi phát",
+      "gates": [
+        25,
+        51
+      ],
+      "centers": [
+        "g",
+        "heart"
+      ],
+      "mach": "cá thể",
+      "tagline": "Cú sốc đẩy bạn vào một tầng nhận thức mới. Đó là cách kênh này vận hành.",
+      "mechanics": "Cổng 51 ở Tim là năng lượng gây sốc và cạnh tranh, cổng 25 ở Trung tâm G là tinh thần hồn nhiên yêu mọi thứ như nhau. Kênh này đưa người ta qua những cú va để mở ra tầng nhận thức mới. Hệ thống mô tả đây là kênh của người khai tâm cho người khác.",
+      "aligned": "Bạn dám đi trước, dám làm điều người khác chưa dám, và giữ được sự hồn nhiên qua các cú va. Bạn hồi phục nhanh — thứ làm người khác gục thì làm bạn tỉnh ra.",
+      "misaligned": "Bạn gây sốc chỉ để chứng tỏ mình. Hoặc bạn cứng lại sau vài lần tổn thương và mất luôn phần hồn nhiên — lúc đó kênh chỉ còn lại sự hung hăng.",
+      "practice": "Nhớ lại cú sốc lớn nhất đời bạn. Viết ra điều nó mở ra mà không có nó thì không có.",
+      "questions": [
+        "Bạn có cứng lại sau lần tổn thương nào không?",
+        "Bạn đang cạnh tranh với ai không đáng?"
+      ]
+    },
+    "28-38": {
+      "name_vi": "Vật lộn",
+      "gates": [
+        28,
+        38
+      ],
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn đi tìm thứ đáng để đánh đổi cả đời. Cuộc tìm đó chính là ý nghĩa.",
+      "mechanics": "Cổng 38 ở Gốc là áp lực chiến đấu, cổng 28 ở Lá lách là bản năng đi tìm điều đáng sống. Kênh này mang nỗi sợ đời mình trôi qua vô nghĩa, và biến nỗi sợ đó thành sức để đấu tranh. Hệ thống mô tả đây là kênh của người sẵn sàng đặt cược lớn.",
+      "aligned": "Bạn chọn kỹ trận nào đáng đánh rồi dồn hết. Mỗi lần thua bạn biết thêm cái gì không đáng. Đời bạn có chiều sâu vì bạn dám mất.",
+      "misaligned": "Bạn đấu với mọi thứ, kể cả chuyện không đáng, rồi kiệt và cô lập. Hoặc bạn tê liệt vì nỗi sợ vô nghĩa, không dám chọn gì.",
+      "practice": "Liệt kê những thứ bạn đang chống lại. Chọn một cái đáng nhất, buông hai cái không đáng.",
+      "questions": [
+        "Bạn đang đánh bao nhiêu trận cùng lúc?",
+        "Điều gì đáng để bạn dồn hết vào?"
+      ]
+    },
+    "34-57": {
+      "name_vi": "Sức mạnh",
+      "gates": [
+        34,
+        57
+      ],
+      "centers": [
+        "sacral",
+        "spleen"
+      ],
+      "mach": "cá thể",
+      "tagline": "Sức của bạn được bản năng dẫn đường. Không cần nghĩ nhiều.",
+      "mechanics": "Cổng 57 ở Lá lách là trực giác, cổng 34 ở Xương cùng là sức mạnh thuần. Kênh này để bản năng dẫn sức lực. Hệ thống mô tả nó gắn với sự sinh tồn và với khả năng biết ngay nên dồn sức vào đâu.",
+      "aligned": "Bạn cảm được ngay việc nào đáng dồn sức và bạn vào việc luôn. Bạn hiếm khi phí sức, vì bản năng đã lọc trước.",
+      "misaligned": "Bạn để cái đầu phủ quyết bản năng rồi đổ sức vào việc sai. Hoặc bạn hoài nghi chính mình tới mức không dám hành động.",
+      "practice": "Trước việc lớn tiếp theo, để ý phản ứng đầu tiên trong cơ thể trước khi phân tích. Ghi lại rồi đối chiếu sau.",
+      "questions": [
+        "Bạn có hay dùng lý lẽ để phủ quyết cảm nhận không?",
+        "Sức bạn đang đổ vào đâu?"
+      ]
+    },
+    "39-55": {
+      "name_vi": "Cảm xúc",
+      "gates": [
+        39,
+        55
+      ],
+      "centers": [
+        "root",
+        "solar_plexus"
+      ],
+      "mach": "cá thể",
+      "tagline": "Bạn khiêu khích để người khác lộ ra tinh thần thật của họ.",
+      "mechanics": "Cổng 39 ở Gốc là áp lực khiêu khích, cổng 55 ở Đám rối mặt trời là tinh thần lúc đầy lúc vơi. Kênh này chạy theo sóng rất mạnh và mang tính khiêu khích: bạn tạo trở ngại, phản ứng của người kia cho thấy họ là ai. Hệ thống mô tả đây là kênh của tinh thần và nghệ thuật.",
+      "aligned": "Bạn khiêu khích đúng người đúng lúc để đẩy họ vượt chỗ đang kẹt. Bạn cũng thôi đi tìm nguyên nhân bên ngoài cho tâm trạng của mình — đó là chỗ nhiều xung đột gia đình tự tan.",
+      "misaligned": "Bạn chọc bừa lúc trong người khó chịu, gây tổn thương không cần thiết. Hoặc mỗi lần xuống tinh thần bạn đi tìm thủ phạm, và người gần nhất lãnh đủ.",
+      "practice": "Ba mươi ngày chấm tinh thần từ 1 tới 10, không ghi lý do. Cuối kỳ nhìn biểu đồ.",
+      "questions": [
+        "Lần gần nhất xuống tinh thần, bạn đổ cho ai?",
+        "Bạn chọc người khác để giúp họ hay để xả?"
+      ]
+    },
+    "4-63": {
+      "name_vi": "Logic",
+      "gates": [
+        4,
+        63
+      ],
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn nghi ngờ, rồi bạn đưa ra một công thức. Công thức đó cần thời gian kiểm chứng.",
+      "mechanics": "Cổng 63 ở Đầu là áp lực nghi ngờ, cổng 4 ở Ajna đáp lại bằng một cách giải thích khả dĩ. Đây là khởi điểm của toàn bộ mạch logic. Điểm cốt lõi: câu trả lời của kênh này là **giả thuyết**, chưa phải sự thật.",
+      "aligned": "Bạn hướng nghi ngờ vào những thứ bên ngoài cần kiểm tra, và bạn đưa giải pháp kèm câu 'thử xem sao'. Bạn phát hiện lỗ hổng trước khi nó thành tai nạn.",
+      "misaligned": "Bạn quay nghi ngờ vào chính mình và người thân, soi mòn cả hai. Hoặc bạn tin công thức của mình là chân lý rồi áp lên người khác.",
+      "practice": "Mỗi lần nghi ngờ nổi lên, viết một dòng: nghi cái gì, có kiểm chứng được không. Cái nào không kiểm chứng được thì gạch.",
+      "questions": [
+        "Bạn đang nghi ngờ điều gì mà không có cách nào kiểm chứng?",
+        "Công thức nào bạn đang áp lên đời mình chưa kiểm chứng?"
+      ]
+    },
+    "5-15": {
+      "name_vi": "Nhịp điệu",
+      "gates": [
+        5,
+        15
+      ],
+      "centers": [
+        "sacral",
+        "g"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn có nhịp riêng, và nhịp đó dao động nhiều hơn người khác.",
+      "mechanics": "Cổng 5 ở Xương cùng là nhịp sinh học cố định, cổng 15 ở Trung tâm G là biên độ cực đoan. Kênh này ghép sự đều đặn với sự dao động: bạn cần nhịp, nhưng nhịp của bạn không giống khuôn chung. Hệ thống mô tả nó gắn với dòng chảy tự nhiên của sự sống.",
+      "aligned": "Bạn tìm ra nhịp thật của mình và bảo vệ nó. Bạn cũng chấp nhận rằng có giai đoạn mình rất kỷ luật, có giai đoạn lộn xộn — và cả hai đều là mình.",
+      "misaligned": "Bạn ép mình theo lịch của người khác rồi thấy trong người lệch lạc. Hoặc bạn tự trách vì không giữ được kỷ luật đều đặn như thiên hạ.",
+      "practice": "Ghi nhật ký giờ giấc ba mươi ngày. Bạn sẽ thấy nhịp thật, không phải nhịp bạn nghĩ mình nên có.",
+      "questions": [
+        "Nhịp thật của bạn là gì nếu không ai can thiệp?",
+        "Ai đang phá nhịp của bạn nhiều nhất?"
+      ]
+    },
+    "7-31": {
+      "name_vi": "Người dẫn",
+      "gates": [
+        7,
+        31
+      ],
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn dẫn được — nhưng chỉ khi người ta đã chọn bạn.",
+      "mechanics": "Cổng 7 ở Trung tâm G là vai lãnh đạo, cổng 31 ở Cổ họng là tiếng nói dẫn dắt. Kênh này làm nên người đứng đầu trong mạch tập thể. Điểm quyết định: quyền dẫn đến từ việc **được bầu**, không từ việc tự nhận.",
+      "aligned": "Bạn lên tiếng khi nhóm đã tin và đã chọn. Lời bạn nói được cả nhóm đi theo. Bạn cũng biết vai này không vĩnh viễn, hết nhiệm kỳ thì trả lại.",
+      "misaligned": "Bạn tự nhận vai dẫn khi chưa ai chọn, và nhóm không theo. Hoặc bạn dẫn vì thích quyền, và người ta rời đi dần.",
+      "practice": "Hỏi ba người trong nhóm: nếu được chọn lại, họ có chọn bạn không. Nghe mà không thanh minh.",
+      "questions": [
+        "Bạn đang dẫn vì được chọn hay vì tự nhận?",
+        "Bạn dẫn vì lợi ích chung hay vì vị trí đó?"
+      ]
+    },
+    "9-52": {
+      "name_vi": "Chuyên chú",
+      "gates": [
+        9,
+        52
+      ],
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn ngồi yên được rất lâu và cắm vào chi tiết rất sâu.",
+      "mechanics": "Cổng 52 ở Gốc là áp lực dừng lại, cổng 9 ở Xương cùng là sức tập trung vào chi tiết. Kênh này nén năng lượng thành sự bất động rồi dồn hết vào một điểm. Hệ thống mô tả nó là kênh của sự quyết tâm bền bỉ.",
+      "aligned": "Bạn chọn đúng chi tiết đáng chú tâm rồi làm tới nơi. Bạn hoàn thiện được những phần mà người khác thấy chán. Đây là lợi thế lớn ở bất kỳ nghề nào cần độ chính xác.",
+      "misaligned": "Bạn dồn hết vào một chi tiết không quan trọng và bỏ lỡ bức tranh lớn. Hoặc bạn ngồi yên quá lâu thành trì trệ.",
+      "practice": "Trước khi cắm đầu vào việc tiếp theo, viết một câu: việc này đóng góp gì cho mục tiêu lớn hơn.",
+      "questions": [
+        "Bạn có đang dồn sức vào chi tiết không quan trọng không?",
+        "Bức tranh lớn của bạn là gì?"
+      ]
+    },
+    "11-56": {
+      "name_vi": "Tò mò",
+      "gates": [
+        11,
+        56
+      ],
+      "centers": [
+        "ajna",
+        "throat"
+      ],
+      "mach": "tập thể",
+      "tagline": "Ý tưởng đến với bạn để bạn kể lại, không phải để bạn đi làm.",
+      "mechanics": "Cổng 11 ở Ajna là kho ý tưởng, cổng 56 ở Cổ họng kể chúng thành chuyện. Đây là chỗ hay bị hiểu sai nhất trong bản đồ: ý tưởng của kênh này **không phải để thực hiện**. Chúng là chất liệu để truyền cảm hứng.",
+      "aligned": "Bạn kể ý tưởng cho người khác nghe, ai cần thì nhặt lấy. Bạn trở thành nguồn cảm hứng mà không phải gánh trách nhiệm thực hiện. Đây là kênh rất mạnh cho việc dạy học và dẫn chuyện.",
+      "misaligned": "Bạn thấy ý tưởng hay rồi lao vào làm, hết cái này tới cái khác, không cái nào tới nơi. Rồi bạn tự trách mình là kiểu người nhiều ý mà chẳng làm được gì.",
+      "practice": "Lập sổ ý tưởng. Ghi vào, kể cho ít nhất một người, và không tự nhận làm cái nào trong ba mươi ngày.",
+      "questions": [
+        "Bạn đang ôm bao nhiêu ý tưởng chưa làm?",
+        "Ai quanh bạn đang cần đúng ý tưởng bạn đang giữ?"
+      ]
+    },
+    "13-33": {
+      "name_vi": "Đứa con hoang",
+      "gates": [
+        13,
+        33
+      ],
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "mach": "tập thể",
+      "tagline": "Người ta kể cho bạn nghe, bạn rút lui để tiêu hoá, rồi bạn kể lại.",
+      "mechanics": "Cổng 13 ở Trung tâm G thu nhận câu chuyện của người khác, cổng 33 ở Cổ họng rút lui rồi kể lại thành bài học. Hệ thống mô tả đây là kênh giữ ký ức tập thể — người nhớ chuyện đã qua để thế hệ sau khỏi lặp lại.",
+      "aligned": "Bạn nghe mà không phán xét, giữ được bí mật, và biết chọn cái gì nên kể lại. Bạn cho mình khoảng lặng sau mỗi chặng để tiêu hoá.",
+      "misaligned": "Bạn ôm hết chuyện thiên hạ mà không đặt xuống được. Hoặc bạn kể lại chuyện của người khác không đúng chỗ, và mất lòng tin — với kênh này, mất rồi rất khó lấy lại.",
+      "practice": "Sau lần nghe chuyện nặng tiếp theo, viết ra một trang rồi xé đi.",
+      "questions": [
+        "Bạn đang mang chuyện của ai mà chưa đặt xuống?",
+        "Bạn có cho mình khoảng lặng sau mỗi chặng không?"
+      ]
+    },
+    "16-48": {
+      "name_vi": "Bước sóng",
+      "gates": [
+        16,
+        48
+      ],
+      "centers": [
+        "throat",
+        "spleen"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn có chiều sâu và bạn có sự hăng hái. Nghề của bạn nằm ở chỗ đó.",
+      "mechanics": "Cổng 48 ở Lá lách là chiều sâu năng lực kèm nỗi sợ không đủ giỏi, cổng 16 ở Cổ họng là sự hăng hái nhảy vào thử. Kênh này biến chiều sâu thành tài năng thực. Hệ thống mô tả nó là kênh của người có nghề — nghệ sĩ, thợ giỏi, chuyên gia.",
+      "aligned": "Bạn để nhiệt tình dẫn vào một thứ rồi luyện cho tới thành thạo thật. Bạn dùng nỗi sợ chưa đủ giỏi làm động lực học tiếp chứ không để nó chặn.",
+      "misaligned": "Bạn nhảy vào rồi bỏ khi hết hứng, hết lần này tới lần khác. Hoặc bạn chờ đủ giỏi mới dám ra mắt — và ngày đó không tới.",
+      "practice": "Chọn một kỹ năng bạn từng hào hứng rồi bỏ dở. Luyện lại ba mươi ngày, mỗi ngày mười lăm phút.",
+      "questions": [
+        "Bạn đang chờ đủ giỏi để làm gì?",
+        "Bạn đã bỏ dở bao nhiêu thứ ngay sau khi hết hứng?"
+      ]
+    },
+    "17-62": {
+      "name_vi": "Chấp nhận",
+      "gates": [
+        17,
+        62
+      ],
+      "centers": [
+        "ajna",
+        "throat"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn có ý kiến kèm chi tiết chứng minh. Ý kiến vẫn không phải sự thật.",
+      "mechanics": "Cổng 17 ở Ajna sinh ra ý kiến dựa trên mẫu hình đã quan sát, cổng 62 ở Cổ họng diễn đạt nó thành chi tiết cụ thể. Kênh này làm nên người tổ chức: bạn có quan điểm và bạn chứng minh được bằng dữ kiện.",
+      "aligned": "Bạn chờ được hỏi rồi đưa ý kiến, và nói rõ đó là ý kiến. Người ta tìm bạn khi cần một góc nhìn có cơ sở. Bạn cũng biết sắp xếp mớ hỗn độn thành thứ trình bày được.",
+      "misaligned": "Bạn đưa ý kiến cho mọi thứ dù không ai hỏi, rồi người ta ngại nói chuyện với bạn. Hoặc bạn nhầm ý kiến là sự thật rồi tranh cãi để bảo vệ.",
+      "practice": "Ba ngày, đếm số lần bạn đưa ý kiến khi không ai hỏi. Chỉ đếm, không sửa.",
+      "questions": [
+        "Bạn có hay đưa ý kiến khi không được hỏi không?",
+        "Ý kiến nào của bạn đang được coi như sự thật?"
+      ]
+    },
+    "18-58": {
+      "name_vi": "Phán xét",
+      "gates": [
+        18,
+        58
+      ],
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn thấy chỗ hỏng ngay. Niềm vui của bạn là làm nó tốt lên.",
+      "mechanics": "Cổng 58 ở Gốc là áp lực của niềm vui sống, cổng 18 ở Lá lách là bản năng phát hiện chỗ chưa hoàn thiện. Kênh này ghép niềm vui với nhu cầu sửa: bạn vui khi mọi thứ tốt lên. Cổng 18 mang nỗi sợ uy quyền, nên kênh này thường bắt đầu bằng việc thách thức bề trên.",
+      "aligned": "Bạn chỉ ra chỗ hỏng khi có người hỏi, và chỉ vào việc chứ không vào người. Bạn làm cho mọi thứ quanh mình tốt lên thật, và niềm vui của bạn lây sang người khác.",
+      "misaligned": "Bạn phê phán liên tục dù không ai hỏi, và người ta tránh bạn. Hoặc bạn quay sự phê phán vào chính mình, soi mòn lòng tự trọng từng ngày.",
+      "practice": "Ba ngày, mỗi lần định chỉ ra chỗ sai, hỏi thầm: người này có đang hỏi mình không?",
+      "questions": [
+        "Bạn đang muốn sửa ai mà không ai nhờ?",
+        "Bạn đang phê phán chính mình về điều gì?"
+      ]
+    },
+    "29-46": {
+      "name_vi": "Khám phá",
+      "gates": [
+        29,
+        46
+      ],
+      "centers": [
+        "sacral",
+        "g"
+      ],
+      "mach": "tập thể",
+      "tagline": "Bạn nói có với những thứ chưa biết trước kết quả. Đó vừa là sức mạnh vừa là bẫy.",
+      "mechanics": "Cổng 29 ở Xương cùng là sức cam kết, cổng 46 ở Trung tâm G là tình yêu với cơ thể và sự có mặt đúng chỗ. Kênh này đưa người ta vào những trải nghiệm sâu mà không biết trước sẽ ra sao. Hệ thống mô tả nó là kênh của sự thành công qua kiên trì.",
+      "aligned": "Bạn chỉ cam kết khi bụng thật sự gật, và khi đã gật thì đi tới cùng. Bạn hay rơi vào những tình huống tình cờ mà hoá ra đúng — đó là cơ chế của kênh, không phải may.",
+      "misaligned": "Bạn nói có bằng cái đầu rồi mắc kẹt nhiều năm. Đây là kênh dễ dẫn tới kiệt sức nhất, vì bạn có sức chịu đựng rất lâu trong thứ sai.",
+      "practice": "Trước cam kết tiếp theo, xin hai mươi tư giờ. Để ý bụng mình mỗi lần nghĩ tới việc đó.",
+      "questions": [
+        "Bạn đang mắc kẹt trong cam kết nào mà bụng chưa bao giờ muốn?",
+        "Bạn có hay nói có cho xong chuyện không?"
+      ]
+    },
+    "30-41": {
+      "name_vi": "Nhận ra",
+      "gates": [
+        30,
+        41
+      ],
+      "centers": [
+        "solar_plexus",
+        "root"
+      ],
+      "mach": "tập thể",
+      "tagline": "Một khao khát dâng lên trước cả khi bạn biết mình thèm gì.",
+      "mechanics": "Cổng 41 ở Gốc là áp lực nén trước khi bung — điểm khởi đầu của cả bánh xe. Cổng 30 ở Đám rối mặt trời là ngọn lửa khao khát. Kênh này khởi động mọi trải nghiệm: thèm muốn dâng lên, rồi mới dần rõ là thèm cái gì.",
+      "aligned": "Bạn chịu được cảm giác thèm một thứ chưa rõ hình dạng, và chờ cho tới khi nó rõ. Trí tưởng tượng của bạn rất mạnh, và bạn dùng nó làm nhiên liệu chứ không làm nơi trốn.",
+      "misaligned": "Bạn vơ đại một thứ để lấp — mua sắm, ăn uống, một mối quan hệ mới — rồi nó không lấp được. Hoặc bạn tin rằng đạt được thứ đó xong sẽ hết cháy, và khi vẫn cháy thì hụt hẫng sâu.",
+      "practice": "Khi thấy thèm mà không rõ thèm gì, viết ba dòng mô tả cảm giác đó. Không mua gì trong hai mươi tư giờ.",
+      "questions": [
+        "Bạn có hay mua hoặc ăn để lấp một cảm giác mơ hồ không?",
+        "Khao khát nào đang dẫn bạn đi mà chưa xét lại?"
+      ]
+    },
+    "35-36": {
+      "name_vi": "Vô thường",
+      "gates": [
+        35,
+        36
+      ],
+      "centers": [
+        "throat",
+        "solar_plexus"
+      ],
+      "mach": "tập thể",
+      "tagline": "Cái gì bạn cũng thử qua rồi. Câu hỏi là bạn rút được gì.",
+      "mechanics": "Cổng 36 ở Đám rối mặt trời lao vào trải nghiệm chưa từng có, cổng 35 ở Cổ họng kể lại trải nghiệm đó. Kênh này chạy theo sóng: khao khát cái mới, nhảy vào, vỡ mộng, rồi lại khao khát. Hệ thống mô tả nó là kênh của sự thay đổi và của người từng trải.",
+      "aligned": "Bạn chờ qua sóng trước khi nhảy vào cái mới, và mỗi trải nghiệm bạn rút được điều gì đó để kể lại. Bạn thành người có vốn sống thật, không phải người đọc sách.",
+      "misaligned": "Bạn nhảy từ cái mới này sang cái mới khác mà không đọng lại gì. Cảm giác chán ngay sau khi đạt được điều mình muốn là dấu hiệu quen thuộc nhất.",
+      "practice": "Liệt kê năm trải nghiệm lớn đã qua. Mỗi cái viết một câu về điều học được. Cái nào không viết được là cái chưa tiêu hoá xong.",
+      "questions": [
+        "Bạn có hay chán ngay sau khi đạt được thứ mình muốn không?",
+        "Trải nghiệm nào bạn đi qua mà chưa rút ra được gì?"
+      ]
+    },
+    "42-53": {
+      "name_vi": "Trưởng thành",
+      "gates": [
+        42,
+        53
+      ],
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "mach": "tập thể",
+      "tagline": "Mở đầu rồi đi hết. Cả hai đầu đều cần, và bạn có cả hai.",
+      "mechanics": "Cổng 53 ở Gốc là áp lực bắt đầu chu kỳ mới, cổng 42 ở Xương cùng là sức đi hết chu kỳ đó. Kênh này cho người ta khả năng mở ra và đóng lại trọn vẹn. Hệ thống mô tả sự trưởng thành đến từ việc hoàn tất, không từ việc bắt đầu.",
+      "aligned": "Bạn chỉ bắt đầu thứ mình định đi hết, và bạn đi hết. Việc hoàn tất trọn vẹn một chu kỳ cho bạn sự trưởng thành mà bỏ dở không bao giờ cho được.",
+      "misaligned": "Bạn bỏ ngang rồi bắt cái mới, hết lần này tới lần khác, và không bao giờ có cảm giác hoàn tất. Hoặc bạn cố kéo dài một chu kỳ đã tới lúc kết thúc.",
+      "practice": "Chọn một việc đang bỏ dở. Hoặc làm xong trong ba mươi ngày, hoặc chính thức khai tử. Không để lửng.",
+      "questions": [
+        "Bạn đang để lửng bao nhiêu việc?",
+        "Có chu kỳ nào đã tới lúc kết thúc mà bạn vẫn cố kéo không?"
+      ]
+    },
+    "47-64": {
+      "name_vi": "Trừu tượng",
+      "gates": [
+        47,
+        64
+      ],
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "mach": "tập thể",
+      "tagline": "Đầu bạn đầy mảnh hình ảnh rối. Chúng sẽ ghép lại, nhưng theo nhịp riêng.",
+      "mechanics": "Cổng 64 ở Đầu là áp lực của những hình ảnh quá khứ chưa xử lý xong, cổng 47 ở Ajna dần ghép chúng thành ý nghĩa. Quẻ gốc của cổng 47 là Khốn — bị vây. Giai đoạn bí là phần bắt buộc của quá trình, không phải sự cố.",
+      "aligned": "Bạn để mớ hình ảnh chạy mà không ép phải hiểu ngay. Sự sáng tỏ đến bất chợt, thường lúc bạn đang làm việc khác. Khi hiểu ra, bạn kể lại được cho người khác dùng.",
+      "misaligned": "Bạn ép mình phải hiểu ngay, càng ép càng rối. Hoặc bạn vơ đại một lời giải thích cho đỡ khó chịu rồi sống theo cách hiểu sai suốt nhiều năm.",
+      "practice": "Lần tới khi đầu rối, đứng dậy làm việc chân tay ba mươi phút. Đừng cố nghĩ cho ra.",
+      "questions": [
+        "Bạn đang bí ở chỗ nào, và bao lâu rồi?",
+        "Bạn có đang vơ một lời giải thích cho xong không?"
+      ]
+    },
+    "6-59": {
+      "name_vi": "Kết đôi",
+      "gates": [
+        6,
+        59
+      ],
+      "centers": [
+        "solar_plexus",
+        "sacral"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn phá được rào cản của người khác. Và bạn cũng có rào của riêng mình.",
+      "mechanics": "Cổng 59 ở Xương cùng là sức phá vỡ rào cản để đi tới thân mật, cổng 6 ở Đám rối mặt trời là lớp màng đóng mở theo sóng cảm xúc. Hệ thống nối kênh này với khả năng sinh sản và với sự gần gũi ở tầng sâu nhất.",
+      "aligned": "Bạn đi qua rào cản của người khác khi họ sẵn sàng, và bạn tôn trọng nhịp đóng mở của chính mình. Bạn nói ra cho người thân hiểu nhịp đó. Từ đó quan hệ lành mạnh hơn nhiều.",
+      "misaligned": "Bạn xuyên qua ranh giới người khác khi họ chưa cho phép. Hoặc bạn nổ ra xung đột ngay lúc cảm xúc dâng, rồi hối. Hoặc bạn đóng chặt mãi rồi cô đơn trong chính quan hệ của mình.",
+      "practice": "Lần tới thấy muốn nổ, viết ra hết rồi để hai ngày. Đọc lại trước khi nói.",
+      "questions": [
+        "Người thân bạn có hiểu nhịp đóng mở của bạn không?",
+        "Bạn tìm gần gũi để kết nối hay để lấp trống?"
+      ]
+    },
+    "19-49": {
+      "name_vi": "Tổng hợp",
+      "gates": [
+        19,
+        49
+      ],
+      "centers": [
+        "root",
+        "solar_plexus"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn cảm được nhóm mình thiếu gì, và bạn có nguyên tắc về ai được vào.",
+      "mechanics": "Cổng 19 ở Gốc là áp lực nhận biết nhu cầu của nhóm, cổng 49 ở Đám rối mặt trời là nguyên tắc chấp nhận hay từ chối. Kênh này quyết định ai thuộc về nhóm và nhóm cần gì. Hệ thống mô tả nó gắn với sự nhạy cảm rất cao, cả với người lẫn với con vật.",
+      "aligned": "Bạn nói ra nhu cầu của mình thay vì chờ người ta đoán, và bạn nói rõ nguyên tắc từ đầu thay vì để người ta vi phạm rồi mới cắt. Bạn giữ cho nhóm không ai bị bỏ rơi.",
+      "misaligned": "Bạn nhạy với nhu cầu mọi người nhưng giấu nhu cầu của mình rồi ấm ức. Hoặc bạn cắt đứt đột ngột mà người kia không hiểu tại sao.",
+      "practice": "Nói thẳng một nhu cầu của bạn với người thân, bằng câu đơn giản: mình cần điều này.",
+      "questions": [
+        "Bạn có chờ người khác đoán ra nhu cầu của mình không?",
+        "Bạn từng cắt ai đó đột ngột mà họ không hiểu lý do chưa?"
+      ]
+    },
+    "21-45": {
+      "name_vi": "Tiền bạc",
+      "gates": [
+        21,
+        45
+      ],
+      "centers": [
+        "heart",
+        "throat"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn trông coi tài nguyên của nhóm. Trong địa hạt của mình, bạn phải được tự quyết.",
+      "mechanics": "Cổng 21 ở Tim là ý chí kiểm soát tài nguyên, cổng 45 ở Cổ họng là tiếng nói của người đứng đầu. Kênh này làm nên người chủ — người vừa có ý chí giành giữ vừa có quyền phân chia. Hệ thống mô tả nó là kênh gắn với vật chất trong mạch bộ tộc.",
+      "aligned": "Bạn kiểm soát đúng phần thuộc về mình và làm rất tốt. Bạn phân chia cho nhóm một cách công bằng, nên nhóm chấp nhận bạn đứng đầu. Được tự quyết là điều kiện sống còn của kênh này.",
+      "misaligned": "Bạn kiểm soát cả những chỗ không phải của mình rồi vấp chống đối. Hoặc bạn bị người khác chỉ đạo và phản kháng dữ dội — kênh này rất khó chịu khi bị sai bảo.",
+      "practice": "Vẽ ranh giới địa hạt của bạn trên giấy: việc nào của mình, việc nào không. Buông một việc nằm ngoài.",
+      "questions": [
+        "Bạn đang cố kiểm soát điều gì không thuộc về mình?",
+        "Bạn có đang bị chỉ đạo trong địa hạt của mình không?"
+      ]
+    },
+    "26-44": {
+      "name_vi": "Buông bỏ",
+      "gates": [
+        26,
+        44
+      ],
+      "centers": [
+        "heart",
+        "spleen"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn nhớ mọi thứ và bạn kể lại rất hay. Ranh giới giữa kể hay và nói quá rất mỏng.",
+      "mechanics": "Cổng 44 ở Lá lách là bản năng nhận biết mẫu hình từ quá khứ kèm nỗi sợ quá khứ lặp lại, cổng 26 ở Tim là ý chí thuyết phục. Kênh này biến ký ức thành câu chuyện bán được. Hệ thống mô tả đây là kênh của người bán hàng và người làm thương hiệu.",
+      "aligned": "Bạn kể điều mình thật sự tin và làm người ta tin theo. Bạn cũng đọc được người rất nhanh, nên chọn cộng sự rất chuẩn.",
+      "misaligned": "Bạn nói quá lên để bán được, rồi phải nói dối thêm để đỡ cho lời đầu. Hoặc bạn bán thứ mình không tin, và ý chí cạn rất nhanh vì nó phải chống lại chính mình.",
+      "practice": "Nhìn lại lời chào bán gần nhất. Gạch bỏ mọi câu bạn không đặt tay lên ngực khẳng định được.",
+      "questions": [
+        "Bạn có đang nói quá về điều gì không?",
+        "Bạn có thật sự tin vào thứ bạn đang bán không?"
+      ]
+    },
+    "27-50": {
+      "name_vi": "Gìn giữ",
+      "gates": [
+        27,
+        50
+      ],
+      "centers": [
+        "sacral",
+        "spleen"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn nuôi và bạn giữ luật cho nhóm mình. Cả hai đều nặng.",
+      "mechanics": "Cổng 27 ở Xương cùng là sức chăm sóc nuôi dưỡng, cổng 50 ở Lá lách giữ giá trị và luật lệ của nhóm kèm nỗi sợ trách nhiệm. Kênh này làm nên người mà cả nhà dựa vào. Hệ thống mô tả nó là kênh của sự bảo hộ trong mạch bộ tộc.",
+      "aligned": "Bạn chăm người thật sự cần và thuộc nhóm mình, và bạn chăm chính mình trước. Bạn giữ những nguyên tắc còn đúng và buông những cái đã lỗi thời. Nhóm dựa được vào bạn vì bạn còn sức.",
+      "misaligned": "Bạn ôm hết trách nhiệm của cả nhóm rồi kiệt, kèm cảm giác tội lỗi triền miên. Hoặc bạn chăm sóc quá mức tới chỗ người kia không tự lớn lên được.",
+      "practice": "Liệt kê những trách nhiệm bạn đang gánh. Đánh dấu cái nào thật sự là của bạn. Giao trả một cái không phải.",
+      "questions": [
+        "Bạn đang gánh trách nhiệm nào không phải của mình?",
+        "Ai đang chăm sóc bạn?"
+      ]
+    },
+    "32-54": {
+      "name_vi": "Chuyển hoá",
+      "gates": [
+        32,
+        54
+      ],
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn muốn đi lên, và bạn cảm được cái gì sẽ trụ được.",
+      "mechanics": "Cổng 54 ở Gốc là áp lực thăng tiến — quẻ gốc là Quy Muội, vào bằng cửa phụ. Cổng 32 ở Lá lách là bản năng nhận biết cái gì tồn tại lâu dài, kèm nỗi sợ thất bại. Kênh này làm nên tham vọng có tính toán: muốn lên, nhưng biết chọn thứ đáng để leo.",
+      "aligned": "Bạn làm thật tốt phần của mình và để người ở trên nhìn thấy. Bạn kiên trì với thứ bản năng báo là sẽ trụ, và bỏ thứ sẽ sụp. Khi cửa mở, bạn đã sẵn sàng.",
+      "misaligned": "Bạn chen lên bằng mọi giá rồi bị đẩy ngược. Hoặc nỗi sợ thất bại chặn hết, không dám bắt đầu gì. Hoặc bạn tiếc công mà giữ lại thứ bản năng đã báo là không trụ được.",
+      "practice": "Chọn một người ở vị trí bạn muốn tới. Tuần này tìm cách để họ thấy được một việc bạn làm tốt.",
+      "questions": [
+        "Bạn đang tiếc công mà giữ lại thứ gì?",
+        "Ai có thể mở cửa cho bạn, và họ có biết bạn làm được gì không?"
+      ]
+    },
+    "37-40": {
+      "name_vi": "Cộng đồng",
+      "gates": [
+        37,
+        40
+      ],
+      "centers": [
+        "solar_plexus",
+        "heart"
+      ],
+      "mach": "bộ tộc",
+      "tagline": "Bạn hứa, và bạn có sức giữ lời. Miễn là thoả thuận sòng phẳng.",
+      "mechanics": "Cổng 37 ở Đám rối mặt trời là lời hứa và thoả thuận trong nhóm thân, cổng 40 ở Tim là ý chí làm việc để nuôi nhóm kèm nhu cầu rút lui sau đó. Kênh này giữ gia đình lại với nhau bằng những thoả thuận rõ ràng.",
+      "aligned": "Bạn làm thoả thuận rõ: tôi làm phần này, đổi lại tôi nhận cái này. Bạn làm phần của mình rồi nghỉ mà không thấy có lỗi. Chính sự sòng phẳng giữ quan hệ bền.",
+      "misaligned": "Bạn hứa mà không nói rõ đổi lại là gì, rồi ấm ức. Hoặc bạn làm mãi không nghỉ vì sợ bị coi là ích kỷ, rồi cạn và sinh oán ngầm.",
+      "practice": "Chọn một thoả thuận đang lệch trong nhà bạn. Nói thẳng: mình làm phần này, mình mong đổi lại điều này.",
+      "questions": [
+        "Thoả thuận nào trong nhà bạn đang không còn công bằng?",
+        "Bạn có thấy có lỗi khi nghỉ ngơi không?"
+      ]
+    }
+  }
+}

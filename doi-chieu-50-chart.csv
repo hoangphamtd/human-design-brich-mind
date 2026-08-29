@@ -1,0 +1,51 @@
+﻿ma,ngay,gio,noi_sinh,mui_gio,mien,engine_type,engine_authority,engine_profile,engine_kenh,nguon1_type,nguon1_authority,nguon1_profile,nguon2_type,nguon2_authority,nguon2_profile,khop,ghi_chu
+VN-01,20/04/1965,07:15,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,manifesting_generator,sacral,4/6,21-45 3-60,,,,,,,,"miền Bắc, giai đoạn hai múi giờ"
+VN-02,20/04/1965,07:15,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,4/6,21-45 3-60,,,,,,,,"miền Nam, cùng giờ đồng hồ"
+VN-03,08/08/1970,03:30,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,manifesting_generator,emotional,2/4,13-33 2-14 37-40 6-59,,,,,,,,miền Bắc
+VN-04,08/08/1970,03:30,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,emotional,2/4,13-33 2-14 37-40 6-59,,,,,,,,miền Nam
+VN-05,12/06/1975,23:59,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,5/1,20-34 25-51 42-53,,,,,,,,áp chót mốc đổi giờ
+VN-06,13/06/1975,00:01,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,5/1,20-34 25-51 42-53,,,,,,,,ngay mốc đổi giờ
+VN-07,14/06/1975,00:01,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,6/2,20-34 25-51 42-53,,,,,,,,"sau mốc, đã thống nhất"
+VN-08,01/01/1960,12:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,generator,emotional,1/3,10-57 18-58 26-44 28-38 6-59,,,,,,,,ngày miền Nam đổi sang UTC+8
+VN-09,31/12/1959,12:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,generator,emotional,6/2,10-57 18-58 26-44 6-59,,,,,,,,hôm trước khi đổi
+VN-10,03/03/1957,06:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,manifesting_generator,emotional,1/3,23-43 29-46 35-36,,,,,,,,giai đoạn hai miền cùng UTC+7
+VN-11,05/05/1950,12:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,projector,self_projected,1/4,1-8 47-64,,,,,,,,"trước 1955, nguồn chưa thống nhất"
+VN-12,10/10/1980,10:10,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,projector,splenic,2/5,26-44 32-54,,,,,,,,"sau thống nhất, không cần miền"
+NĐ-01,15/07/1988,00:01,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifestor,emotional,2/4,11-56 24-61 25-51 35-36,,,,,,,,đầu ngày
+NĐ-02,15/07/1988,23:59,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifestor,emotional,3/5,17-62 24-61 25-51 35-36,,,,,,,,cuối ngày
+NĐ-03,30/11/1993,00:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifesting_generator,emotional,2/4,16-48 20-34 20-57 34-57 37-40,,,,,,,,đúng 0 giờ
+NĐ-04,01/12/1993,00:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifesting_generator,emotional,3/6,16-48 20-34 20-57 34-57 37-40,,,,,,,,0 giờ hôm sau
+NĐ-05,31/12/2000,23:59,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifestor,emotional,1/4,16-48 28-38 30-41,,,,,,,,giao thừa thiên niên kỷ
+NĐ-06,01/01/2001,00:01,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifestor,emotional,1/4,16-48 28-38 30-41,,,,,,,,đầu thiên niên kỷ
+NH-01,29/02/1960,12:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,emotional,5/1,10-34 35-36 37-40 6-59,,,,,,,,29/2 năm nhuận
+NH-02,29/02/2000,06:30,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,5/1,27-50 37-40,,,,,,,,năm 2000 nhuận
+NH-03,29/02/2024,18:45,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifesting_generator,emotional,5/2,10-57 27-50 35-36 37-40,,,,,,,,29/2 gần đây
+NH-04,01/03/1996,00:05,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,manifesting_generator,emotional,5/2,10-34 10-57 34-57 35-36 37-40 42-53,,,,,,,,ngay sau 29/2
+NN-01,04/07/1975,14:30,New York,America/New_York,,manifesting_generator,sacral,3/5,17-62 20-34 21-45 27-50,,,,,,,,"Mỹ, đang giờ mùa hè"
+NN-02,04/01/1975,14:30,New York,America/New_York,,manifestor,splenic,5/1,16-48 26-44,,,,,,,,"Mỹ, giờ chuẩn"
+NN-03,21/06/1982,09:00,London,Europe/London,,manifesting_generator,sacral,2/4,10-34 10-57 16-48 32-54 34-57,,,,,,,,"Anh, giờ mùa hè"
+NN-04,21/12/1982,09:00,London,Europe/London,,generator,emotional,1/4,10-34 10-57 28-38 32-54 34-57 39-55 9-52,,,,,,,,"Anh, giờ chuẩn"
+NN-05,25/03/1990,02:30,Paris,Europe/Paris,,generator,sacral,1/3,18-58 9-52,,,,,,,,"Pháp, sát lúc nhảy giờ"
+NN-06,09/09/1995,16:20,Melbourne,Australia/Melbourne,,manifesting_generator,emotional,6/2,27-50 3-60 35-36 47-64,,,,,,,,"Úc, nam bán cầu"
+NN-07,09/01/1995,16:20,Melbourne,Australia/Melbourne,,generator,sacral,4/6,2-14 24-61 34-57 42-53,,,,,,,,"Úc, giờ mùa hè nam bán cầu"
+NN-08,12/05/1987,11:11,Tokyo,Asia/Tokyo,,projector,splenic,3/5,23-43 26-44,,,,,,,,Nhật
+NN-09,30/08/2005,20:40,Los Angeles,America/Los_Angeles,,manifestor,emotional,3/5,11-56 12-22 16-48 37-40,,,,,,,,bờ Tây Mỹ
+NN-10,02/11/1978,05:15,Kolkata,Asia/Kolkata,,generator,emotional,2/4,6-59,,,,,,,,"Ấn Độ, lệch nửa giờ"
+TK-01,20/01/1940,08:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,generator,sacral,3/5,1-8 23-43 3-60,,,,,,,,
+TK-02,06/06/1948,15:45,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifestor,emotional,5/1,1-8 12-22 13-33,,,,,,,,
+TK-03,18/09/1955,21:30,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,bac,generator,sacral,3/5,11-56 29-46,,,,,,,,
+TK-04,25/12/1968,04:20,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,generator,emotional,6/2,6-59,,,,,,,,
+TK-05,14/02/1977,13:05,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/4,27-50 30-41,,,,,,,,
+TK-06,15/03/1985,07:30,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,projector,splenic,2/4,23-43 28-38,,,,,,,,ca dùng trong caidat.sh
+TK-07,08/11/1992,03:15,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,projector,self_projected,3/5,7-31,,,,,,,,
+TK-08,01/04/1999,17:50,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/5,13-33 19-49 3-60,,,,,,,,
+TK-09,10/10/2010,10:10,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,projector,splenic,2/4,10-57 18-58 25-51,,,,,,,,
+TK-10,30/06/2020,22:22,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,projector,splenic,6/2,16-48 24-61,,,,,,,,
+BH-01,01/01/1990,11:58,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/4,30-41 9-52,,,,,,,,quét biên hào
+BH-02,01/01/1990,12:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/4,30-41 9-52,,,,,,,,cách trên 2 phút
+BH-03,01/01/1990,12:02,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/4,30-41 9-52,,,,,,,,cách trên 4 phút
+BH-04,01/01/1990,12:04,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,,generator,emotional,2/4,30-41 9-52,,,,,,,,cách trên 6 phút
+BH-05,17/08/1972,05:58,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,6/2,10-34 10-57 16-48 34-57,,,,,,,,"quét biên hào, có miền"
+BH-06,17/08/1972,06:00,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,6/2,10-34 10-57 16-48 34-57,,,,,,,,
+BH-07,17/08/1972,06:02,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,6/2,10-34 10-57 16-48 34-57,,,,,,,,
+BH-08,17/08/1972,06:04,TP. Hồ Chí Minh,Asia/Ho_Chi_Minh,nam,manifesting_generator,sacral,6/2,10-34 10-57 16-48 34-57,,,,,,,,

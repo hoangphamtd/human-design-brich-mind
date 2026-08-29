@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bản đồ năng lượng — B-RICH MIND</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Be+Vietnam+Pro:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lac:#5E5140;        /* sơn mài đen */
+  --lac2:#6E6050;
+  --son:#B5502E;        /* son ta */
+  --vang:#D9B863;       /* vàng lá */
+  --xacu:#D6DBDC;       /* xà cừ */
+  --giay:#EFE6D2;       /* giấy dó */
+  --giay2:#F7F1E1;
+  --muc:#3A3229;
+  --muc-nhat:#7A6E5D;
+  --vien:#D6BE95;
+  --r:2px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--giay);color:var(--muc);
+  font-family:"Be Vietnam Pro",system-ui,sans-serif;
+  font-weight:400;font-size:17px;line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:780px;margin:0 auto;padding:0 24px}
+
+/* ---------- thanh thử nghiệm ---------- */
+.lab{background:var(--lac2);border-bottom:1px solid #3a2e26;padding:14px 0;position:sticky;top:0;z-index:50}
+.lab .wrap{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.lab-tag{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--vang);white-space:nowrap}
+.lab select{
+  flex:1;min-width:150px;background:var(--lac);color:var(--xacu);
+  border:1px solid #4a3a30;border-radius:var(--r);padding:8px 10px;
+  font-family:"Be Vietnam Pro",sans-serif;font-size:14px;
+}
+.lab select:focus-visible{outline:2px solid var(--vang);outline-offset:2px}
+
+/* ---------- đầu trang ---------- */
+header{background:linear-gradient(180deg,#BBD8E8 0%,#DCE9EC 55%,#EFE6D2 100%);color:#3A3229;padding:64px 0 56px;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--vang) 22%,var(--son) 55%,transparent)}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--vang);margin-bottom:22px}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;
+  font-size:clamp(2.5rem,8vw,4.2rem);line-height:1.02;letter-spacing:-.03em;
+  color:#3A3229;margin-bottom:6px}
+h1 .en{color:#6E6050!important;display:block;font-weight:500;font-size:.36em;letter-spacing:.04em;
+  color:var(--xacu);opacity:.62;margin-top:14px}
+.tag{font-size:1.05rem;color:#5E5140;max-width:46ch;margin-top:22px;font-weight:300}
+.meta{display:flex;gap:34px;flex-wrap:wrap;margin-top:40px;padding-top:26px;
+  border-top:1px solid #34281f}
+.meta div{min-width:96px}
+.meta dt{color:#8A7A63!important;font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.15em;
+  text-transform:uppercase;color:#8c7f72;margin-bottom:5px}
+.meta dd{font-size:.95rem;color:#3A3229}
+
+/* ---------- điều hướng ---------- */
+nav{background:var(--giay2);border-bottom:1px solid var(--vien)}
+nav .wrap{display:flex;gap:0}
+nav a{flex:1;text-align:center;padding:16px 6px;text-decoration:none;color:var(--muc-nhat);
+  font-size:.82rem;letter-spacing:.02em;border-bottom:2px solid transparent}
+nav a:hover,nav a:focus-visible{color:var(--son);border-bottom-color:var(--son)}
+
+/* ---------- phần nội dung ---------- */
+section{padding:64px 0;scroll-margin-top:76px;border-bottom:1px solid var(--vien)}
+.sec-no{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;
+  color:var(--son);text-transform:uppercase;margin-bottom:18px;
+  display:flex;align-items:center;gap:12px}
+.sec-no::after{content:"";flex:1;height:1px;background:var(--vien)}
+h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;
+  font-size:clamp(1.7rem,4.6vw,2.5rem);line-height:1.12;letter-spacing:-.02em;margin-bottom:10px}
+.sub{color:var(--muc-nhat);font-style:italic;font-weight:300;
+  font-size:1.06rem;max-width:52ch;margin-bottom:30px}
+
+.facts{display:flex;flex-wrap:wrap;gap:1px;background:var(--vien);
+  border:1px solid var(--vien);margin-bottom:36px}
+.facts div{flex:1 1 160px;background:var(--giay2);padding:14px 16px}
+.facts dt{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muc-nhat);margin-bottom:5px}
+.facts dd{font-size:.93rem;line-height:1.5}
+
+.blk{margin-bottom:30px}
+.blk h3{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muc-nhat);margin-bottom:9px}
+.blk.thuan{border-left:2px solid var(--vang);padding-left:20px}
+.blk.lech{border-left:2px solid var(--son);padding-left:20px}
+.blk.lam{background:var(--lac);color:var(--giay2);padding:24px 26px}
+.blk.lam h3{color:var(--vang)}
+
+.hoi{list-style:none;counter-reset:q;margin-top:34px}
+.hoi li{counter-increment:q;position:relative;padding-left:44px;margin-bottom:16px;
+  font-size:1.04rem;color:var(--muc)}
+.hoi li::before{content:counter(q);position:absolute;left:0;top:2px;
+  font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--son);
+  border:1px solid var(--son);border-radius:50%;width:24px;height:24px;
+  display:grid;place-items:center}
+
+/* ---------- chữ ký: chồng 6 hào ---------- */
+.hexa{display:flex;gap:26px;align-items:center;margin-bottom:36px;flex-wrap:wrap}
+.stack{display:flex;flex-direction:column-reverse;gap:7px;width:132px}
+.hao{display:flex;align-items:center;gap:9px;opacity:.28}
+.hao.on{opacity:1}
+.hao .n{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--muc-nhat);width:10px}
+.bar{flex:1;height:9px;display:flex;gap:5px}
+.bar i{flex:1;background:var(--muc);display:block}
+.hao.on .bar i{background:var(--son)}
+.hao.on.d .bar i{background:var(--vang)}
+.legend{flex:1;min-width:200px;font-size:.9rem;color:var(--muc-nhat);line-height:1.6}
+.legend b{color:var(--muc);font-weight:600;display:block;font-size:.95rem}
+.legend p{margin-bottom:10px}
+
+/* ---------- chín trung tâm ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chip{font-family:"Be Vietnam Pro",sans-serif;font-size:.84rem;padding:7px 14px;
+  border:1px solid var(--vien);background:transparent;color:var(--muc-nhat);
+  border-radius:var(--r);cursor:pointer}
+.chip[aria-selected="true"]{background:var(--lac);color:var(--giay2);border-color:var(--lac)}
+.chip .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:7px;
+  background:var(--vien);vertical-align:middle}
+.chip.def .dot{background:var(--son)}
+.chip:focus-visible{outline:2px solid var(--son);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--muc);margin-bottom:26px}
+.seg button{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;padding:9px 16px;border:0;background:transparent;
+  color:var(--muc);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--muc);color:var(--giay2)}
+.seg button:focus-visible{outline:2px solid var(--son);outline-offset:2px}
+.cgates{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muc-nhat);
+  margin-bottom:26px}
+.blk.duoi{border-left:2px solid var(--muc-nhat);padding-left:20px}
+
+footer{padding:48px 0 72px;background:var(--giay2)}
+.disc{font-size:.83rem;line-height:1.7;color:var(--muc-nhat);border-top:2px solid var(--muc);
+  padding-top:18px;max-width:62ch}
+.disc strong{display:block;font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muc);margin-bottom:9px}
+.brand{margin-top:26px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;
+  letter-spacing:-.01em;font-size:.95rem}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  header{padding:44px 0 40px}
+  section{padding:46px 0}
+  nav a{font-size:.74rem;padding:13px 4px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="lab">
+  <div class="wrap">
+    <span class="lab-tag">Bản thử · chọn cấu hình</span>
+    <select id="selType" aria-label="Chọn Type"></select>
+    <select id="selAuth" aria-label="Chọn Authority"></select>
+    <select id="selProf" aria-label="Chọn Profile"></select>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Bản đồ năng lượng cá nhân</p>
+    <h1><span id="tName">—</span><span class="en" id="tEn"></span></h1>
+    <p class="tag" id="tTag"></p>
+    <dl class="meta">
+      <div><dt>Nội quyền</dt><dd id="mAuth">—</dd></div>
+      <div><dt>Profile</dt><dd id="mProf">—</dd></div>
+      <div><dt>Chiến lược</dt><dd id="mStrat">—</dd></div>
+      <div><dt>Đi đúng</dt><dd id="mSig">—</dd></div>
+      <div><dt>Đi lệch</dt><dd id="mNot">—</dd></div>
+    </dl>
+  </div>
+</header>
+
+<nav><div class="wrap">
+  <a href="#s1">Loại năng lượng</a><a href="#s2">Nội quyền</a><a href="#s3">Profile</a><a href="#s4">Trung tâm</a>
+</div></nav>
+
+<section id="s1"><div class="wrap">
+  <p class="sec-no">Phần một — Loại năng lượng</p>
+  <h2 id="p1Name"></h2><p class="sub" id="p1Tag"></p>
+  <dl class="facts">
+    <div><dt>Chiến lược</dt><dd id="p1Strat"></dd></div>
+    <div><dt>Trường năng lượng</dt><dd id="p1Aura"></dd></div>
+    <div><dt>Tỉ lệ</dt><dd id="p1Pct"></dd></div>
+  </dl>
+  <div class="blk"><h3>Cơ học</h3><p id="p1Mech"></p></div>
+  <div class="blk thuan"><h3>Khi vận hành thuận</h3><p id="p1Al"></p></div>
+  <div class="blk lech"><h3>Khi vận hành lệch</h3><p id="p1Mis"></p></div>
+  <div class="blk lam"><h3>Việc làm ngay</h3><p id="p1Pra"></p></div>
+  <ol class="hoi" id="p1Q"></ol>
+</div></section>
+
+<section id="s2"><div class="wrap">
+  <p class="sec-no">Phần hai — Cách bạn ra quyết định</p>
+  <h2 id="p2Name"></h2><p class="sub" id="p2Tag"></p>
+  <dl class="facts">
+    <div><dt>Điều kiện cơ học</dt><dd id="p2Rule"></dd></div>
+    <div><dt>Nhịp quyết định</dt><dd id="p2Time"></dd></div>
+  </dl>
+  <div class="blk"><h3>Cơ học</h3><p id="p2Mech"></p></div>
+  <div class="blk thuan"><h3>Khi vận hành thuận</h3><p id="p2Al"></p></div>
+  <div class="blk lech"><h3>Khi vận hành lệch</h3><p id="p2Mis"></p></div>
+  <div class="blk lam"><h3>Việc làm ngay</h3><p id="p2Pra"></p></div>
+  <ol class="hoi" id="p2Q"></ol>
+</div></section>
+
+<section id="s3"><div class="wrap">
+  <p class="sec-no">Phần ba — Vai bạn đóng trong đời</p>
+  <h2 id="p3Name"></h2><p class="sub" id="p3Tag"></p>
+  <div class="hexa">
+    <div class="stack" id="stack"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="blk"><h3>Cơ học</h3><p id="p3Mech"></p></div>
+  <div class="blk thuan"><h3>Khi vận hành thuận</h3><p id="p3Al"></p></div>
+  <div class="blk lech"><h3>Khi vận hành lệch</h3><p id="p3Mis"></p></div>
+  <div class="blk lam"><h3>Việc làm ngay</h3><p id="p3Pra"></p></div>
+  <ol class="hoi" id="p3Q"></ol>
+</div></section>
+
+<section id="s4"><div class="wrap">
+  <p class="sec-no">Phần bốn — Chín trung tâm</p>
+  <h2>Nơi bạn ổn định và nơi bạn dễ bị cuốn theo</h2>
+  <p class="sub">Trung tâm được định nghĩa là chỗ bạn nhất quán suốt đời. Trung tâm mở là chỗ bạn hấp thụ và khuếch đại năng lượng của người xung quanh — cũng là nơi bạn dễ bị điều kiện hoá nhất.</p>
+  <div class="chips" id="chips" role="tablist"></div>
+  <div class="seg" role="group" aria-label="Trạng thái trung tâm">
+    <button id="btnDef" aria-pressed="true">Được định nghĩa</button>
+    <button id="btnOpen" aria-pressed="false">Mở</button>
+  </div>
+  <h3 style="font-family:'Bricolage Grotesque';font-size:1.4rem;margin-bottom:4px" id="cName"></h3>
+  <p class="cgates" id="cGates"></p>
+  <p class="sub" id="cTag" style="margin-bottom:26px"></p>
+  <div class="blk duoi" id="cFpWrap"><h3>Điều bạn dễ đuổi theo</h3><p id="cFp"></p></div>
+  <div class="blk"><h3>Cơ học</h3><p id="cMech"></p></div>
+  <div class="blk thuan"><h3>Khi vận hành thuận</h3><p id="cAl"></p></div>
+  <div class="blk lech"><h3>Khi vận hành lệch</h3><p id="cMis"></p></div>
+  <div class="blk lam"><h3>Việc làm ngay</h3><p id="cPra"></p></div>
+  <ol class="hoi" id="cQ"></ol>
+</div></section>
+
+<footer><div class="wrap">
+  <p class="disc"><strong>Xin đọc kỹ</strong><span id="disc"></span></p>
+  <p class="brand">B-RICH MIND</p>
+</div></footer>
+
+<script>
+const DATA = /*__DATA__*/{};
+
+const $ = id => document.getElementById(id);
+const fill = (id, txt) => { $(id).textContent = txt || ""; };
+const list = (id, arr) => {
+  $(id).innerHTML = "";
+  (arr || []).forEach(q => { const li = document.createElement("li"); li.textContent = q; $(id).appendChild(li); });
+};
+
+function opts(sel, obj, label){
+  Object.keys(obj).forEach(k => {
+    const o = document.createElement("option");
+    o.value = k; o.textContent = label(obj[k], k); sel.appendChild(o);
+  });
+}
+
+// Sáu hào xếp từ dưới lên. Vạch liền/đứt (âm–dương) phụ thuộc vào QUẺ của cổng
+// Mặt Trời, nên chỉ vẽ được khi đã nối chart engine. Ở đây chỉ đánh dấu vị trí hào.
+function drawStack(p, d){
+  const st = $("stack"); st.innerHTML = "";
+  for (let n = 1; n <= 6; n++){
+    const row = document.createElement("div");
+    row.className = "hao" + (n === p ? " on" : "") + (n === d ? " on d" : "");
+    row.innerHTML = `<span class="n">${n}</span><span class="bar"><i></i></span>`;
+    st.appendChild(row);
+  }
+  const L = DATA.line_names;
+  $("legend").innerHTML =
+    `<p><b>Hào ${p} — ${L[p].vi} (ý thức)</b>${L[p].core}</p>` +
+    `<p><b>Hào ${d} — ${L[d].vi} (vô thức)</b>${L[d].core}</p>`;
+}
+
+function render(){
+  const t = DATA.types[$("selType").value];
+  const a = DATA.authorities[$("selAuth").value];
+  const k = $("selProf").value, p = DATA.profiles[k];
+
+  fill("tName", t.name_vi.split("—")[1].trim()); fill("tEn", t.name_en);
+  fill("tTag", t.tagline);
+  fill("mAuth", a.name_vi.replace("Nội quyền ", "")); fill("mProf", k);
+  fill("mStrat", t.strategy); fill("mSig", t.signature); fill("mNot", t.not_self);
+
+  fill("p1Name", t.name_vi); fill("p1Tag", t.tagline); fill("p1Strat", t.strategy);
+  fill("p1Aura", t.aura); fill("p1Pct", t.pct); fill("p1Mech", t.mechanics);
+  fill("p1Al", t.aligned); fill("p1Mis", t.misaligned); fill("p1Pra", t.practice);
+  list("p1Q", t.questions);
+
+  fill("p2Name", a.name_vi); fill("p2Tag", a.tagline); fill("p2Rule", a.rule);
+  fill("p2Time", a.timeframe); fill("p2Mech", a.mechanics); fill("p2Al", a.aligned);
+  fill("p2Mis", a.misaligned); fill("p2Pra", a.practice); list("p2Q", a.questions);
+
+  fill("p3Name", p.name_vi); fill("p3Tag", p.tagline); fill("p3Mech", p.mechanics);
+  fill("p3Al", p.aligned); fill("p3Mis", p.misaligned); fill("p3Pra", p.practice);
+  list("p3Q", p.questions);
+  drawStack(p.lines.personality, p.lines.design);
+}
+
+// ----- chín trung tâm -----
+let curCenter = Object.keys(DATA.centers)[0], curState = "defined";
+
+function buildChips(){
+  const box = $("chips"); box.innerHTML = "";
+  Object.entries(DATA.centers).forEach(([k, v]) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.setAttribute("role","tab");
+    b.innerHTML = `<span class="dot"></span>${v.name_vi.replace("Trung tâm ","")}`;
+    b.addEventListener("click", () => { curCenter = k; renderCenter(); });
+    box.appendChild(b);
+  });
+}
+
+function renderCenter(){
+  const keys = Object.keys(DATA.centers);
+  [...$("chips").children].forEach((el, i) => {
+    el.setAttribute("aria-selected", keys[i] === curCenter);
+    el.classList.toggle("def", keys[i] === curCenter && curState === "defined");
+  });
+  $("btnDef").setAttribute("aria-pressed", curState === "defined");
+  $("btnOpen").setAttribute("aria-pressed", curState === "open");
+
+  const c = DATA.centers[curCenter], b = c[curState];
+  fill("cName", c.name_vi + (curState === "defined" ? " — được định nghĩa" : " — mở"));
+  fill("cGates", "Vai trò: " + c.role + "  ·  Cổng: " + c.gates.join(", "));
+  fill("cTag", b.tagline);
+  $("cFpWrap").style.display = b.false_pursuit ? "" : "none";
+  fill("cFp", b.false_pursuit || "");
+  fill("cMech", b.mechanics); fill("cAl", b.aligned); fill("cMis", b.misaligned);
+  fill("cPra", b.practice); list("cQ", b.questions);
+}
+
+$("btnDef").addEventListener("click", () => { curState = "defined"; renderCenter(); });
+$("btnOpen").addEventListener("click", () => { curState = "open"; renderCenter(); });
+buildChips();
+renderCenter();
+
+opts($("selType"), DATA.types, v => v.name_vi);
+opts($("selAuth"), DATA.authorities, v => v.name_vi);
+opts($("selProf"), DATA.profiles, (v, k) => v.name_vi);
+["selType","selAuth","selProf"].forEach(id => $(id).addEventListener("change", render));
+fill("disc", DATA.disclaimer);
+render();
+</script>
+</body>
+</html>

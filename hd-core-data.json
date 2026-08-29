@@ -1,0 +1,3291 @@
+{
+  "meta": {
+    "system": "Human Design (Rave)",
+    "zodiac": "tropical",
+    "wheel_anchor": "Cổng 41 bắt đầu tại 2°00'00\" Bảo Bình = 302.0° hoàng đạo",
+    "arc": {
+      "gate": 5.625,
+      "line": 0.9375,
+      "color": 0.15625,
+      "tone": 0.026041666666666668,
+      "base": 0.005208333333333334
+    },
+    "design_offset": "88°00'00\" cung mặt trời TRƯỚC vị trí Mặt Trời lúc sinh (~88 ngày 5-6 giờ)",
+    "bodies": [
+      "sun",
+      "earth",
+      "north_node",
+      "south_node",
+      "moon",
+      "mercury",
+      "venus",
+      "mars",
+      "jupiter",
+      "saturn",
+      "uranus",
+      "neptune",
+      "pluto"
+    ],
+    "activation_count": 26,
+    "iching": "Human Design dùng thẳng số hiệu quẻ King Wen làm số hiệu cổng: cổng N = quẻ N. Trường muc_khop cho biết tên cổng HD bám sát nghĩa quẻ tới đâu (cao / vua / lech)."
+  },
+  "gates": [
+    {
+      "gate": 41,
+      "name_en": "Contraction",
+      "center": "root",
+      "wheel_index": 0,
+      "start_deg": 302.0,
+      "end_deg": 307.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 302.0
+        },
+        {
+          "line": 2,
+          "start_deg": 302.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 303.875
+        },
+        {
+          "line": 4,
+          "start_deg": 304.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 305.75
+        },
+        {
+          "line": 6,
+          "start_deg": 306.6875
+        }
+      ],
+      "iching": {
+        "que_so": 41,
+        "ten_han_viet": "Tổn",
+        "nghia_goc": "Giảm bớt, tổn đi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 19,
+      "name_en": "Wanting",
+      "center": "root",
+      "wheel_index": 1,
+      "start_deg": 307.625,
+      "end_deg": 313.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 307.625
+        },
+        {
+          "line": 2,
+          "start_deg": 308.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 309.5
+        },
+        {
+          "line": 4,
+          "start_deg": 310.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 311.375
+        },
+        {
+          "line": 6,
+          "start_deg": 312.3125
+        }
+      ],
+      "iching": {
+        "que_so": 19,
+        "ten_han_viet": "Lâm",
+        "nghia_goc": "Đến gần, tiếp cận",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 13,
+      "name_en": "The Listener",
+      "center": "g",
+      "wheel_index": 2,
+      "start_deg": 313.25,
+      "end_deg": 318.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 313.25
+        },
+        {
+          "line": 2,
+          "start_deg": 314.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 315.125
+        },
+        {
+          "line": 4,
+          "start_deg": 316.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 317.0
+        },
+        {
+          "line": 6,
+          "start_deg": 317.9375
+        }
+      ],
+      "iching": {
+        "que_so": 13,
+        "ten_han_viet": "Đồng Nhân",
+        "nghia_goc": "Cùng người, hoà đồng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 49,
+      "name_en": "Principles",
+      "center": "solar_plexus",
+      "wheel_index": 3,
+      "start_deg": 318.875,
+      "end_deg": 324.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 318.875
+        },
+        {
+          "line": 2,
+          "start_deg": 319.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 320.75
+        },
+        {
+          "line": 4,
+          "start_deg": 321.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 322.625
+        },
+        {
+          "line": 6,
+          "start_deg": 323.5625
+        }
+      ],
+      "iching": {
+        "que_so": 49,
+        "ten_han_viet": "Cách",
+        "nghia_goc": "Thay đổi, cách mạng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 30,
+      "name_en": "Recognition of Feelings",
+      "center": "solar_plexus",
+      "wheel_index": 4,
+      "start_deg": 324.5,
+      "end_deg": 330.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 324.5
+        },
+        {
+          "line": 2,
+          "start_deg": 325.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 326.375
+        },
+        {
+          "line": 4,
+          "start_deg": 327.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 328.25
+        },
+        {
+          "line": 6,
+          "start_deg": 329.1875
+        }
+      ],
+      "iching": {
+        "que_so": 30,
+        "ten_han_viet": "Ly",
+        "nghia_goc": "Lửa, bám vào, sáng rực",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 55,
+      "name_en": "Spirit",
+      "center": "solar_plexus",
+      "wheel_index": 5,
+      "start_deg": 330.125,
+      "end_deg": 335.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 330.125
+        },
+        {
+          "line": 2,
+          "start_deg": 331.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 332.0
+        },
+        {
+          "line": 4,
+          "start_deg": 332.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 333.875
+        },
+        {
+          "line": 6,
+          "start_deg": 334.8125
+        }
+      ],
+      "iching": {
+        "que_so": 55,
+        "ten_han_viet": "Phong",
+        "nghia_goc": "Thịnh vượng, sung mãn",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 37,
+      "name_en": "Friendship",
+      "center": "solar_plexus",
+      "wheel_index": 6,
+      "start_deg": 335.75,
+      "end_deg": 341.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 335.75
+        },
+        {
+          "line": 2,
+          "start_deg": 336.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 337.625
+        },
+        {
+          "line": 4,
+          "start_deg": 338.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 339.5
+        },
+        {
+          "line": 6,
+          "start_deg": 340.4375
+        }
+      ],
+      "iching": {
+        "que_so": 37,
+        "ten_han_viet": "Gia Nhân",
+        "nghia_goc": "Người trong nhà",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 63,
+      "name_en": "Doubt",
+      "center": "head",
+      "wheel_index": 7,
+      "start_deg": 341.375,
+      "end_deg": 347.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 341.375
+        },
+        {
+          "line": 2,
+          "start_deg": 342.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 343.25
+        },
+        {
+          "line": 4,
+          "start_deg": 344.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 345.125
+        },
+        {
+          "line": 6,
+          "start_deg": 346.0625
+        }
+      ],
+      "iching": {
+        "que_so": 63,
+        "ten_han_viet": "Ký Tế",
+        "nghia_goc": "Đã qua sông, đã hoàn tất",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Ký Tế là đã hoàn tất. HD: cổng 63 là nghi ngờ, kiểm tra logic. HD lấy phần 'xong rồi vẫn phải soi lại'."
+      }
+    },
+    {
+      "gate": 22,
+      "name_en": "Openness",
+      "center": "solar_plexus",
+      "wheel_index": 8,
+      "start_deg": 347.0,
+      "end_deg": 352.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 347.0
+        },
+        {
+          "line": 2,
+          "start_deg": 347.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 348.875
+        },
+        {
+          "line": 4,
+          "start_deg": 349.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 350.75
+        },
+        {
+          "line": 6,
+          "start_deg": 351.6875
+        }
+      ],
+      "iching": {
+        "que_so": 22,
+        "ten_han_viet": "Bí",
+        "nghia_goc": "Trang sức, vẻ đẹp bên ngoài",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 36,
+      "name_en": "Crisis",
+      "center": "solar_plexus",
+      "wheel_index": 9,
+      "start_deg": 352.625,
+      "end_deg": 358.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 352.625
+        },
+        {
+          "line": 2,
+          "start_deg": 353.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 354.5
+        },
+        {
+          "line": 4,
+          "start_deg": 355.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 356.375
+        },
+        {
+          "line": 6,
+          "start_deg": 357.3125
+        }
+      ],
+      "iching": {
+        "que_so": 36,
+        "ten_han_viet": "Minh Di",
+        "nghia_goc": "Ánh sáng bị che, thời tối",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 25,
+      "name_en": "Spirit of the Self",
+      "center": "g",
+      "wheel_index": 10,
+      "start_deg": 358.25,
+      "end_deg": 3.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 358.25
+        },
+        {
+          "line": 2,
+          "start_deg": 359.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 0.125
+        },
+        {
+          "line": 4,
+          "start_deg": 1.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 2.0
+        },
+        {
+          "line": 6,
+          "start_deg": 2.9375
+        }
+      ],
+      "iching": {
+        "que_so": 25,
+        "ten_han_viet": "Vô Vọng",
+        "nghia_goc": "Không càn bậy, hồn nhiên chân thật",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 17,
+      "name_en": "Opinions",
+      "center": "ajna",
+      "wheel_index": 11,
+      "start_deg": 3.875,
+      "end_deg": 9.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 3.875
+        },
+        {
+          "line": 2,
+          "start_deg": 4.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 5.75
+        },
+        {
+          "line": 4,
+          "start_deg": 6.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 7.625
+        },
+        {
+          "line": 6,
+          "start_deg": 8.5625
+        }
+      ],
+      "iching": {
+        "que_so": 17,
+        "ten_han_viet": "Tùy",
+        "nghia_goc": "Theo, thuận theo",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Tùy là thuận theo. HD: cổng 17 là ý kiến, quan điểm. HD đảo chiều: từ theo người thành đưa ra cái của mình."
+      }
+    },
+    {
+      "gate": 21,
+      "name_en": "The Hunter",
+      "center": "heart",
+      "wheel_index": 12,
+      "start_deg": 9.5,
+      "end_deg": 15.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 9.5
+        },
+        {
+          "line": 2,
+          "start_deg": 10.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 11.375
+        },
+        {
+          "line": 4,
+          "start_deg": 12.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 13.25
+        },
+        {
+          "line": 6,
+          "start_deg": 14.1875
+        }
+      ],
+      "iching": {
+        "que_so": 21,
+        "ten_han_viet": "Phệ Hạp",
+        "nghia_goc": "Cắn xuyên, dùng hình phạt",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 51,
+      "name_en": "Shock",
+      "center": "heart",
+      "wheel_index": 13,
+      "start_deg": 15.125,
+      "end_deg": 20.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 15.125
+        },
+        {
+          "line": 2,
+          "start_deg": 16.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 17.0
+        },
+        {
+          "line": 4,
+          "start_deg": 17.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 18.875
+        },
+        {
+          "line": 6,
+          "start_deg": 19.8125
+        }
+      ],
+      "iching": {
+        "que_so": 51,
+        "ten_han_viet": "Chấn",
+        "nghia_goc": "Sấm, chấn động",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 42,
+      "name_en": "Growth",
+      "center": "sacral",
+      "wheel_index": 14,
+      "start_deg": 20.75,
+      "end_deg": 26.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 20.75
+        },
+        {
+          "line": 2,
+          "start_deg": 21.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 22.625
+        },
+        {
+          "line": 4,
+          "start_deg": 23.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 24.5
+        },
+        {
+          "line": 6,
+          "start_deg": 25.4375
+        }
+      ],
+      "iching": {
+        "que_so": 42,
+        "ten_han_viet": "Ích",
+        "nghia_goc": "Tăng thêm, lợi ích",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 3,
+      "name_en": "Ordering",
+      "center": "sacral",
+      "wheel_index": 15,
+      "start_deg": 26.375,
+      "end_deg": 32.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 26.375
+        },
+        {
+          "line": 2,
+          "start_deg": 27.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 28.25
+        },
+        {
+          "line": 4,
+          "start_deg": 29.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 30.125
+        },
+        {
+          "line": 6,
+          "start_deg": 31.0625
+        }
+      ],
+      "iching": {
+        "que_so": 3,
+        "ten_han_viet": "Truân",
+        "nghia_goc": "Khó khăn buổi đầu, mầm chưa nhú",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 27,
+      "name_en": "Caring",
+      "center": "sacral",
+      "wheel_index": 16,
+      "start_deg": 32.0,
+      "end_deg": 37.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 32.0
+        },
+        {
+          "line": 2,
+          "start_deg": 32.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 33.875
+        },
+        {
+          "line": 4,
+          "start_deg": 34.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 35.75
+        },
+        {
+          "line": 6,
+          "start_deg": 36.6875
+        }
+      ],
+      "iching": {
+        "que_so": 27,
+        "ten_han_viet": "Di",
+        "nghia_goc": "Nuôi dưỡng, hàm nuôi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 24,
+      "name_en": "Rationalization",
+      "center": "ajna",
+      "wheel_index": 17,
+      "start_deg": 37.625,
+      "end_deg": 43.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 37.625
+        },
+        {
+          "line": 2,
+          "start_deg": 38.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 39.5
+        },
+        {
+          "line": 4,
+          "start_deg": 40.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 41.375
+        },
+        {
+          "line": 6,
+          "start_deg": 42.3125
+        }
+      ],
+      "iching": {
+        "que_so": 24,
+        "ten_han_viet": "Phục",
+        "nghia_goc": "Trở lại, quay về",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 2,
+      "name_en": "Direction of the Self",
+      "center": "g",
+      "wheel_index": 18,
+      "start_deg": 43.25,
+      "end_deg": 48.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 43.25
+        },
+        {
+          "line": 2,
+          "start_deg": 44.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 45.125
+        },
+        {
+          "line": 4,
+          "start_deg": 46.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 47.0
+        },
+        {
+          "line": 6,
+          "start_deg": 47.9375
+        }
+      ],
+      "iching": {
+        "que_so": 2,
+        "ten_han_viet": "Khôn",
+        "nghia_goc": "Đất, sức thụ nhận, chở che",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 23,
+      "name_en": "Assimilation",
+      "center": "throat",
+      "wheel_index": 19,
+      "start_deg": 48.875,
+      "end_deg": 54.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 48.875
+        },
+        {
+          "line": 2,
+          "start_deg": 49.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 50.75
+        },
+        {
+          "line": 4,
+          "start_deg": 51.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 52.625
+        },
+        {
+          "line": 6,
+          "start_deg": 53.5625
+        }
+      ],
+      "iching": {
+        "que_so": 23,
+        "ten_han_viet": "Bác",
+        "nghia_goc": "Bóc mòn, tan rã",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Bác là bóc mòn tan rã. HD: cổng 23 là năng lực diễn đạt cái mới thành lời. Nối qua ý 'bóc lớp vỏ để lộ ra bên trong'."
+      }
+    },
+    {
+      "gate": 8,
+      "name_en": "Contribution",
+      "center": "throat",
+      "wheel_index": 20,
+      "start_deg": 54.5,
+      "end_deg": 60.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 54.5
+        },
+        {
+          "line": 2,
+          "start_deg": 55.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 56.375
+        },
+        {
+          "line": 4,
+          "start_deg": 57.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 58.25
+        },
+        {
+          "line": 6,
+          "start_deg": 59.1875
+        }
+      ],
+      "iching": {
+        "que_so": 8,
+        "ten_han_viet": "Tỷ",
+        "nghia_goc": "Thân gần, liên kết",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 20,
+      "name_en": "The Now",
+      "center": "throat",
+      "wheel_index": 21,
+      "start_deg": 60.125,
+      "end_deg": 65.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 60.125
+        },
+        {
+          "line": 2,
+          "start_deg": 61.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 62.0
+        },
+        {
+          "line": 4,
+          "start_deg": 62.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 63.875
+        },
+        {
+          "line": 6,
+          "start_deg": 64.8125
+        }
+      ],
+      "iching": {
+        "que_so": 20,
+        "ten_han_viet": "Quán",
+        "nghia_goc": "Quan sát, chiêm ngưỡng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 16,
+      "name_en": "Skills",
+      "center": "throat",
+      "wheel_index": 22,
+      "start_deg": 65.75,
+      "end_deg": 71.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 65.75
+        },
+        {
+          "line": 2,
+          "start_deg": 66.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 67.625
+        },
+        {
+          "line": 4,
+          "start_deg": 68.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 69.5
+        },
+        {
+          "line": 6,
+          "start_deg": 70.4375
+        }
+      ],
+      "iching": {
+        "que_so": 16,
+        "ten_han_viet": "Dự",
+        "nghia_goc": "Vui vẻ, hăng hái chuẩn bị",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 35,
+      "name_en": "Change",
+      "center": "throat",
+      "wheel_index": 23,
+      "start_deg": 71.375,
+      "end_deg": 77.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 71.375
+        },
+        {
+          "line": 2,
+          "start_deg": 72.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 73.25
+        },
+        {
+          "line": 4,
+          "start_deg": 74.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 75.125
+        },
+        {
+          "line": 6,
+          "start_deg": 76.0625
+        }
+      ],
+      "iching": {
+        "que_so": 35,
+        "ten_han_viet": "Tấn",
+        "nghia_goc": "Tiến lên, tiến bộ",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 45,
+      "name_en": "Gatherer",
+      "center": "throat",
+      "wheel_index": 24,
+      "start_deg": 77.0,
+      "end_deg": 82.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 77.0
+        },
+        {
+          "line": 2,
+          "start_deg": 77.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 78.875
+        },
+        {
+          "line": 4,
+          "start_deg": 79.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 80.75
+        },
+        {
+          "line": 6,
+          "start_deg": 81.6875
+        }
+      ],
+      "iching": {
+        "que_so": 45,
+        "ten_han_viet": "Tụy",
+        "nghia_goc": "Tụ họp",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 12,
+      "name_en": "Caution",
+      "center": "throat",
+      "wheel_index": 25,
+      "start_deg": 82.625,
+      "end_deg": 88.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 82.625
+        },
+        {
+          "line": 2,
+          "start_deg": 83.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 84.5
+        },
+        {
+          "line": 4,
+          "start_deg": 85.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 86.375
+        },
+        {
+          "line": 6,
+          "start_deg": 87.3125
+        }
+      ],
+      "iching": {
+        "que_so": 12,
+        "ten_han_viet": "Bĩ",
+        "nghia_goc": "Bế tắc, không thông",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 15,
+      "name_en": "Extremes",
+      "center": "g",
+      "wheel_index": 26,
+      "start_deg": 88.25,
+      "end_deg": 93.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 88.25
+        },
+        {
+          "line": 2,
+          "start_deg": 89.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 90.125
+        },
+        {
+          "line": 4,
+          "start_deg": 91.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 92.0
+        },
+        {
+          "line": 6,
+          "start_deg": 92.9375
+        }
+      ],
+      "iching": {
+        "que_so": 15,
+        "ten_han_viet": "Khiêm",
+        "nghia_goc": "Khiêm nhường",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Khiêm là khiêm nhường. HD: cổng 15 là biên độ cực đoan trong nhịp sống. Hai nghĩa gần như không gặp nhau."
+      }
+    },
+    {
+      "gate": 52,
+      "name_en": "Stillness",
+      "center": "root",
+      "wheel_index": 27,
+      "start_deg": 93.875,
+      "end_deg": 99.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 93.875
+        },
+        {
+          "line": 2,
+          "start_deg": 94.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 95.75
+        },
+        {
+          "line": 4,
+          "start_deg": 96.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 97.625
+        },
+        {
+          "line": 6,
+          "start_deg": 98.5625
+        }
+      ],
+      "iching": {
+        "que_so": 52,
+        "ten_han_viet": "Cấn",
+        "nghia_goc": "Núi, dừng lại",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 39,
+      "name_en": "Provocation",
+      "center": "root",
+      "wheel_index": 28,
+      "start_deg": 99.5,
+      "end_deg": 105.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 99.5
+        },
+        {
+          "line": 2,
+          "start_deg": 100.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 101.375
+        },
+        {
+          "line": 4,
+          "start_deg": 102.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 103.25
+        },
+        {
+          "line": 6,
+          "start_deg": 104.1875
+        }
+      ],
+      "iching": {
+        "que_so": 39,
+        "ten_han_viet": "Kiển",
+        "nghia_goc": "Trở ngại, đi khó",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 53,
+      "name_en": "Beginnings",
+      "center": "root",
+      "wheel_index": 29,
+      "start_deg": 105.125,
+      "end_deg": 110.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 105.125
+        },
+        {
+          "line": 2,
+          "start_deg": 106.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 107.0
+        },
+        {
+          "line": 4,
+          "start_deg": 107.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 108.875
+        },
+        {
+          "line": 6,
+          "start_deg": 109.8125
+        }
+      ],
+      "iching": {
+        "que_so": 53,
+        "ten_han_viet": "Tiệm",
+        "nghia_goc": "Tiến dần từng bước",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 62,
+      "name_en": "Detail",
+      "center": "throat",
+      "wheel_index": 30,
+      "start_deg": 110.75,
+      "end_deg": 116.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 110.75
+        },
+        {
+          "line": 2,
+          "start_deg": 111.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 112.625
+        },
+        {
+          "line": 4,
+          "start_deg": 113.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 114.5
+        },
+        {
+          "line": 6,
+          "start_deg": 115.4375
+        }
+      ],
+      "iching": {
+        "que_so": 62,
+        "ten_han_viet": "Tiểu Quá",
+        "nghia_goc": "Vượt nhỏ, chú ý chi tiết",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 56,
+      "name_en": "Stimulation",
+      "center": "throat",
+      "wheel_index": 31,
+      "start_deg": 116.375,
+      "end_deg": 122.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 116.375
+        },
+        {
+          "line": 2,
+          "start_deg": 117.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 118.25
+        },
+        {
+          "line": 4,
+          "start_deg": 119.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 120.125
+        },
+        {
+          "line": 6,
+          "start_deg": 121.0625
+        }
+      ],
+      "iching": {
+        "que_so": 56,
+        "ten_han_viet": "Lữ",
+        "nghia_goc": "Lữ khách, đi xa",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 31,
+      "name_en": "Leading",
+      "center": "throat",
+      "wheel_index": 32,
+      "start_deg": 122.0,
+      "end_deg": 127.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 122.0
+        },
+        {
+          "line": 2,
+          "start_deg": 122.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 123.875
+        },
+        {
+          "line": 4,
+          "start_deg": 124.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 125.75
+        },
+        {
+          "line": 6,
+          "start_deg": 126.6875
+        }
+      ],
+      "iching": {
+        "que_so": 31,
+        "ten_han_viet": "Hàm",
+        "nghia_goc": "Cảm ứng, rung động lẫn nhau",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 33,
+      "name_en": "Privacy",
+      "center": "throat",
+      "wheel_index": 33,
+      "start_deg": 127.625,
+      "end_deg": 133.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 127.625
+        },
+        {
+          "line": 2,
+          "start_deg": 128.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 129.5
+        },
+        {
+          "line": 4,
+          "start_deg": 130.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 131.375
+        },
+        {
+          "line": 6,
+          "start_deg": 132.3125
+        }
+      ],
+      "iching": {
+        "que_so": 33,
+        "ten_han_viet": "Độn",
+        "nghia_goc": "Lui ẩn, rút đi",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 7,
+      "name_en": "The Role of the Self",
+      "center": "g",
+      "wheel_index": 34,
+      "start_deg": 133.25,
+      "end_deg": 138.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 133.25
+        },
+        {
+          "line": 2,
+          "start_deg": 134.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 135.125
+        },
+        {
+          "line": 4,
+          "start_deg": 136.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 137.0
+        },
+        {
+          "line": 6,
+          "start_deg": 137.9375
+        }
+      ],
+      "iching": {
+        "que_so": 7,
+        "ten_han_viet": "Sư",
+        "nghia_goc": "Quân đội, người dẫn quân",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 4,
+      "name_en": "Formulization",
+      "center": "ajna",
+      "wheel_index": 35,
+      "start_deg": 138.875,
+      "end_deg": 144.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 138.875
+        },
+        {
+          "line": 2,
+          "start_deg": 139.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 140.75
+        },
+        {
+          "line": 4,
+          "start_deg": 141.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 142.625
+        },
+        {
+          "line": 6,
+          "start_deg": 143.5625
+        }
+      ],
+      "iching": {
+        "que_so": 4,
+        "ten_han_viet": "Mông",
+        "nghia_goc": "Non dại, cần được dạy",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 29,
+      "name_en": "Perseverance",
+      "center": "sacral",
+      "wheel_index": 36,
+      "start_deg": 144.5,
+      "end_deg": 150.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 144.5
+        },
+        {
+          "line": 2,
+          "start_deg": 145.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 146.375
+        },
+        {
+          "line": 4,
+          "start_deg": 147.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 148.25
+        },
+        {
+          "line": 6,
+          "start_deg": 149.1875
+        }
+      ],
+      "iching": {
+        "que_so": 29,
+        "ten_han_viet": "Khảm",
+        "nghia_goc": "Hiểm, nước sâu lặp lại",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 59,
+      "name_en": "Sexuality",
+      "center": "sacral",
+      "wheel_index": 37,
+      "start_deg": 150.125,
+      "end_deg": 155.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 150.125
+        },
+        {
+          "line": 2,
+          "start_deg": 151.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 152.0
+        },
+        {
+          "line": 4,
+          "start_deg": 152.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 153.875
+        },
+        {
+          "line": 6,
+          "start_deg": 154.8125
+        }
+      ],
+      "iching": {
+        "que_so": 59,
+        "ten_han_viet": "Hoán",
+        "nghia_goc": "Tan ra, phân tán",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Hoán là tan ra phân tán. HD: cổng 59 là phá vỡ rào cản để thân mật. Nối qua ý 'làm tan ranh giới'."
+      }
+    },
+    {
+      "gate": 40,
+      "name_en": "Aloneness",
+      "center": "heart",
+      "wheel_index": 38,
+      "start_deg": 155.75,
+      "end_deg": 161.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 155.75
+        },
+        {
+          "line": 2,
+          "start_deg": 156.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 157.625
+        },
+        {
+          "line": 4,
+          "start_deg": 158.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 159.5
+        },
+        {
+          "line": 6,
+          "start_deg": 160.4375
+        }
+      ],
+      "iching": {
+        "que_so": 40,
+        "ten_han_viet": "Giải",
+        "nghia_goc": "Cởi bỏ, giải toả",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 64,
+      "name_en": "Confusion",
+      "center": "head",
+      "wheel_index": 39,
+      "start_deg": 161.375,
+      "end_deg": 167.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 161.375
+        },
+        {
+          "line": 2,
+          "start_deg": 162.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 163.25
+        },
+        {
+          "line": 4,
+          "start_deg": 164.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 165.125
+        },
+        {
+          "line": 6,
+          "start_deg": 166.0625
+        }
+      ],
+      "iching": {
+        "que_so": 64,
+        "ten_han_viet": "Vị Tế",
+        "nghia_goc": "Chưa qua sông, chưa hoàn tất",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 47,
+      "name_en": "Realization",
+      "center": "ajna",
+      "wheel_index": 40,
+      "start_deg": 167.0,
+      "end_deg": 172.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 167.0
+        },
+        {
+          "line": 2,
+          "start_deg": 167.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 168.875
+        },
+        {
+          "line": 4,
+          "start_deg": 169.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 170.75
+        },
+        {
+          "line": 6,
+          "start_deg": 171.6875
+        }
+      ],
+      "iching": {
+        "que_so": 47,
+        "ten_han_viet": "Khốn",
+        "nghia_goc": "Khốn cùng, bị vây",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Khốn là bị vây khốn. HD: cổng 47 là quá trình vỡ ra hiểu biết. HD lấy phần 'bí bách trước khi thông'."
+      }
+    },
+    {
+      "gate": 6,
+      "name_en": "Friction",
+      "center": "solar_plexus",
+      "wheel_index": 41,
+      "start_deg": 172.625,
+      "end_deg": 178.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 172.625
+        },
+        {
+          "line": 2,
+          "start_deg": 173.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 174.5
+        },
+        {
+          "line": 4,
+          "start_deg": 175.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 176.375
+        },
+        {
+          "line": 6,
+          "start_deg": 177.3125
+        }
+      ],
+      "iching": {
+        "que_so": 6,
+        "ten_han_viet": "Tụng",
+        "nghia_goc": "Tranh tụng, xung đột",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 46,
+      "name_en": "Determination",
+      "center": "g",
+      "wheel_index": 42,
+      "start_deg": 178.25,
+      "end_deg": 183.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 178.25
+        },
+        {
+          "line": 2,
+          "start_deg": 179.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 180.125
+        },
+        {
+          "line": 4,
+          "start_deg": 181.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 182.0
+        },
+        {
+          "line": 6,
+          "start_deg": 182.9375
+        }
+      ],
+      "iching": {
+        "que_so": 46,
+        "ten_han_viet": "Thăng",
+        "nghia_goc": "Đi lên, thăng tiến",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 18,
+      "name_en": "Correction",
+      "center": "spleen",
+      "wheel_index": 43,
+      "start_deg": 183.875,
+      "end_deg": 189.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 183.875
+        },
+        {
+          "line": 2,
+          "start_deg": 184.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 185.75
+        },
+        {
+          "line": 4,
+          "start_deg": 186.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 187.625
+        },
+        {
+          "line": 6,
+          "start_deg": 188.5625
+        }
+      ],
+      "iching": {
+        "que_so": 18,
+        "ten_han_viet": "Cổ",
+        "nghia_goc": "Đồ hỏng cần sửa",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 48,
+      "name_en": "Depth",
+      "center": "spleen",
+      "wheel_index": 44,
+      "start_deg": 189.5,
+      "end_deg": 195.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 189.5
+        },
+        {
+          "line": 2,
+          "start_deg": 190.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 191.375
+        },
+        {
+          "line": 4,
+          "start_deg": 192.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 193.25
+        },
+        {
+          "line": 6,
+          "start_deg": 194.1875
+        }
+      ],
+      "iching": {
+        "que_so": 48,
+        "ten_han_viet": "Tỉnh",
+        "nghia_goc": "Giếng, nguồn sâu không cạn",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 57,
+      "name_en": "Intuitive Insight",
+      "center": "spleen",
+      "wheel_index": 45,
+      "start_deg": 195.125,
+      "end_deg": 200.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 195.125
+        },
+        {
+          "line": 2,
+          "start_deg": 196.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 197.0
+        },
+        {
+          "line": 4,
+          "start_deg": 197.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 198.875
+        },
+        {
+          "line": 6,
+          "start_deg": 199.8125
+        }
+      ],
+      "iching": {
+        "que_so": 57,
+        "ten_han_viet": "Tốn",
+        "nghia_goc": "Gió, thấm vào nhẹ nhàng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 32,
+      "name_en": "Continuity",
+      "center": "spleen",
+      "wheel_index": 46,
+      "start_deg": 200.75,
+      "end_deg": 206.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 200.75
+        },
+        {
+          "line": 2,
+          "start_deg": 201.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 202.625
+        },
+        {
+          "line": 4,
+          "start_deg": 203.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 204.5
+        },
+        {
+          "line": 6,
+          "start_deg": 205.4375
+        }
+      ],
+      "iching": {
+        "que_so": 32,
+        "ten_han_viet": "Hằng",
+        "nghia_goc": "Bền lâu, thường hằng",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 50,
+      "name_en": "Values",
+      "center": "spleen",
+      "wheel_index": 47,
+      "start_deg": 206.375,
+      "end_deg": 212.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 206.375
+        },
+        {
+          "line": 2,
+          "start_deg": 207.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 208.25
+        },
+        {
+          "line": 4,
+          "start_deg": 209.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 210.125
+        },
+        {
+          "line": 6,
+          "start_deg": 211.0625
+        }
+      ],
+      "iching": {
+        "que_so": 50,
+        "ten_han_viet": "Đỉnh",
+        "nghia_goc": "Vạc, luật lệ và tế tự",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 28,
+      "name_en": "The Game Player",
+      "center": "spleen",
+      "wheel_index": 48,
+      "start_deg": 212.0,
+      "end_deg": 217.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 212.0
+        },
+        {
+          "line": 2,
+          "start_deg": 212.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 213.875
+        },
+        {
+          "line": 4,
+          "start_deg": 214.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 215.75
+        },
+        {
+          "line": 6,
+          "start_deg": 216.6875
+        }
+      ],
+      "iching": {
+        "que_so": 28,
+        "ten_han_viet": "Đại Quá",
+        "nghia_goc": "Quá lớn, vượt mức chịu đựng",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 44,
+      "name_en": "Alertness",
+      "center": "spleen",
+      "wheel_index": 49,
+      "start_deg": 217.625,
+      "end_deg": 223.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 217.625
+        },
+        {
+          "line": 2,
+          "start_deg": 218.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 219.5
+        },
+        {
+          "line": 4,
+          "start_deg": 220.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 221.375
+        },
+        {
+          "line": 6,
+          "start_deg": 222.3125
+        }
+      ],
+      "iching": {
+        "que_so": 44,
+        "ten_han_viet": "Cấu",
+        "nghia_goc": "Gặp gỡ bất ngờ",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Cấu là gặp gỡ bất ngờ. HD: cổng 44 là bản năng nhận biết mẫu hình quá khứ. Khác hướng rõ rệt."
+      }
+    },
+    {
+      "gate": 1,
+      "name_en": "Self-Expression",
+      "center": "g",
+      "wheel_index": 50,
+      "start_deg": 223.25,
+      "end_deg": 228.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 223.25
+        },
+        {
+          "line": 2,
+          "start_deg": 224.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 225.125
+        },
+        {
+          "line": 4,
+          "start_deg": 226.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 227.0
+        },
+        {
+          "line": 6,
+          "start_deg": 227.9375
+        }
+      ],
+      "iching": {
+        "que_so": 1,
+        "ten_han_viet": "Càn",
+        "nghia_goc": "Trời, sức sáng tạo thuần dương",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 43,
+      "name_en": "Insight",
+      "center": "ajna",
+      "wheel_index": 51,
+      "start_deg": 228.875,
+      "end_deg": 234.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 228.875
+        },
+        {
+          "line": 2,
+          "start_deg": 229.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 230.75
+        },
+        {
+          "line": 4,
+          "start_deg": 231.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 232.625
+        },
+        {
+          "line": 6,
+          "start_deg": 233.5625
+        }
+      ],
+      "iching": {
+        "que_so": 43,
+        "ten_han_viet": "Quải",
+        "nghia_goc": "Quyết đoán, dứt khoát",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 14,
+      "name_en": "Power Skills",
+      "center": "sacral",
+      "wheel_index": 52,
+      "start_deg": 234.5,
+      "end_deg": 240.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 234.5
+        },
+        {
+          "line": 2,
+          "start_deg": 235.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 236.375
+        },
+        {
+          "line": 4,
+          "start_deg": 237.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 238.25
+        },
+        {
+          "line": 6,
+          "start_deg": 239.1875
+        }
+      ],
+      "iching": {
+        "que_so": 14,
+        "ten_han_viet": "Đại Hữu",
+        "nghia_goc": "Có lớn, của cải nhiều",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 34,
+      "name_en": "Power",
+      "center": "sacral",
+      "wheel_index": 53,
+      "start_deg": 240.125,
+      "end_deg": 245.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 240.125
+        },
+        {
+          "line": 2,
+          "start_deg": 241.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 242.0
+        },
+        {
+          "line": 4,
+          "start_deg": 242.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 243.875
+        },
+        {
+          "line": 6,
+          "start_deg": 244.8125
+        }
+      ],
+      "iching": {
+        "que_so": 34,
+        "ten_han_viet": "Đại Tráng",
+        "nghia_goc": "Lớn mạnh, sức thịnh",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 9,
+      "name_en": "Focus",
+      "center": "sacral",
+      "wheel_index": 54,
+      "start_deg": 245.75,
+      "end_deg": 251.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 245.75
+        },
+        {
+          "line": 2,
+          "start_deg": 246.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 247.625
+        },
+        {
+          "line": 4,
+          "start_deg": 248.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 249.5
+        },
+        {
+          "line": 6,
+          "start_deg": 250.4375
+        }
+      ],
+      "iching": {
+        "que_so": 9,
+        "ten_han_viet": "Tiểu Súc",
+        "nghia_goc": "Chứa nhỏ, tích từng chút",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 5,
+      "name_en": "Fixed Rhythms",
+      "center": "sacral",
+      "wheel_index": 55,
+      "start_deg": 251.375,
+      "end_deg": 257.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 251.375
+        },
+        {
+          "line": 2,
+          "start_deg": 252.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 253.25
+        },
+        {
+          "line": 4,
+          "start_deg": 254.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 255.125
+        },
+        {
+          "line": 6,
+          "start_deg": 256.0625
+        }
+      ],
+      "iching": {
+        "que_so": 5,
+        "ten_han_viet": "Nhu",
+        "nghia_goc": "Chờ đợi, nuôi dưỡng đúng lúc",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 26,
+      "name_en": "The Egoist",
+      "center": "heart",
+      "wheel_index": 56,
+      "start_deg": 257.0,
+      "end_deg": 262.625,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 257.0
+        },
+        {
+          "line": 2,
+          "start_deg": 257.9375
+        },
+        {
+          "line": 3,
+          "start_deg": 258.875
+        },
+        {
+          "line": 4,
+          "start_deg": 259.8125
+        },
+        {
+          "line": 5,
+          "start_deg": 260.75
+        },
+        {
+          "line": 6,
+          "start_deg": 261.6875
+        }
+      ],
+      "iching": {
+        "que_so": 26,
+        "ten_han_viet": "Đại Súc",
+        "nghia_goc": "Chứa lớn, tích tụ lớn",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 11,
+      "name_en": "Ideas",
+      "center": "ajna",
+      "wheel_index": 57,
+      "start_deg": 262.625,
+      "end_deg": 268.25,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 262.625
+        },
+        {
+          "line": 2,
+          "start_deg": 263.5625
+        },
+        {
+          "line": 3,
+          "start_deg": 264.5
+        },
+        {
+          "line": 4,
+          "start_deg": 265.4375
+        },
+        {
+          "line": 5,
+          "start_deg": 266.375
+        },
+        {
+          "line": 6,
+          "start_deg": 267.3125
+        }
+      ],
+      "iching": {
+        "que_so": 11,
+        "ten_han_viet": "Thái",
+        "nghia_goc": "Thông suốt, hanh thông",
+        "muc_khop": "lech",
+        "ghi_chu": "Dịch: Thái là thời hanh thông. HD: cổng 11 là kho ý tưởng. Nối được qua ý 'trời đất giao hoà sinh ra cái mới'."
+      }
+    },
+    {
+      "gate": 10,
+      "name_en": "Behaviour of the Self",
+      "center": "g",
+      "wheel_index": 58,
+      "start_deg": 268.25,
+      "end_deg": 273.875,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 268.25
+        },
+        {
+          "line": 2,
+          "start_deg": 269.1875
+        },
+        {
+          "line": 3,
+          "start_deg": 270.125
+        },
+        {
+          "line": 4,
+          "start_deg": 271.0625
+        },
+        {
+          "line": 5,
+          "start_deg": 272.0
+        },
+        {
+          "line": 6,
+          "start_deg": 272.9375
+        }
+      ],
+      "iching": {
+        "que_so": 10,
+        "ten_han_viet": "Lý",
+        "nghia_goc": "Bước đi, cách hành xử",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 58,
+      "name_en": "Vitality",
+      "center": "root",
+      "wheel_index": 59,
+      "start_deg": 273.875,
+      "end_deg": 279.5,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 273.875
+        },
+        {
+          "line": 2,
+          "start_deg": 274.8125
+        },
+        {
+          "line": 3,
+          "start_deg": 275.75
+        },
+        {
+          "line": 4,
+          "start_deg": 276.6875
+        },
+        {
+          "line": 5,
+          "start_deg": 277.625
+        },
+        {
+          "line": 6,
+          "start_deg": 278.5625
+        }
+      ],
+      "iching": {
+        "que_so": 58,
+        "ten_han_viet": "Đoài",
+        "nghia_goc": "Đầm, vui vẻ",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 38,
+      "name_en": "The Fighter",
+      "center": "root",
+      "wheel_index": 60,
+      "start_deg": 279.5,
+      "end_deg": 285.125,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 279.5
+        },
+        {
+          "line": 2,
+          "start_deg": 280.4375
+        },
+        {
+          "line": 3,
+          "start_deg": 281.375
+        },
+        {
+          "line": 4,
+          "start_deg": 282.3125
+        },
+        {
+          "line": 5,
+          "start_deg": 283.25
+        },
+        {
+          "line": 6,
+          "start_deg": 284.1875
+        }
+      ],
+      "iching": {
+        "que_so": 38,
+        "ten_han_viet": "Khuê",
+        "nghia_goc": "Chống đối, xa cách",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 54,
+      "name_en": "Ambition",
+      "center": "root",
+      "wheel_index": 61,
+      "start_deg": 285.125,
+      "end_deg": 290.75,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 285.125
+        },
+        {
+          "line": 2,
+          "start_deg": 286.0625
+        },
+        {
+          "line": 3,
+          "start_deg": 287.0
+        },
+        {
+          "line": 4,
+          "start_deg": 287.9375
+        },
+        {
+          "line": 5,
+          "start_deg": 288.875
+        },
+        {
+          "line": 6,
+          "start_deg": 289.8125
+        }
+      ],
+      "iching": {
+        "que_so": 54,
+        "ten_han_viet": "Quy Muội",
+        "nghia_goc": "Gả em gái, vào bằng cửa phụ",
+        "muc_khop": "vua",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 61,
+      "name_en": "Inner Truth",
+      "center": "head",
+      "wheel_index": 62,
+      "start_deg": 290.75,
+      "end_deg": 296.375,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 290.75
+        },
+        {
+          "line": 2,
+          "start_deg": 291.6875
+        },
+        {
+          "line": 3,
+          "start_deg": 292.625
+        },
+        {
+          "line": 4,
+          "start_deg": 293.5625
+        },
+        {
+          "line": 5,
+          "start_deg": 294.5
+        },
+        {
+          "line": 6,
+          "start_deg": 295.4375
+        }
+      ],
+      "iching": {
+        "que_so": 61,
+        "ten_han_viet": "Trung Phu",
+        "nghia_goc": "Lòng thành bên trong",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    },
+    {
+      "gate": 60,
+      "name_en": "Limitation",
+      "center": "root",
+      "wheel_index": 63,
+      "start_deg": 296.375,
+      "end_deg": 302.0,
+      "lines": [
+        {
+          "line": 1,
+          "start_deg": 296.375
+        },
+        {
+          "line": 2,
+          "start_deg": 297.3125
+        },
+        {
+          "line": 3,
+          "start_deg": 298.25
+        },
+        {
+          "line": 4,
+          "start_deg": 299.1875
+        },
+        {
+          "line": 5,
+          "start_deg": 300.125
+        },
+        {
+          "line": 6,
+          "start_deg": 301.0625
+        }
+      ],
+      "iching": {
+        "que_so": 60,
+        "ten_han_viet": "Tiết",
+        "nghia_goc": "Đốt tre, giới hạn có chừng mực",
+        "muc_khop": "cao",
+        "ghi_chu": null
+      }
+    }
+  ],
+  "centers": {
+    "head": {
+      "vi": "Đầu",
+      "type": "pressure",
+      "motor": false,
+      "awareness": false
+    },
+    "ajna": {
+      "vi": "Ajna (Trí)",
+      "type": "awareness",
+      "motor": false,
+      "awareness": true
+    },
+    "throat": {
+      "vi": "Cổ họng",
+      "type": "expression",
+      "motor": false,
+      "awareness": false
+    },
+    "g": {
+      "vi": "Trung tâm G (Bản ngã/Định hướng)",
+      "type": "identity",
+      "motor": false,
+      "awareness": false
+    },
+    "heart": {
+      "vi": "Tim / Ego",
+      "type": "motor",
+      "motor": true,
+      "awareness": false
+    },
+    "spleen": {
+      "vi": "Lá lách",
+      "type": "awareness",
+      "motor": false,
+      "awareness": true
+    },
+    "solar_plexus": {
+      "vi": "Đám rối mặt trời (Cảm xúc)",
+      "type": "motor+awareness",
+      "motor": true,
+      "awareness": true
+    },
+    "sacral": {
+      "vi": "Xương cùng",
+      "type": "motor",
+      "motor": true,
+      "awareness": false
+    },
+    "root": {
+      "vi": "Gốc",
+      "type": "motor+pressure",
+      "motor": true,
+      "awareness": false
+    }
+  },
+  "channels": [
+    {
+      "key": "1-8",
+      "gates": [
+        1,
+        8
+      ],
+      "name_en": "Inspiration",
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "2-14",
+      "gates": [
+        2,
+        14
+      ],
+      "name_en": "The Beat",
+      "centers": [
+        "g",
+        "sacral"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "3-60",
+      "gates": [
+        3,
+        60
+      ],
+      "name_en": "Mutation",
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "4-63",
+      "gates": [
+        4,
+        63
+      ],
+      "name_en": "Logic",
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "5-15",
+      "gates": [
+        5,
+        15
+      ],
+      "name_en": "Rhythm",
+      "centers": [
+        "sacral",
+        "g"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "6-59",
+      "gates": [
+        6,
+        59
+      ],
+      "name_en": "Mating",
+      "centers": [
+        "solar_plexus",
+        "sacral"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "7-31",
+      "gates": [
+        7,
+        31
+      ],
+      "name_en": "The Alpha",
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "9-52",
+      "gates": [
+        9,
+        52
+      ],
+      "name_en": "Concentration",
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "10-20",
+      "gates": [
+        10,
+        20
+      ],
+      "name_en": "Awakening",
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "10-34",
+      "gates": [
+        10,
+        34
+      ],
+      "name_en": "Exploration",
+      "centers": [
+        "g",
+        "sacral"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "10-57",
+      "gates": [
+        10,
+        57
+      ],
+      "name_en": "Perfected Form",
+      "centers": [
+        "g",
+        "spleen"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "11-56",
+      "gates": [
+        11,
+        56
+      ],
+      "name_en": "Curiosity",
+      "centers": [
+        "ajna",
+        "throat"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "12-22",
+      "gates": [
+        12,
+        22
+      ],
+      "name_en": "Openness",
+      "centers": [
+        "throat",
+        "solar_plexus"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "13-33",
+      "gates": [
+        13,
+        33
+      ],
+      "name_en": "The Prodigal",
+      "centers": [
+        "g",
+        "throat"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "16-48",
+      "gates": [
+        16,
+        48
+      ],
+      "name_en": "The Wavelength",
+      "centers": [
+        "throat",
+        "spleen"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "17-62",
+      "gates": [
+        17,
+        62
+      ],
+      "name_en": "Acceptance",
+      "centers": [
+        "ajna",
+        "throat"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "18-58",
+      "gates": [
+        18,
+        58
+      ],
+      "name_en": "Judgment",
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "19-49",
+      "gates": [
+        19,
+        49
+      ],
+      "name_en": "Synthesis",
+      "centers": [
+        "root",
+        "solar_plexus"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "20-34",
+      "gates": [
+        20,
+        34
+      ],
+      "name_en": "Charisma",
+      "centers": [
+        "throat",
+        "sacral"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "20-57",
+      "gates": [
+        20,
+        57
+      ],
+      "name_en": "The Brainwave",
+      "centers": [
+        "throat",
+        "spleen"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "21-45",
+      "gates": [
+        21,
+        45
+      ],
+      "name_en": "Money",
+      "centers": [
+        "heart",
+        "throat"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "23-43",
+      "gates": [
+        23,
+        43
+      ],
+      "name_en": "Structuring",
+      "centers": [
+        "throat",
+        "ajna"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "24-61",
+      "gates": [
+        24,
+        61
+      ],
+      "name_en": "Awareness",
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "25-51",
+      "gates": [
+        25,
+        51
+      ],
+      "name_en": "Initiation",
+      "centers": [
+        "g",
+        "heart"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "26-44",
+      "gates": [
+        26,
+        44
+      ],
+      "name_en": "Surrender",
+      "centers": [
+        "heart",
+        "spleen"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "27-50",
+      "gates": [
+        27,
+        50
+      ],
+      "name_en": "Preservation",
+      "centers": [
+        "sacral",
+        "spleen"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "28-38",
+      "gates": [
+        28,
+        38
+      ],
+      "name_en": "Struggle",
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "29-46",
+      "gates": [
+        29,
+        46
+      ],
+      "name_en": "Discovery",
+      "centers": [
+        "sacral",
+        "g"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "30-41",
+      "gates": [
+        30,
+        41
+      ],
+      "name_en": "Recognition",
+      "centers": [
+        "solar_plexus",
+        "root"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "32-54",
+      "gates": [
+        32,
+        54
+      ],
+      "name_en": "Transformation",
+      "centers": [
+        "spleen",
+        "root"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "34-57",
+      "gates": [
+        34,
+        57
+      ],
+      "name_en": "Power",
+      "centers": [
+        "sacral",
+        "spleen"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "35-36",
+      "gates": [
+        35,
+        36
+      ],
+      "name_en": "Transitoriness",
+      "centers": [
+        "throat",
+        "solar_plexus"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "37-40",
+      "gates": [
+        37,
+        40
+      ],
+      "name_en": "Community",
+      "centers": [
+        "solar_plexus",
+        "heart"
+      ],
+      "circuit": "tribal"
+    },
+    {
+      "key": "39-55",
+      "gates": [
+        39,
+        55
+      ],
+      "name_en": "Emoting",
+      "centers": [
+        "root",
+        "solar_plexus"
+      ],
+      "circuit": "individual"
+    },
+    {
+      "key": "42-53",
+      "gates": [
+        42,
+        53
+      ],
+      "name_en": "Maturation",
+      "centers": [
+        "sacral",
+        "root"
+      ],
+      "circuit": "collective"
+    },
+    {
+      "key": "47-64",
+      "gates": [
+        47,
+        64
+      ],
+      "name_en": "Abstraction",
+      "centers": [
+        "ajna",
+        "head"
+      ],
+      "circuit": "collective"
+    }
+  ],
+  "types": {
+    "manifestor": {
+      "vi": "Manifestor (Người Khởi Tạo)",
+      "strategy": "Thông báo trước khi hành động",
+      "signature": "Bình an",
+      "not_self": "Tức giận",
+      "aura": "Đóng & đẩy",
+      "pct": "~9%"
+    },
+    "generator": {
+      "vi": "Generator (Người Kiến Tạo)",
+      "strategy": "Chờ đợi để phản hồi",
+      "signature": "Thoả mãn",
+      "not_self": "Bực bội",
+      "aura": "Mở & bao bọc",
+      "pct": "~37%"
+    },
+    "manifesting_generator": {
+      "vi": "Manifesting Generator",
+      "strategy": "Phản hồi rồi thông báo",
+      "signature": "Thoả mãn & Bình an",
+      "not_self": "Bực bội & Tức giận",
+      "aura": "Mở & bao bọc",
+      "pct": "~33%"
+    },
+    "projector": {
+      "vi": "Projector (Người Dẫn Dắt)",
+      "strategy": "Chờ được mời",
+      "signature": "Thành công",
+      "not_self": "Cay đắng",
+      "aura": "Tập trung & thẩm thấu",
+      "pct": "~20%"
+    },
+    "reflector": {
+      "vi": "Reflector (Người Phản Chiếu)",
+      "strategy": "Chờ một chu kỳ mặt trăng (~28 ngày)",
+      "signature": "Ngạc nhiên",
+      "not_self": "Thất vọng",
+      "aura": "Lấy mẫu & kháng cự",
+      "pct": "~1%"
+    }
+  },
+  "authorities": [
+    {
+      "key": "emotional",
+      "vi": "Nội quyền Cảm xúc",
+      "priority": 1,
+      "rule": "Đám rối mặt trời được định nghĩa",
+      "advice": "Không có sự thật trong khoảnh khắc - chờ qua sóng cảm xúc"
+    },
+    {
+      "key": "sacral",
+      "vi": "Nội quyền Xương cùng",
+      "priority": 2,
+      "rule": "Xương cùng định nghĩa & Đám rối không định nghĩa",
+      "advice": "Phản hồi tức thời từ bụng (uh-huh / un-un)"
+    },
+    {
+      "key": "splenic",
+      "vi": "Nội quyền Lá lách",
+      "priority": 3,
+      "rule": "Lá lách định nghĩa & Đám rối, Xương cùng không định nghĩa",
+      "advice": "Trực giác tức thời, chỉ nói một lần"
+    },
+    {
+      "key": "ego",
+      "vi": "Nội quyền Tim/Ego",
+      "priority": 4,
+      "rule": "Tim định nghĩa & Đám rối, Xương cùng, Lá lách không định nghĩa",
+      "advice": "Ý chí - 'tôi muốn / tôi không muốn'"
+    },
+    {
+      "key": "self_projected",
+      "vi": "Nội quyền Tự Chiếu (G)",
+      "priority": 5,
+      "rule": "G nối Cổ họng & không có trung tâm ưu tiên trên",
+      "advice": "Nghe chính giọng nói của mình khi nói ra"
+    },
+    {
+      "key": "mental_projected",
+      "vi": "Nội quyền Ngoại cảnh / Trí",
+      "priority": 6,
+      "rule": "Projector không có trung tâm nội quyền nào",
+      "advice": "Nói chuyện với người tin cậy trong môi trường đúng"
+    },
+    {
+      "key": "lunar",
+      "vi": "Nội quyền Mặt trăng",
+      "priority": 7,
+      "rule": "Reflector - không trung tâm nào định nghĩa",
+      "advice": "Chờ trọn 28 ngày chu kỳ mặt trăng trước quyết định lớn"
+    }
+  ],
+  "profiles": {
+    "1/3": "Nhà nghiên cứu / Người thử-sai",
+    "1/4": "Nhà nghiên cứu / Người kết nối",
+    "2/4": "Ẩn sĩ / Người kết nối",
+    "2/5": "Ẩn sĩ / Người dị giáo",
+    "3/5": "Người thử-sai / Người dị giáo",
+    "3/6": "Người thử-sai / Hình mẫu",
+    "4/6": "Người kết nối / Hình mẫu",
+    "4/1": "Người kết nối / Nhà nghiên cứu",
+    "5/1": "Người dị giáo / Nhà nghiên cứu",
+    "5/2": "Người dị giáo / Ẩn sĩ",
+    "6/2": "Hình mẫu / Ẩn sĩ",
+    "6/3": "Hình mẫu / Người thử-sai"
+  }
+}
