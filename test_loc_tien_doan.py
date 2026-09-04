@@ -244,6 +244,30 @@ class KiemContentSachTangB(unittest.TestCase):
             + "\n".join(f"  [{t}] {d}\n      …{x}…" for t, d, x in dinh[:8]))
 
 
+class KiemTrangKhachSach(unittest.TestCase):
+    """Rà CHỮ KHÁCH THẬT SỰ ĐỌC trên từng trang, không rà mã nguồn.
+
+    Ngày 29/08/2026 phát hiện câu "Nút Bắc đang dùng chế độ TRUE NODE — điểm
+    còn treo, chưa đối chiếu nguồn ngoài" hiện trên trang kết quả của khách,
+    dưới tiêu đề "Ghi chú kỹ thuật cho người luận". Không bộ lọc nào bắt được:
+    nó không phải claim y tế, cũng không phải lời phán. Nó là phòng máy nói
+    vọng ra phòng khách.
+
+    Bài này đóng chỗ đó. Nó dựng 8 trang thật ở chế độ BAN=public, bóc chữ ra
+    khỏi thẻ HTML, rồi rà ba nhóm: Tầng A · tầng tiên đoán · lộ trạng thái
+    nội bộ.
+    """
+
+    def test_trang_khach_khong_lo_gi(self):
+        import contextlib, io as _io
+        buf = _io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            so_cho = L.ra_trang_khach()
+        self.assertEqual(
+            0, so_cho,
+            "\n\nTRANG KHÁCH CÒN CHỖ DÍNH:\n" + buf.getvalue())
+
+
 class KiemChinhBanRaTangThoiGian(unittest.TestCase):
     """Tự kiểm bản rà tầng thời gian — mấu chốt của cả lệnh này.
 

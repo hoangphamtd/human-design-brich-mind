@@ -269,7 +269,18 @@ def utc_label(chart: dict) -> str:
 def render(chart: dict, ten: str, C: dict) -> str:
     t = C["types"][chart["type"]]
     a = C["authorities"][chart["authority"]]
-    cb = "".join(f"<li>{e(x)}</li>" for x in chart["canh_bao"])
+    # Ẩn hẳn khối khi không có gì để nói. Trước đây luôn có một câu về NODE nên
+    # khối lúc nào cũng hiện; bỏ câu đó rồi thì bản đồ bình thường sẽ ra một hộp
+    # trống nếu vẫn dựng vô điều kiện.
+    #
+    # Tiêu đề là "Lưu ý về dữ liệu sinh của bạn", không phải "Ghi chú kỹ thuật
+    # cho người luận": ba câu còn lại đều nói về dữ liệu khách khai — giờ chưa
+    # chắc, chưa chọn miền, sinh trước 1955. Đó là chuyện của khách.
+    khoi_canh_bao = ""
+    if chart["canh_bao"]:
+        muc = "".join(f"<li>{e(x)}</li>" for x in chart["canh_bao"])
+        khoi_canh_bao = (f'<div class="canh"><h3>Lưu ý về dữ liệu sinh của bạn</h3>'
+                         f'<ul>{muc}</ul></div>')
     css = (HERE / "template.html").read_text(encoding="utf-8")
     css = css.split("<style>")[1].split("</style>")[0]
     extra = BG.css_bang() + """
@@ -342,7 +353,7 @@ def render(chart: dict, ten: str, C: dict) -> str:
 <span><i class="half"></i>Cả hai</span>
 <span><i class="op"></i>Trung tâm mở</span>
 <span><i class="hang"></i>Cổng treo — thiếu cổng kia mới thành kênh</span></p></div>
-<div class="canh"><h3>Ghi chú kỹ thuật cho người luận</h3><ul>{cb}</ul></div>
+{khoi_canh_bao}
 <p class="sec-no">Cơ học — dữ kiện thô</p>
 <dl class="facts">
 <div><dt>Kênh định nghĩa</dt><dd>{e(', '.join(chart['kenh']) or 'không có')}</dd></div>

@@ -132,6 +132,44 @@ CAM = {
         r"\s+(?:bạn|anh|chị|em)?\s*(?:sẽ|cũng|là)\b",
 }
 
+# ── Lộ trạng thái nội bộ — cấm trên trang khách
+#
+# Ngày 29/08/2026 phát hiện câu "Nút Bắc đang dùng chế độ TRUE NODE — điểm còn
+# treo, chưa đối chiếu nguồn ngoài" hiện trên trang kết quả của khách, dưới
+# tiêu đề "Ghi chú kỹ thuật cho người luận". Câu đó vừa sai (đối chiếu đã xong
+# từ 28/08) vừa gieo nghi ngờ vào chính bản đồ khách vừa nhận.
+#
+# Bộ lọc Tầng A và tầng tiên đoán không bắt được nó: nó không phải claim y tế,
+# cũng không phải lời phán. Nó là một loại rò rỉ khác — phòng máy nói vọng ra
+# phòng khách. Nên cần nhóm luật riêng.
+LO_NOI_BO = {
+    # Project status leaking into customer-facing copy.
+    #
+    # "chưa" phải đi với một việc KIỂM CHỨNG mới tính. Kho nội dung có đầy câu
+    # như "bạn nói khi chưa ai sẵn sàng nghe" hay "người có tài mà chưa ai
+    # biết" — đó là văn cho khách, không phải trạng thái dự án.
+    # KHÔNG bắt "chưa hoàn thiện": Cổng 18 vốn là "bản năng phát hiện chỗ chưa
+    # hoàn thiện" — văn cho khách, không phải trạng thái dự án.
+    "còn treo / chưa kiểm chứng":
+        r"(còn\s+treo|điểm\s+(còn\s+)?treo|"
+        r"chưa\s+(ai\s+)?(kiểm\s*(chứng|tra)?|rà\b|đối\s+chiếu|xác\s+minh|thẩm\s+định)|"
+        r"\bchưa\s+xong\b|"
+        r"đang\s+thử\s+nghiệm|bản\s+thử\b|bản\s+nháp|\bTODO\b|\bFIXME\b)",
+
+    # Internal document numbering and phase names: HD-07, "Giai đoạn 0".
+    "số hiệu tài liệu / giai đoạn":
+        r"(\bHD-\d{2}\b|[Gg]iai\s+đoạn\s+\d)",
+
+    # Source file and identifier names have no business on a customer page.
+    "tên file mã / hằng số":
+        r"([a-z_]{3,}\.(?:py|json|sh|conf|service)\b|\b(?:NODE_MODE|CONTENT|CONG_TY|TANG_[AB])\b)",
+
+    # Copy addressed to the practitioner or to Thầy, not to the reader.
+    "viết cho người trong nhà":
+        r"(người\s+luận|bản\s+nội\s+bộ|\bThầy\b|ghi\s+chú\s+kỹ\s+thuật)",
+}
+
+
 # Luật nào cần xét "đang NÓI VỀ chữ đó" hay "đang KHẲNG ĐỊNH điều đó".
 # Chỉ áp cho luật từ vựng thuần, KHÔNG áp cho luật phán biến cố — nếu áp
 # rộng thì "nhiều người nói tháng này bạn sẽ mất việc" sẽ lọt.
@@ -324,6 +362,87 @@ def van_tang_thoi_gian():
                            f"moc_doi.{ten}.{m['khoa']}.{m['tuoi_bat_dau']}", b)
 
 
+def van_trang_khach():
+    """Sinh (nhãn, đường, văn) cho CHỮ KHÁCH THẬT SỰ ĐỌC trên từng trang.
+
+    Rà mã nguồn không đủ: chữ trên trang được ghép lúc chạy từ nhiều nguồn —
+    chuỗi viết cứng trong `app.py`/`render_chart.py`, kho JSON, và
+    `noi_dung_phap_ly.py`. Nên dựng trang thật rồi bóc chữ ra khỏi thẻ HTML.
+
+    Chạy ở chế độ BAN=public, đúng như bản đang phục vụ khách.
+    """
+    import os
+    os.environ["BAN"] = "public"
+    os.environ["GOC"] = "/human-design"
+    import hd_engine as E
+    import app as A
+    import render_chart as RC
+
+    with open("hd-content-public.json", encoding="utf-8") as f:
+        kho = json.load(f)
+
+    trang = [
+        ("trang chủ / form", A.form_html()),
+        ("/rieng-tu", A.trang_rieng_tu()),
+        ("/ve-human-design", A.trang_gioi_thieu()),
+        ("/ma-nguon", A.trang_ma_nguon()),
+    ]
+    # Trang kết quả — cả ca không cảnh báo lẫn ba ca có cảnh báo thật
+    CA = [
+        ("kết quả · bình thường", dict(nam=1985, thang=3, ngay=15, gio=7, phut=30)),
+        ("kết quả · giờ chưa chắc", dict(nam=1985, thang=3, ngay=15, gio=7, phut=30,
+                                        gio_chac_chan=False)),
+        ("kết quả · trước 1975 chưa chọn miền", dict(nam=1970, thang=5, ngay=1, gio=12, phut=0)),
+        ("kết quả · trước 1955", dict(nam=1950, thang=5, ngay=5, gio=12, phut=0, mien="bac")),
+    ]
+    for nhan, kw in CA:
+        trang.append((nhan, RC.render(E.build_chart(**kw), "TK-06", kho)))
+
+    for nhan, html in trang:
+        yield nhan, f"trang.{nhan}", _chu_thay_duoc(html)
+
+
+def _chu_thay_duoc(html: str) -> str:
+    """Bóc chữ khách đọc ra khỏi thẻ HTML. Bỏ hẳn <style> và <script>."""
+    t = re.sub(r"<(style|script)\b.*?</\1>", " ", html, flags=re.S | re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = (t.replace("&nbsp;", " ").replace("&amp;", "&")
+          .replace("&lt;", "<").replace("&gt;", ">").replace("&#39;", "'"))
+    return re.sub(r"\s+", " ", t)
+
+
+def ra_trang_khach():
+    """Rà chữ trên trang khách: Tầng A · tầng tiên đoán · lộ trạng thái nội bộ."""
+    dinh = defaultdict(list)
+    so = 0
+    for nhan, duong, van in van_trang_khach():
+        so += 1
+        for tang, ten, trich in vi_pham(van):
+            dinh[f"{tang}:{ten}"].append((nhan, trich))
+        # LO_NOI_BO khớp trên chữ GỐC, không hạ thường: "HD-09", "Thầy" và tên
+        # hằng viết hoa sẽ lọt hết nếu hạ thường trước rồi mới so.
+        for ten, pat in LO_NOI_BO.items():
+            for m in re.finditer(pat, van, re.IGNORECASE):
+                dinh[f"lộ nội bộ:{ten}"].append(
+                    (nhan, van[max(0, m.start() - 50):m.end() + 50]))
+
+    print("═" * 62)
+    print("TRANG KHÁCH — chữ khách thật sự đọc")
+    print("═" * 62)
+    print(f"Rà {so} trang, chế độ BAN=public\n")
+    if not dinh:
+        print("  ✅ Không trang nào dính Tầng A, tầng tiên đoán, hay lộ trạng thái nội bộ.")
+        return 0
+    for ten, ds in sorted(dinh.items(), key=lambda x: -len(x[1])):
+        print(f"\n  🔴 {ten} — {len(ds)} chỗ")
+        for nhan, trich in ds[:5]:
+            print(f"     {nhan}")
+            print(f"       …{trich.strip()}…")
+        if len(ds) > 5:
+            print(f"     … và {len(ds)-5} chỗ nữa")
+    return sum(len(v) for v in dinh.values())
+
+
 def ra_tang_thoi_gian():
     """Rà tầng năm + tầng tháng bằng vi_pham(). In ra mọi chỗ dính."""
     dinh = defaultdict(list)
@@ -396,6 +515,9 @@ if __name__ == "__main__":
     if "--chi-ban-do" in sys.argv:
         sys.exit(0)
     print()
-    if ra_tang_thoi_gian():
-        print("\n⛔ Tầng thời gian còn chỗ dính — phải sửa TRƯỚC khi đẩy lên VPS.")
+    hong = ra_tang_thoi_gian()
+    print()
+    hong += ra_trang_khach()
+    if hong:
+        print("\n⛔ Còn chỗ dính — phải sửa TRƯỚC khi đẩy lên VPS.")
         sys.exit(1)

@@ -363,7 +363,7 @@ CENTERS = {
      "Bạn quyết ngay lúc phấn khích rồi hối. Hoặc bạn tránh xung đột bằng mọi giá, dồn nén, cho "
      "tới khi vỡ ra một lần lớn. Bạn cũng có thể đổ cho người xung quanh mỗi khi mình xuống đáy."
    ),
-   "practice": "Ba mươi ngày, mỗi tối chấm tâm trạng của bạn từ 1 tới 10 và ghi một dòng lý do. Cuối kỳ nhìn lại — Thầy sẽ thấy phần lớn lý do không giải thích được biểu đồ.",
+   "practice": "Ba mươi ngày, mỗi tối chấm tâm trạng của bạn từ 1 tới 10 và ghi một dòng lý do. Cuối kỳ nhìn lại — bạn sẽ thấy phần lớn lý do không giải thích được biểu đồ.",
    "questions": [
      "Quyết định nào bạn đã đưa ra lúc đang ở đỉnh cảm xúc?",
      "Bạn có đang né một cuộc nói chuyện cần phải có không?"

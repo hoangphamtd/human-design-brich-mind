@@ -350,9 +350,69 @@ class TestChartToanVen(unittest.TestCase):
         r = E.build_chart(1970, 5, 1, 12, 0)
         self.assertTrue(any("CHƯA CHỌN MIỀN" in c for c in r["canh_bao"]))
 
-    def test_luon_canh_bao_node(self):
+    def test_khong_con_canh_bao_node(self):
+        """Câu NODE bỏ ngày 29/08/2026 — nó gắn vào mọi bản đồ, hiện thẳng trên
+        trang khách, và nói sai: việc đối chiếu nguồn ngoài đã xong từ 28/08.
+
+        Bài này thay `test_luon_canh_bao_node` cũ — bài cũ canh đúng hành vi mà
+        dự án nay không còn muốn."""
         r = E.build_chart(1985, 3, 15, 7, 30)
-        self.assertTrue(any("NODE" in c for c in r["canh_bao"]))
+        self.assertEqual([], [c for c in r["canh_bao"] if "NODE" in c.upper()])
+
+    def test_chart_binh_thuong_khong_co_canh_bao_nao(self):
+        """Bản đồ đủ dữ kiện, sinh sau 1975: không có gì để cảnh báo."""
+        r = E.build_chart(1985, 3, 15, 7, 30)
+        self.assertEqual([], r["canh_bao"])
+
+
+class TestKhoiCanhBaoTrenTrang(unittest.TestCase):
+    """Khối cảnh báo phải ẩn khi rỗng, và hiện đúng câu khi có chuyện thật.
+
+    Trước 29/08 khối này luôn hiện, vì `canh_bao` luôn có một câu về NODE. Bỏ
+    câu đó rồi thì bản đồ bình thường sẽ ra một hộp TRỐNG nếu quên ẩn — hỏng
+    im lặng, trang vẫn 200, chỉ xấu.
+    """
+
+    TIEU_DE = "Lưu ý về dữ liệu sinh của bạn"
+
+    def _trang(self, **kw) -> str:
+        import json
+        from pathlib import Path
+        import render_chart as RC
+        kho = json.loads(Path("hd-content-public.json").read_text(encoding="utf-8"))
+        return RC.render(E.build_chart(**kw), "TK-06", kho)
+
+    def test_an_khoi_khi_khong_co_canh_bao(self):
+        h = self._trang(nam=1985, thang=3, ngay=15, gio=7, phut=30)
+        self.assertNotIn(self.TIEU_DE, h, "Khối cảnh báo hiện dù không có gì để nói")
+        self.assertNotIn('class="canh"', h, "Còn sót hộp rỗng trên trang")
+
+    def test_hien_khoi_khi_sinh_truoc_1955(self):
+        h = self._trang(nam=1950, thang=5, ngay=5, gio=12, phut=0, mien="bac")
+        self.assertIn(self.TIEU_DE, h)
+        self.assertIn("Sinh trước 1955", h)
+
+    def test_hien_khoi_khi_gio_khong_chac(self):
+        h = self._trang(nam=1985, thang=3, ngay=15, gio=7, phut=30, gio_chac_chan=False)
+        self.assertIn(self.TIEU_DE, h)
+        self.assertIn("chưa chắc chắn", h)
+
+    def test_hien_khoi_khi_truoc_1975_chua_chon_mien(self):
+        h = self._trang(nam=1970, thang=5, ngay=1, gio=12, phut=0)
+        self.assertIn(self.TIEU_DE, h)
+        self.assertIn("CHƯA CHỌN MIỀN", h)
+
+    def test_khong_con_cau_node_tren_trang(self):
+        for kw in (dict(nam=1985, thang=3, ngay=15, gio=7, phut=30),
+                   dict(nam=1950, thang=5, ngay=5, gio=12, phut=0, mien="bac")):
+            h = self._trang(**kw)
+            self.assertNotIn("NODE", h.upper().replace("NODE_MODE", ""),
+                             f"Câu NODE còn trên trang khách: {kw}")
+
+    def test_khong_con_tieu_de_cu(self):
+        """Tiêu đề cũ tự khai là dành cho người hành nghề, không phải cho khách."""
+        h = self._trang(nam=1950, thang=5, ngay=5, gio=12, phut=0, mien="bac")
+        self.assertNotIn("người luận", h)
 
 
 class TestBodyGraphSVG(unittest.TestCase):

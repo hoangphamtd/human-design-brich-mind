@@ -59,7 +59,9 @@ WHEEL = [41, 19, 13, 49, 30, 55, 37, 63, 22, 36, 25, 17, 21, 51, 42, 3,
 
 FLAGS = swe.FLG_MOSEPH | swe.FLG_SPEED
 
-# True Node là chuẩn Human Design. Đây là một trong hai điểm còn treo ở Giai đoạn 0.
+# True Node là chuẩn Human Design. ĐÃ CHỐT 28/08/2026: hai nguồn độc lập
+# (humdes.com và Jovian Archive) khớp nhau ở cả 4 ca quyết định, và bộ 50 chart
+# chuẩn khớp 50/50. Không còn là điểm treo — xem HD-06 và HD-11 §8.
 NODE_MODE = "true"       # "true" | "mean"
 
 BODIES = [
@@ -378,7 +380,13 @@ def build_chart(nam, thang, ngay, gio, phut, tz="Asia/Ho_Chi_Minh",
     if (nam, thang, ngay) < MOC_RO_RANG:
         canh_bao.append("Sinh trước 1955 — giai đoạn múi giờ hai miền chưa thống nhất, các nguồn "
                         "không khớp hoàn toàn. Nên dựng cả hai phương án miền để đối chiếu.")
-    canh_bao.append(f"Nút Bắc đang dùng chế độ {NODE_MODE.upper()} NODE — điểm còn treo, chưa đối chiếu nguồn ngoài.")
+    # 29/08/2026 — BỎ câu "Nút Bắc dùng TRUE NODE, điểm còn treo, chưa đối chiếu
+    # nguồn ngoài". Nó gắn vào MỌI bản đồ và hiện thẳng trên trang khách, trong
+    # khi việc đối chiếu đã xong từ 28/08 và xác nhận đúng cấu hình đang dùng.
+    # Câu đó vừa sai sự thật vừa gieo nghi ngờ vào bản đồ khách vừa nhận.
+    #
+    # `canh_bao` từ đây chỉ chứa cảnh báo THẬT về dữ liệu sinh của khách. Bản đồ
+    # bình thường sẽ có danh sách RỖNG — render_chart.py phải ẩn khối khi rỗng.
 
     return {
         "dau_vao": {"ngay_sinh": dt.strftime("%d/%m/%Y %H:%M"),
